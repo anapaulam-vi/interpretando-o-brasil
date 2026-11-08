@@ -109,6 +109,10 @@ def main():
             "pagina": pag(d.get("pagina", "")), "exemplos": [],
         }
 
+    # limitação de interpretação da classe, por exemplo (scripts/gerar_limitacoes.py + coluna "equipe")
+    limit = {(l["pagina"], l["ordem"]): {c: l[c] for c in ("equipe", "mapa", "geral") if l.get(c)}
+             for l in ler("limitacoes.csv")}
+
     exemplos = sorted(map(corrige, ler("exemplos.csv")), key=lambda e: int(e.get("ordem") or 0))
     n_img = 0
     for e in exemplos:
@@ -124,6 +128,7 @@ def main():
             "lat": lat, "lon": lon, "coords": e.get("coords", ""),
             "falsa_cor": e.get("falsa_cor", ""), "tonalidade": e.get("tonalidade", ""),
             "textura": e.get("textura", ""), "observacoes": e.get("observacoes", ""),
+            "limitacao": limit.get((e.get("pagina", ""), e.get("ordem", "")), {}),
             "pagina": pag(e.get("pagina", "")),
             "imagens": imgs, "grafico": e.get("grafico", ""), "mapa": e.get("mapa", ""),
         })

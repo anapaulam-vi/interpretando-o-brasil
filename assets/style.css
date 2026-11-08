@@ -129,6 +129,10 @@ dialog::backdrop { background: rgba(8,12,10,.62); }
 .det-corpo { overflow: auto; padding: 18px 22px 24px; }
 .det-desc { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 12px 28px; margin-bottom: 16px; }
 .det-desc p { margin: 0; font-size: .93rem; }
+.atributos .limitacao p { margin: 0; }
+.atributos .limitacao p + p { margin-top: 6px; }
+.atributos dt.lim, .atributos dd.limitacao { grid-column: 1 / -1; }
+.atributos dt.lim { margin-top: 6px; }
 h4 { margin: 0 0 4px; font-size: .72rem; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); }
 .pendente { color: var(--muted); font-style: italic; }
 .abas { display: flex; gap: 4px; border-bottom: 1px solid var(--line); margin-bottom: 14px; }

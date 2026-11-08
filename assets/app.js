@@ -214,6 +214,16 @@
   const pdfLink = (pag, txt) => D.pdf && pag
     ? `<a class="link-pdf" href="${esc(D.pdf)}#page=${pag}" target="_blank" rel="noopener">${txt || "p. " + pag}</a>` : "";
 
+  function htmlLimitacao(l) {
+    if (!l || !(l.equipe || l.mapa || l.geral)) return "";
+    let h = "";
+    if (l.equipe) h += `<p>${esc(l.equipe)}</p>`;
+    if (l.mapa) h += `<p>${esc(l.mapa)}</p>`;
+    if (l.geral) h += `<p>${esc(l.geral)}</p>`;
+    if (!l.equipe) h += `<p class="fonte-desc aviso">Preenchido automaticamente; a equipe vai revisar e complementar.</p>`;
+    return `<dt class="lim">Limitação de interpretação da classe:</dt><dd class="limitacao">${h}</dd>`;
+  }
+
   function htmlExemplo(c, b, ex, i, total) {
     let h = "";
     if (ex.imagens.length) {
@@ -241,7 +251,8 @@
     }
     h += `<dl class="atributos">${linha("Coordenadas", coord)}${linha("Falsa-cor", esc(ex.falsa_cor))}
       ${linha("Tonalidade", esc(ex.tonalidade))}${linha("Textura", esc(ex.textura))}
-      ${ex.observacoes ? linha("Observações", esc(ex.observacoes)) : ""}</dl>`;
+      ${ex.observacoes ? linha("Observações", esc(ex.observacoes)) : ""}
+      ${htmlLimitacao(ex.limitacao)}</dl>`;
     if (ex.pagina) h += `<p class="fonte">${pdfLink(ex.pagina, "Ver esta página no PDF (p. " + ex.pagina + ")")}</p>`;
     return h;
   }
