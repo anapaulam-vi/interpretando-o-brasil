@@ -20,8 +20,6 @@
 18;tonalidade;Escura;tonalidade no feminino
 22;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 22;tonalidade;Clara;tonalidade no feminino
-24;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
-24;tonalidade;Escura;tonalidade no feminino
 26;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 26;tonalidade;Escura;tonalidade no feminino
 27;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
@@ -45,8 +43,6 @@
 45;tonalidade;Clara;tonalidade no feminino
 47;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 47;tonalidade;Escura;tonalidade no feminino
-49;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
-49;tonalidade;Clara;tonalidade no feminino
 53;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 53;tonalidade;Escura;tonalidade no feminino
 55;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
@@ -71,8 +67,6 @@
 68;tonalidade;Clara;tonalidade no feminino
 70;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 70;tonalidade;Clara;tonalidade no feminino
-72;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
-72;tonalidade;Média;tonalidade no feminino
 74;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 74;tonalidade;Escura;tonalidade no feminino
 76;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
@@ -103,11 +97,10 @@
 94;tonalidade;Escura;tonalidade no feminino
 96;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 96;tonalidade;Escura;tonalidade no feminino
-98;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
-98;tonalidade;Clara;tonalidade no feminino
 102;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 102;tonalidade;Média;tonalidade no feminino
 104;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
+104;mapa;img/corrigidos/p104_caatinga_mapa.jpg;mapa de localização redesenhado a partir da coordenada
 104;tonalidade;Média;tonalidade no feminino
 106;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 106;tonalidade;Média;tonalidade no feminino
@@ -119,8 +112,6 @@
 112;tonalidade;Clara;tonalidade no feminino
 114;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 114;tonalidade;Média;tonalidade no feminino
-116;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
-116;tonalidade;Média;tonalidade no feminino
 118;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 118;tonalidade;Escura;tonalidade no feminino
 120;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
@@ -145,7 +136,6 @@
 138;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 142;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 144;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
-146;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 150;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 152;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 154;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
@@ -155,7 +145,6 @@
 158;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 160;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 162;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
-164;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 166;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 168;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 170;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
@@ -173,7 +162,6 @@
 186;observacoes;NDVI abaixo de 0,15 aponta ausência de vegetação. Manchas de solo exposto e lagoas próximas indicam a atividade de mineração.;revisão do texto da observação
 188;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 190;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
-192;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 194;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 198;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 199;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
@@ -182,7 +170,6 @@
 205;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 207;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 209;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
-211;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 213;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 215;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 215;observacoes;Delimitação que indica que houve desmatamento da vegetação nativa. Manchas características de áreas que sofrem alagamento, típicas do bioma Pantanal. Solo exposto em regiões de alagamento em que a gramínea exótica não sobrevive. Bebedouros para gado. NDVI médio, típico de gramínea.;revisão do texto da observação
@@ -193,7 +180,6 @@
 222;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 224;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 226;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
-228;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 230;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 230;observacoes;"Padrão de pequenos talhões; a coloração indica umidade (vermelho + azul) e há dutos de irrigação, características do plantio de arroz. O NDVI varia de 0,2 a 1 em alguns meses e volta a 0,2, indicando cultivo e colheita.";revisão do texto da observação
 230;tonalidade;Escura;tonalidade no feminino
@@ -203,15 +189,14 @@
 240;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 242;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 244;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
-246;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 248;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 250;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 252;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 253;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 255;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
+257;mapa;;mapa de localização de outro bioma retirado
 259;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 261;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 263;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 265;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
-267;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 269;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor

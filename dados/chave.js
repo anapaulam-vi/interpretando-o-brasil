@@ -121,13 +121,6 @@ window.CHAVE = {
    "codigo": "19"
   },
   {
-   "id": "soja",
-   "nome": "Soja",
-   "grupo": "Agropecuária",
-   "cor": "#f5b3c8",
-   "codigo": "39"
-  },
-  {
    "id": "arroz",
    "nome": "Arroz",
    "grupo": "Agropecuária",
@@ -168,13 +161,6 @@ window.CHAVE = {
    "grupo": "Área não Vegetada",
    "cor": "#d4271e",
    "codigo": "24"
-  },
-  {
-   "id": "vegetacao_urbana",
-   "nome": "Vegetação Urbana",
-   "grupo": "Área não Vegetada",
-   "cor": "#8fbf7f",
-   "codigo": ""
   },
   {
    "id": "mineracao",
@@ -343,7 +329,7 @@ window.CHAVE = {
    "descricao": "Formações florestais e/ou arbustivas, densas, sempre-verdes, frequentemente inundadas pela maré e associadas ao ecossistema costeiro de Manguezal.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 28,
+   "pagina": 26,
    "exemplos": [
     {
      "lat": -2.2378,
@@ -353,7 +339,7 @@ window.CHAVE = {
      "tonalidade": "Escura",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 29,
+     "pagina": 27,
      "imagens": [
       {
        "src": "img/amazonia/mangue/ex1_landsat_seco.jpg",
@@ -524,7 +510,7 @@ window.CHAVE = {
    "descricao": "Apicuns ou Campos Salgados são formações quase sempre desprovidas de vegetação arbórea e arbustiva, associadas a uma zona topograficamente mais alta da planície costeira, hipersalina e com frequência de inundação menor do que o manguezal, em geral na transição entre este e a terra firme ou campos de dunas.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 30,
+   "pagina": 28,
    "exemplos": [
     {
      "lat": -2.358,
@@ -534,7 +520,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 31,
+     "pagina": 29,
      "imagens": [],
      "grafico": "",
      "mapa": ""
@@ -545,7 +531,7 @@ window.CHAVE = {
    "descricao": "Áreas de pastagem plantadas, diretamente relacionadas à atividade agropecuária. As áreas de pastagem natural, por sua vez, são predominantemente caracterizadas como formações campestres ou campo alagado, podendo ser submetidas ou não a práticas de pastejo. Podem ocorrer áreas desmatadas recentemente, sem ainda ter iniciado a atividade agropecuária. Pode conter também áreas em estágios iniciais de regeneração. Pequenas áreas agrícolas podem estar contidas.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 32,
+   "pagina": 30,
    "exemplos": [
     {
      "lat": -12.6082,
@@ -555,7 +541,7 @@ window.CHAVE = {
      "tonalidade": "Média",
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
-     "pagina": 33,
+     "pagina": 31,
      "imagens": [
       {
        "src": "img/amazonia/pastagem/ex1_landsat_seco.jpg",
@@ -587,7 +573,7 @@ window.CHAVE = {
    "descricao": "Áreas ocupadas com cultivos agrícolas de curta ou média duração, geralmente com ciclo vegetativo inferior a um ano, que após a colheita necessitam de novo plantio para produzir.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 34,
+   "pagina": 32,
    "exemplos": [
     {
      "lat": -14.7165,
@@ -597,7 +583,7 @@ window.CHAVE = {
      "tonalidade": "Clara",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 35,
+     "pagina": 33,
      "imagens": [
       {
        "src": "img/amazonia/cultivo_temporario/ex1_landsat_seco.jpg",
@@ -625,53 +611,11 @@ window.CHAVE = {
     }
    ]
   },
-  "soja|amazonia": {
-   "descricao": "Áreas cultivadas com a monocultura da soja (primeira safra).",
-   "fonte": "legenda",
-   "observacoes": "",
-   "pagina": 48,
-   "exemplos": [
-    {
-     "lat": -9.8626,
-     "lon": -57.3772,
-     "coords": "-9.8626, -57.3772",
-     "falsa_cor": "Landsat (B5, B6, B4); Sentinel (B11, B8, B4)",
-     "tonalidade": "Clara",
-     "textura": "Lisa e Homogênea",
-     "observacoes": "",
-     "pagina": 49,
-     "imagens": [
-      {
-       "src": "img/amazonia/soja/ex1_landsat_seco.jpg",
-       "rotulo": "Landsat – seco"
-      },
-      {
-       "src": "img/amazonia/soja/ex1_landsat_chuvoso.jpg",
-       "rotulo": "Landsat – chuvoso"
-      },
-      {
-       "src": "img/amazonia/soja/ex1_sentinel_seco.jpg",
-       "rotulo": "Sentinel-2 – seco"
-      },
-      {
-       "src": "img/amazonia/soja/ex1_sentinel_chuvoso.jpg",
-       "rotulo": "Sentinel-2 – chuvoso"
-      },
-      {
-       "src": "img/amazonia/soja/ex1_google_earth.jpg",
-       "rotulo": "Google Earth"
-      }
-     ],
-     "grafico": "img/amazonia/soja/ex1_grafico.jpg",
-     "mapa": "img/amazonia/soja/ex1_mapa.jpg"
-    }
-   ]
-  },
   "cana|amazonia": {
    "descricao": "Áreas cultivadas com a monocultura da cana-de-açúcar.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 38,
+   "pagina": 36,
    "exemplos": [
     {
      "lat": -1.9742,
@@ -681,7 +625,7 @@ window.CHAVE = {
      "tonalidade": "Escura",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 39,
+     "pagina": 37,
      "imagens": [
       {
        "src": "img/amazonia/cana_de_acucar/ex1_landsat_seco.jpg",
@@ -713,7 +657,7 @@ window.CHAVE = {
    "descricao": "Áreas ocupadas com cultivos agrícolas de ciclo vegetativo longo (mais de um ano), que permitem colheitas sucessivas, sem necessidade de novo plantio.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 36,
+   "pagina": 34,
    "exemplos": [
     {
      "lat": -1.543,
@@ -723,7 +667,7 @@ window.CHAVE = {
      "tonalidade": "Escura",
      "textura": "Rugosa e Homogênea",
      "observacoes": "",
-     "pagina": 37,
+     "pagina": 35,
      "imagens": [
       {
        "src": "img/amazonia/cultivo_perene/ex1_landsat_seco.jpg",
@@ -755,7 +699,7 @@ window.CHAVE = {
    "descricao": "Espécies arbóreas plantadas para fins comerciais (ex. pinus, eucalipto, araucária).",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 40,
+   "pagina": 38,
    "exemplos": [
     {
      "lat": -3.0654,
@@ -765,7 +709,7 @@ window.CHAVE = {
      "tonalidade": "Média",
      "textura": "Rugosa e Homogênea",
      "observacoes": "",
-     "pagina": 41,
+     "pagina": 39,
      "imagens": [
       {
        "src": "img/amazonia/silvicultura/ex1_landsat_seco.jpg",
@@ -856,53 +800,11 @@ window.CHAVE = {
     }
    ]
   },
-  "vegetacao_urbana|amazonia": {
-   "descricao": "",
-   "fonte": "chave",
-   "observacoes": "",
-   "pagina": 23,
-   "exemplos": [
-    {
-     "lat": -1.3689,
-     "lon": -48.4637,
-     "coords": "-1.3689, -48.4637",
-     "falsa_cor": "Landsat (B5, B6, B4); Sentinel (B11, B8, B4)",
-     "tonalidade": "Escura",
-     "textura": "Rugosa e Heterogênea",
-     "observacoes": "",
-     "pagina": 24,
-     "imagens": [
-      {
-       "src": "img/amazonia/vegetacao_urbana/ex1_landsat_seco.jpg",
-       "rotulo": "Landsat – seco"
-      },
-      {
-       "src": "img/amazonia/vegetacao_urbana/ex1_landsat_chuvoso.jpg",
-       "rotulo": "Landsat – chuvoso"
-      },
-      {
-       "src": "img/amazonia/vegetacao_urbana/ex1_sentinel_seco.jpg",
-       "rotulo": "Sentinel-2 – seco"
-      },
-      {
-       "src": "img/amazonia/vegetacao_urbana/ex1_sentinel_chuvoso.jpg",
-       "rotulo": "Sentinel-2 – chuvoso"
-      },
-      {
-       "src": "img/amazonia/vegetacao_urbana/ex1_google_earth.jpg",
-       "rotulo": "Google Earth"
-      }
-     ],
-     "grafico": "img/amazonia/vegetacao_urbana/ex1_grafico.jpg",
-     "mapa": "img/amazonia/vegetacao_urbana/ex1_mapa.jpg"
-    }
-   ]
-  },
   "mineracao|amazonia": {
    "descricao": "Áreas referentes a extração mineral superficial, de porte industrial ou garimpeiro, havendo clara exposição do solo por ação antrópica. Não são passíveis de detecção nenhum tipo de mineração subterrânea ou subaquática.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 42,
+   "pagina": 40,
    "exemplos": [
     {
      "lat": -8.5844,
@@ -912,7 +814,7 @@ window.CHAVE = {
      "tonalidade": "Média",
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
-     "pagina": 43,
+     "pagina": 41,
      "imagens": [
       {
        "src": "img/amazonia/mineracao/ex1_landsat_seco.jpg",
@@ -944,7 +846,7 @@ window.CHAVE = {
    "descricao": "Áreas de superfícies não permeáveis (infra-estrutura, expansão urbana ou mineração) não mapeadas em suas classes.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 44,
+   "pagina": 42,
    "exemplos": [
     {
      "lat": 4.1632,
@@ -954,7 +856,7 @@ window.CHAVE = {
      "tonalidade": "Clara",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 45,
+     "pagina": 43,
      "imagens": [
       {
        "src": "img/amazonia/outras_areas_nao_vegetadas/ex1_landsat_seco.jpg",
@@ -986,7 +888,7 @@ window.CHAVE = {
    "descricao": "Rios, lagos, represas, reservatórios e outros corpos d'água.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 25,
+   "pagina": 23,
    "exemplos": [
     {
      "lat": -5.062,
@@ -996,7 +898,7 @@ window.CHAVE = {
      "tonalidade": "Escura",
      "textura": "Lisa e Homogênea",
      "observacoes": "NDVI abaixo de 0 é água",
-     "pagina": 26,
+     "pagina": 24,
      "imagens": [
       {
        "src": "img/amazonia/rio_lago_e_oceano/ex1_landsat_seco.jpg",
@@ -1030,7 +932,7 @@ window.CHAVE = {
      "tonalidade": "Escura",
      "textura": "Lisa e Homogênea",
      "observacoes": "Mesmo que no período seco não tenha água, ainda é considerado Rio, Lago e Oceano.",
-     "pagina": 27,
+     "pagina": 25,
      "imagens": [
       {
        "src": "img/amazonia/rio_lago_e_oceano/ex2_landsat_seco.jpg",
@@ -1062,7 +964,7 @@ window.CHAVE = {
    "descricao": "Área referente a lagos artificiais, onde predominam atividades aquícolas e/ou de salicultura.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 46,
+   "pagina": 44,
    "exemplos": [
     {
      "lat": -10.723728,
@@ -1072,7 +974,7 @@ window.CHAVE = {
      "tonalidade": "Escura",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 47,
+     "pagina": 45,
      "imagens": [
       {
        "src": "img/amazonia/aquicultura/ex1_landsat_seco.jpg",
@@ -1104,7 +1006,7 @@ window.CHAVE = {
    "descricao": "Tipos de vegetação caracterizados pela predominância de espécies arbóreas que formam um dossel contínuo. Isso inclui Matas Ciliares, Matas de Galeria, Matas Secas e Cerradão (Ribeiro & Walter, 2008), bem como florestas estacionais semideciduais.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 52,
+   "pagina": 48,
    "exemplos": [
     {
      "lat": -19.6288,
@@ -1114,7 +1016,7 @@ window.CHAVE = {
      "tonalidade": "Escura",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 53,
+     "pagina": 49,
      "imagens": [
       {
        "src": "img/cerrado/formacao_florestal/ex1_landsat_seco.jpg",
@@ -1146,7 +1048,7 @@ window.CHAVE = {
    "descricao": "Tipos de vegetação com uma estratificação distinta de estrato arbóreo, arbustivo e herbáceo. Isso inclui diferentes fisionomias de Cerrado sensu stricto (Cerrado Denso, Típico e Ralo) (Ribeiro & Walter, 2008). A classe também pode incluir áreas nativas de Cerrado sensu stricto passíveis de uso pastoril, desde que mantenham sua estrutura e composição natural.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 54,
+   "pagina": 50,
    "exemplos": [
     {
      "lat": -6.6082,
@@ -1156,7 +1058,7 @@ window.CHAVE = {
      "tonalidade": "Escura",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 55,
+     "pagina": 51,
      "imagens": [
       {
        "src": "img/cerrado/formacao_savanica/ex1_landsat_seco.jpg",
@@ -1190,7 +1092,7 @@ window.CHAVE = {
      "tonalidade": "Média",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 56,
+     "pagina": 52,
      "imagens": [
       {
        "src": "img/cerrado/formacao_savanica/ex2_landsat_seco.jpg",
@@ -1224,7 +1126,7 @@ window.CHAVE = {
      "tonalidade": "Média",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 57,
+     "pagina": 53,
      "imagens": [
       {
        "src": "img/cerrado/formacao_savanica/ex3_landsat_seco.jpg",
@@ -1256,7 +1158,7 @@ window.CHAVE = {
    "descricao": "Formações florestais e/ou arbustivas, densas, sempre-verdes, frequentemente inundadas pela maré e associadas ao ecossistema costeiro de Manguezal.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 77,
+   "pagina": 71,
    "exemplos": [
     {
      "lat": -2.57117012,
@@ -1266,7 +1168,7 @@ window.CHAVE = {
      "tonalidade": "Escura",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "Vegetação florestal bem marcada em torno de grandes rios e em área rebaixada (com bastante umidade). NDVI acima de 0,8 e sem variação com a sazonalidade. Apicuns associados.",
-     "pagina": 78,
+     "pagina": 72,
      "imagens": [
       {
        "src": "img/cerrado/mangue/ex1_landsat_seco.jpg",
@@ -1298,7 +1200,7 @@ window.CHAVE = {
    "descricao": "Vegetação aberta dominada por espécies herbáceas, com cobertura arbórea mínima ou inexistente. Inclui as fitofisionomias Campos Sujo e Limpo (Ribeiro & Walter, 2008).",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 58,
+   "pagina": 54,
    "exemplos": [
     {
      "lat": -18.2045,
@@ -1308,7 +1210,7 @@ window.CHAVE = {
      "tonalidade": "Média",
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
-     "pagina": 59,
+     "pagina": 55,
      "imagens": [
       {
        "src": "img/cerrado/formacao_campestre/ex1_landsat_seco.jpg",
@@ -1342,7 +1244,7 @@ window.CHAVE = {
      "tonalidade": "Média",
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
-     "pagina": 60,
+     "pagina": 56,
      "imagens": [
       {
        "src": "img/cerrado/formacao_campestre/ex2_landsat_seco.jpg",
@@ -1376,7 +1278,7 @@ window.CHAVE = {
      "tonalidade": "Média",
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
-     "pagina": 61,
+     "pagina": 57,
      "imagens": [
       {
        "src": "img/cerrado/formacao_campestre/ex3_landsat_seco.jpg",
@@ -1408,7 +1310,7 @@ window.CHAVE = {
    "descricao": "Ecossistemas dominados por vegetação herbácea sujeitos a inundações sazonais ou influência fluvial/lacustre constante. Exemplos incluem Campo Úmido e Brejo. Em algumas áreas, a matriz herbácea é intercalada com espécies arbóreas de savana (por exemplo, Parque de Cerrado) ou espécies de palmeiras, como em Veredas e Palmeirais (Ribeiro & Walter, 2008).",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 62,
+   "pagina": 58,
    "exemplos": [
     {
      "lat": -13.6568,
@@ -1418,7 +1320,7 @@ window.CHAVE = {
      "tonalidade": "Média",
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
-     "pagina": 63,
+     "pagina": 59,
      "imagens": [
       {
        "src": "img/cerrado/campo_alagado_e_area_pantanosa/ex1_landsat_seco.jpg",
@@ -1452,7 +1354,7 @@ window.CHAVE = {
      "tonalidade": "Média",
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
-     "pagina": 64,
+     "pagina": 60,
      "imagens": [
       {
        "src": "img/cerrado/campo_alagado_e_area_pantanosa/ex2_landsat_seco.jpg",
@@ -1484,7 +1386,7 @@ window.CHAVE = {
    "descricao": "Superfícies rochosas naturalmente expostas, incluindo monólitos, acamamentos ou lajedos com pouca ou nenhuma cobertura de solo, normalmente associadas a formações geológicas estáveis de origem sedimentar, ígnea ou metamórfica. A classe também inclui áreas de vegetação rupestre associadas a esses ambientes, como Cerrado Rupestre e Campo Rupestre (Ribeiro & Walter, 2008).",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 65,
+   "pagina": 61,
    "exemplos": [
     {
      "lat": -18.166147,
@@ -1494,7 +1396,7 @@ window.CHAVE = {
      "tonalidade": "Clara",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 66,
+     "pagina": 62,
      "imagens": [
       {
        "src": "img/cerrado/afloramento_rochoso/ex1_landsat_seco.jpg",
@@ -1526,7 +1428,7 @@ window.CHAVE = {
    "descricao": "Apicuns ou Campos Salgados são formações quase sempre desprovidas de vegetação arbórea e arbustiva, associadas a uma zona topograficamente mais alta da planície costeira, hipersalina e com frequência de inundação menor do que o manguezal, em geral na transição entre este e a terra firme ou campos de dunas.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 80,
+   "pagina": 74,
    "exemplos": [
     {
      "lat": -2.7894,
@@ -1536,7 +1438,7 @@ window.CHAVE = {
      "tonalidade": "Escura",
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
-     "pagina": 79,
+     "pagina": 73,
      "imagens": [
       {
        "src": "img/cerrado/apicum/ex1_landsat_seco.jpg",
@@ -1568,7 +1470,7 @@ window.CHAVE = {
    "descricao": "Ecossistemas de planície arenosa costeira caracterizados por vegetação predominantemente herbácea e arbustiva, com distribuição esparsa de arbustos.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 75,
+   "pagina": 69,
    "exemplos": [
     {
      "lat": -2.689217,
@@ -1578,7 +1480,7 @@ window.CHAVE = {
      "tonalidade": "Média",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 76,
+     "pagina": 70,
      "imagens": [
       {
        "src": "img/cerrado/restinga_herbacea/ex1_landsat_seco.jpg",
@@ -1610,7 +1512,7 @@ window.CHAVE = {
    "descricao": "Áreas de pastagem plantadas, diretamente relacionadas à atividade agropecuária. As áreas de pastagem natural, por sua vez, são predominantemente caracterizadas como formações campestres ou campo alagado, podendo ser submetidas ou não a práticas de pastejo. Podem ocorrer áreas desmatadas recentemente, sem ainda ter iniciado a atividade agropecuária. Pode conter também áreas em estágios iniciais de regeneração. Pequenas áreas agrícolas podem estar contidas.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 82,
+   "pagina": 76,
    "exemplos": [
     {
      "lat": -13.2014,
@@ -1620,7 +1522,7 @@ window.CHAVE = {
      "tonalidade": "Clara",
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
-     "pagina": 81,
+     "pagina": 75,
      "imagens": [
       {
        "src": "img/cerrado/pastagem/ex1_landsat_seco.jpg",
@@ -1652,7 +1554,7 @@ window.CHAVE = {
    "descricao": "Áreas ocupadas com cultivos agrícolas de curta ou média duração, geralmente com ciclo vegetativo inferior a um ano, que após a colheita necessitam de novo plantio para produzir.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 84,
+   "pagina": 78,
    "exemplos": [
     {
      "lat": -13.3038,
@@ -1662,7 +1564,7 @@ window.CHAVE = {
      "tonalidade": "Clara",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 83,
+     "pagina": 77,
      "imagens": [
       {
        "src": "img/cerrado/cultivo_temporario/ex1_landsat_seco.jpg",
@@ -1690,53 +1592,11 @@ window.CHAVE = {
     }
    ]
   },
-  "soja|cerrado": {
-   "descricao": "Áreas cultivadas com a monocultura da soja (primeira safra).",
-   "fonte": "legenda",
-   "observacoes": "",
-   "pagina": 99,
-   "exemplos": [
-    {
-     "lat": -14.1842,
-     "lon": -45.9916,
-     "coords": "-14.1842, -45.9916",
-     "falsa_cor": "Landsat (B5, B6, B4); Sentinel (B11, B8, B4)",
-     "tonalidade": "Clara",
-     "textura": "Lisa e Homogênea",
-     "observacoes": "",
-     "pagina": 98,
-     "imagens": [
-      {
-       "src": "img/cerrado/soja/ex1_landsat_seco.jpg",
-       "rotulo": "Landsat – seco"
-      },
-      {
-       "src": "img/cerrado/soja/ex1_landsat_chuvoso.jpg",
-       "rotulo": "Landsat – chuvoso"
-      },
-      {
-       "src": "img/cerrado/soja/ex1_sentinel_seco.jpg",
-       "rotulo": "Sentinel-2 – seco"
-      },
-      {
-       "src": "img/cerrado/soja/ex1_sentinel_chuvoso.jpg",
-       "rotulo": "Sentinel-2 – chuvoso"
-      },
-      {
-       "src": "img/cerrado/soja/ex1_google_earth.jpg",
-       "rotulo": "Google Earth"
-      }
-     ],
-     "grafico": "img/cerrado/soja/ex1_grafico.jpg",
-     "mapa": "img/cerrado/soja/ex1_mapa.jpg"
-    }
-   ]
-  },
   "cana|cerrado": {
    "descricao": "Áreas cultivadas com a monocultura da cana-de-açúcar.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 88,
+   "pagina": 82,
    "exemplos": [
     {
      "lat": -19.3593,
@@ -1746,7 +1606,7 @@ window.CHAVE = {
      "tonalidade": "Média",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 87,
+     "pagina": 81,
      "imagens": [
       {
        "src": "img/cerrado/cana_de_acucar/ex1_landsat_seco.jpg",
@@ -1778,7 +1638,7 @@ window.CHAVE = {
    "descricao": "Áreas ocupadas com cultivos agrícolas de ciclo vegetativo longo (mais de um ano), que permitem colheitas sucessivas, sem necessidade de novo plantio.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 86,
+   "pagina": 80,
    "exemplos": [
     {
      "lat": -12.1865,
@@ -1788,7 +1648,7 @@ window.CHAVE = {
      "tonalidade": "Média",
      "textura": "Rugosa e Homogênea",
      "observacoes": "",
-     "pagina": 85,
+     "pagina": 79,
      "imagens": [
       {
        "src": "img/cerrado/cultivo_perene/ex1_landsat_seco.jpg",
@@ -1820,7 +1680,7 @@ window.CHAVE = {
    "descricao": "Espécies arbóreas plantadas para fins comerciais (ex. pinus, eucalipto, araucária).",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 90,
+   "pagina": 84,
    "exemplos": [
     {
      "lat": -17.212,
@@ -1830,7 +1690,7 @@ window.CHAVE = {
      "tonalidade": "Escura",
      "textura": "Rugosa e Homogênea",
      "observacoes": "Delimitação (em talhões) com textura rugosa e homogênea, indicando uma mesma espécie. Essas ‘falhas’ na área podem significar espécies de silvicultura que perdem as folhas ou uma plantação que não teve um bom manejo (plantas que não se desenvolveram). NDVI subindo de 0,2 para 0,8, indicando o plantio, estável em 0,8 por anos, indicando espécie arbórea, e uma queda brusca, indicando a colheita. Tonalidade muito escura, puxada para o marrom, na silvicultura pode significar uma silvicultura velha.",
-     "pagina": 89,
+     "pagina": 83,
      "imagens": [
       {
        "src": "img/cerrado/silvicultura/ex1_landsat_seco.jpg",
@@ -1862,7 +1722,7 @@ window.CHAVE = {
    "descricao": "Cordões arenosos, de coloração branco brilhante, onde não há o predomínio de vegetação de nenhum tipo.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 67,
+   "pagina": 63,
    "exemplos": [
     {
      "lat": -2.6221,
@@ -1872,7 +1732,7 @@ window.CHAVE = {
      "tonalidade": "Clara",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 68,
+     "pagina": 64,
      "imagens": [
       {
        "src": "img/cerrado/praia_duna_e_areial/ex1_landsat_seco.jpg",
@@ -1904,7 +1764,7 @@ window.CHAVE = {
    "descricao": "Áreas com significativa densidade de edificações e vias, incluindo infraestrutura e áreas livres de construções.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 69,
+   "pagina": 65,
    "exemplos": [
     {
      "lat": -16.2658,
@@ -1914,7 +1774,7 @@ window.CHAVE = {
      "tonalidade": "Clara",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 70,
+     "pagina": 66,
      "imagens": [
       {
        "src": "img/cerrado/area_urbana/ex1_landsat_seco.jpg",
@@ -1942,53 +1802,11 @@ window.CHAVE = {
     }
    ]
   },
-  "vegetacao_urbana|cerrado": {
-   "descricao": "",
-   "fonte": "chave",
-   "observacoes": "",
-   "pagina": 71,
-   "exemplos": [
-    {
-     "lat": null,
-     "lon": null,
-     "coords": "",
-     "falsa_cor": "Landsat (B5, B6, B4); Sentinel (B11, B8, B4)",
-     "tonalidade": "Média",
-     "textura": "Rugosa e Heterogênea",
-     "observacoes": "",
-     "pagina": 72,
-     "imagens": [
-      {
-       "src": "img/cerrado/vegetacao_urbana/ex1_landsat_seco.jpg",
-       "rotulo": "Landsat – seco"
-      },
-      {
-       "src": "img/cerrado/vegetacao_urbana/ex1_landsat_chuvoso.jpg",
-       "rotulo": "Landsat – chuvoso"
-      },
-      {
-       "src": "img/cerrado/vegetacao_urbana/ex1_sentinel_seco.jpg",
-       "rotulo": "Sentinel-2 – seco"
-      },
-      {
-       "src": "img/cerrado/vegetacao_urbana/ex1_sentinel_chuvoso.jpg",
-       "rotulo": "Sentinel-2 – chuvoso"
-      },
-      {
-       "src": "img/cerrado/vegetacao_urbana/ex1_google_earth.jpg",
-       "rotulo": "Google Earth"
-      }
-     ],
-     "grafico": "img/cerrado/vegetacao_urbana/ex1_grafico.jpg",
-     "mapa": "img/cerrado/vegetacao_urbana/ex1_mapa.jpg"
-    }
-   ]
-  },
   "mineracao|cerrado": {
    "descricao": "Áreas referentes a extração mineral superficial, de porte industrial ou garimpeiro, havendo clara exposição do solo por ação antrópica. Não são passíveis de detecção nenhum tipo de mineração subterrânea ou subaquática.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 92,
+   "pagina": 86,
    "exemplos": [
     {
      "lat": -19.8805,
@@ -1998,7 +1816,7 @@ window.CHAVE = {
      "tonalidade": "Média",
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
-     "pagina": 91,
+     "pagina": 85,
      "imagens": [
       {
        "src": "img/cerrado/mineracao/ex1_landsat_seco.jpg",
@@ -2030,7 +1848,7 @@ window.CHAVE = {
    "descricao": "Inclui superfícies impermeáveis (por exemplo, estradas, prédios, infraestrutura de mineração), solo exposto em ambientes naturais (por exemplo, características de erosão, ravinas, deslizamentos de terra) e terras cultiváveis fora do período de cultivo.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 95,
+   "pagina": 89,
    "exemplos": [
     {
      "lat": -11.7027,
@@ -2040,7 +1858,7 @@ window.CHAVE = {
      "tonalidade": "Escura",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 93,
+     "pagina": 87,
      "imagens": [
       {
        "src": "img/cerrado/outras_areas_nao_vegetadas/ex1_landsat_seco.jpg",
@@ -2074,7 +1892,7 @@ window.CHAVE = {
      "tonalidade": "Escura",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 94,
+     "pagina": 88,
      "imagens": [
       {
        "src": "img/cerrado/outras_areas_nao_vegetadas/ex2_landsat_seco.jpg",
@@ -2106,7 +1924,7 @@ window.CHAVE = {
    "descricao": "Rios, lagos, represas, reservatórios e outros corpos d'água.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 73,
+   "pagina": 67,
    "exemplos": [
     {
      "lat": null,
@@ -2116,7 +1934,7 @@ window.CHAVE = {
      "tonalidade": "Escura",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 74,
+     "pagina": 68,
      "imagens": [
       {
        "src": "img/cerrado/rio_lago_e_oceano/ex1_landsat_seco.jpg",
@@ -2148,7 +1966,7 @@ window.CHAVE = {
    "descricao": "Área referente a lagos artificiais, onde predominam atividades aquícolas e/ou de salicultura.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 97,
+   "pagina": 91,
    "exemplos": [
     {
      "lat": -5.2642,
@@ -2158,7 +1976,7 @@ window.CHAVE = {
      "tonalidade": "Escura",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 96,
+     "pagina": 90,
      "imagens": [
       {
        "src": "img/cerrado/aquicultura/ex1_landsat_seco.jpg",
@@ -2190,7 +2008,7 @@ window.CHAVE = {
    "descricao": "Tipos de vegetação com predomínio de dossel contínuo - Savana-Estépica Florestada, Floresta Estacional Semi-Decidual e Decidual.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 103,
+   "pagina": 95,
    "exemplos": [
     {
      "lat": -10.2827,
@@ -2200,7 +2018,7 @@ window.CHAVE = {
      "tonalidade": "Média",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 102,
+     "pagina": 94,
      "imagens": [
       {
        "src": "img/caatinga/formacao_florestal/ex1_landsat_seco.jpg",
@@ -2232,7 +2050,7 @@ window.CHAVE = {
    "descricao": "Tipos de vegetação com predomínio de espécies de dossel semi-contínuo - Savana-Estépica Arborizada, Savana Arborizada.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 105,
+   "pagina": 97,
    "exemplos": [
     {
      "lat": -8.7326,
@@ -2242,7 +2060,7 @@ window.CHAVE = {
      "tonalidade": "Média",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 104,
+     "pagina": 96,
      "imagens": [
       {
        "src": "img/caatinga/formacao_savanica/ex1_landsat_seco.jpg",
@@ -2266,7 +2084,7 @@ window.CHAVE = {
       }
      ],
      "grafico": "img/caatinga/formacao_savanica/ex1_grafico.jpg",
-     "mapa": "img/caatinga/formacao_savanica/ex1_mapa.jpg"
+     "mapa": "img/corrigidos/p104_caatinga_mapa.jpg"
     }
    ]
   },
@@ -2274,7 +2092,7 @@ window.CHAVE = {
    "descricao": "Formações florestais e/ou arbustivas, densas, sempre-verdes, frequentemente inundadas pela maré e associadas ao ecossistema costeiro de Manguezal.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 123,
+   "pagina": 113,
    "exemplos": [
     {
      "lat": -2.8913,
@@ -2284,7 +2102,7 @@ window.CHAVE = {
      "tonalidade": "Escura",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 122,
+     "pagina": 112,
      "imagens": [
       {
        "src": "img/caatinga/mangue/ex1_landsat_seco.jpg",
@@ -2316,7 +2134,7 @@ window.CHAVE = {
    "descricao": "Tipos de vegetação com predomínio de espécies herbáceas (Savana-Estépica Parque, Savana-Estépica Gramíneo-Lenhosa, Savana Parque, Savana Gramíneo-Lenhosa) + (Áreas inundáveis com uma rede de lagoas interligadas, localizadas ao longo dos cursos de água e em áreas de depressões que acumulam água, vegetação predominantemente herbácea a arbustiva).",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 107,
+   "pagina": 99,
    "exemplos": [
     {
      "lat": -9.7131,
@@ -2326,7 +2144,7 @@ window.CHAVE = {
      "tonalidade": "Média",
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
-     "pagina": 106,
+     "pagina": 98,
      "imagens": [
       {
        "src": "img/caatinga/formacao_campestre/ex1_landsat_seco.jpg",
@@ -2358,7 +2176,7 @@ window.CHAVE = {
    "descricao": "",
    "fonte": "chave",
    "observacoes": "",
-   "pagina": 109,
+   "pagina": 101,
    "exemplos": [
     {
      "lat": -10.096,
@@ -2368,7 +2186,7 @@ window.CHAVE = {
      "tonalidade": "Clara",
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
-     "pagina": 108,
+     "pagina": 100,
      "imagens": [
       {
        "src": "img/caatinga/campo_alagado_e_area_pantanosa/ex1_landsat_seco.jpg",
@@ -2400,7 +2218,7 @@ window.CHAVE = {
    "descricao": "Superfícies rochosas naturalmente expostas com pouca ou nenhuma cobertura de solo e vegetação mínima",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 111,
+   "pagina": 103,
    "exemplos": [
     {
      "lat": -13.3914,
@@ -2410,7 +2228,7 @@ window.CHAVE = {
      "tonalidade": "Média",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 110,
+     "pagina": 102,
      "imagens": [
       {
        "src": "img/caatinga/afloramento_rochoso/ex1_landsat_seco.jpg",
@@ -2442,7 +2260,7 @@ window.CHAVE = {
    "descricao": "Apicuns ou Campos Salgados são formações quase sempre desprovidas de vegetação arbórea e arbustiva, associadas a uma zona topograficamente mais alta da planície costeira, hipersalina e com frequência de inundação menor do que o manguezal, em geral na transição entre este e a terra firme ou campos de dunas.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 125,
+   "pagina": 115,
    "exemplos": [
     {
      "lat": -2.8913,
@@ -2452,7 +2270,7 @@ window.CHAVE = {
      "tonalidade": "Escura",
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
-     "pagina": 124,
+     "pagina": 114,
      "imagens": [
       {
        "src": "img/caatinga/apicum/ex1_landsat_seco.jpg",
@@ -2484,7 +2302,7 @@ window.CHAVE = {
    "descricao": "Vegetação herbácea que se estabelece sobre solos arenosos ou sobre dunas costeiras com influência fluviomarinha.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 121,
+   "pagina": 111,
    "exemplos": [
     {
      "lat": -4.142572,
@@ -2494,7 +2312,7 @@ window.CHAVE = {
      "tonalidade": "Média",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 120,
+     "pagina": 110,
      "imagens": [
       {
        "src": "img/caatinga/restinga_herbacea/ex1_landsat_seco.jpg",
@@ -2526,7 +2344,7 @@ window.CHAVE = {
    "descricao": "Áreas de pastagem plantadas, diretamente relacionadas à atividade agropecuária. As áreas de pastagem natural, por sua vez, são predominantemente caracterizadas como formações campestres ou campo alagado, podendo ser submetidas ou não a práticas de pastejo. Podem ocorrer áreas desmatadas recentemente, sem ainda ter iniciado a atividade agropecuária. Pode conter também áreas em estágios iniciais de regeneração. Pequenas áreas agrícolas podem estar contidas.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 127,
+   "pagina": 117,
    "exemplos": [
     {
      "lat": -9.8354,
@@ -2536,7 +2354,7 @@ window.CHAVE = {
      "tonalidade": "Clara",
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
-     "pagina": 126,
+     "pagina": 116,
      "imagens": [
       {
        "src": "img/caatinga/pastagem/ex1_landsat_seco.jpg",
@@ -2568,7 +2386,7 @@ window.CHAVE = {
    "descricao": "Áreas ocupadas com cultivos agrícolas de curta ou média duração, geralmente com ciclo vegetativo inferior a um ano, que após a colheita necessitam de novo plantio para produzir.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 130,
+   "pagina": 120,
    "exemplos": [
     {
      "lat": -5.192677,
@@ -2578,7 +2396,7 @@ window.CHAVE = {
      "tonalidade": "Clara",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 128,
+     "pagina": 118,
      "imagens": [
       {
        "src": "img/caatinga/cultivo_temporario/ex1_landsat_seco.jpg",
@@ -2612,7 +2430,7 @@ window.CHAVE = {
      "tonalidade": "Clara",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 129,
+     "pagina": 119,
      "imagens": [
       {
        "src": "img/caatinga/cultivo_temporario/ex2_landsat_seco.jpg",
@@ -2640,53 +2458,11 @@ window.CHAVE = {
     }
    ]
   },
-  "soja|caatinga": {
-   "descricao": "Áreas cultivadas com a monocultura da soja (primeira safra).",
-   "fonte": "legenda",
-   "observacoes": "",
-   "pagina": 147,
-   "exemplos": [
-    {
-     "lat": -5.192336,
-     "lon": -38.015717,
-     "coords": "-5.192336, -38.015717",
-     "falsa_cor": "Landsat (B5, B6, B4); Sentinel (B11, B8, B4)",
-     "tonalidade": "",
-     "textura": "Lisa e Homogênea",
-     "observacoes": "",
-     "pagina": 146,
-     "imagens": [
-      {
-       "src": "img/caatinga/soja/ex1_landsat_seco.jpg",
-       "rotulo": "Landsat – seco"
-      },
-      {
-       "src": "img/caatinga/soja/ex1_landsat_chuvoso.jpg",
-       "rotulo": "Landsat – chuvoso"
-      },
-      {
-       "src": "img/caatinga/soja/ex1_sentinel_seco.jpg",
-       "rotulo": "Sentinel-2 – seco"
-      },
-      {
-       "src": "img/caatinga/soja/ex1_sentinel_chuvoso.jpg",
-       "rotulo": "Sentinel-2 – chuvoso"
-      },
-      {
-       "src": "img/caatinga/soja/ex1_google_earth.jpg",
-       "rotulo": "Google Earth"
-      }
-     ],
-     "grafico": "img/caatinga/soja/ex1_grafico.jpg",
-     "mapa": "img/caatinga/soja/ex1_mapa.jpg"
-    }
-   ]
-  },
   "cana|caatinga": {
    "descricao": "Áreas cultivadas com a monocultura da cana-de-açúcar.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 135,
+   "pagina": 125,
    "exemplos": [
     {
      "lat": -5.883469,
@@ -2696,7 +2472,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 134,
+     "pagina": 124,
      "imagens": [
       {
        "src": "img/caatinga/cana_de_acucar/ex1_landsat_seco.jpg",
@@ -2728,7 +2504,7 @@ window.CHAVE = {
    "descricao": "Áreas ocupadas com cultivos agrícolas de ciclo vegetativo longo (mais de um ano), que permitem colheitas sucessivas, sem necessidade de novo plantio.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 133,
+   "pagina": 123,
    "exemplos": [
     {
      "lat": -12.41564,
@@ -2738,7 +2514,7 @@ window.CHAVE = {
      "tonalidade": "Clara",
      "textura": "Rugosa e Homogênea",
      "observacoes": "",
-     "pagina": 131,
+     "pagina": 121,
      "imagens": [
       {
        "src": "img/caatinga/cultivo_perene/ex1_landsat_seco.jpg",
@@ -2772,7 +2548,7 @@ window.CHAVE = {
      "tonalidade": "Média",
      "textura": "Rugosa e Homogênea",
      "observacoes": "",
-     "pagina": 132,
+     "pagina": 122,
      "imagens": [
       {
        "src": "img/caatinga/cultivo_perene/ex2_landsat_seco.jpg",
@@ -2804,7 +2580,7 @@ window.CHAVE = {
    "descricao": "Espécies arbóreas plantadas para fins comerciais (ex. pinus, eucalipto, araucária).",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 137,
+   "pagina": 127,
    "exemplos": [
     {
      "lat": -13.186961,
@@ -2814,7 +2590,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Rugosa e Homogênea",
      "observacoes": "",
-     "pagina": 136,
+     "pagina": 126,
      "imagens": [
       {
        "src": "img/caatinga/silvicultura/ex1_landsat_seco.jpg",
@@ -2846,7 +2622,7 @@ window.CHAVE = {
    "descricao": "Cordões arenosos, de coloração branco brilhante, onde não há o predomínio de vegetação de nenhum tipo.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 113,
+   "pagina": 105,
    "exemplos": [
     {
      "lat": -4.13974,
@@ -2856,7 +2632,7 @@ window.CHAVE = {
      "tonalidade": "Clara",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 112,
+     "pagina": 104,
      "imagens": [
       {
        "src": "img/caatinga/praia_duna_e_areial/ex1_landsat_seco.jpg",
@@ -2888,7 +2664,7 @@ window.CHAVE = {
    "descricao": "Áreas com significativa densidade de edificações e vias, incluindo infraestrutura e áreas livres de construções.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 115,
+   "pagina": 107,
    "exemplos": [
     {
      "lat": -10.8271,
@@ -2898,7 +2674,7 @@ window.CHAVE = {
      "tonalidade": "Média",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 114,
+     "pagina": 106,
      "imagens": [
       {
        "src": "img/caatinga/area_urbana/ex1_landsat_seco.jpg",
@@ -2926,53 +2702,11 @@ window.CHAVE = {
     }
    ]
   },
-  "vegetacao_urbana|caatinga": {
-   "descricao": "",
-   "fonte": "chave",
-   "observacoes": "",
-   "pagina": 117,
-   "exemplos": [
-    {
-     "lat": -10.7732,
-     "lon": -37.5459,
-     "coords": "-10.7732, -37.5459",
-     "falsa_cor": "Landsat (B5, B6, B4); Sentinel (B11, B8, B4)",
-     "tonalidade": "Média",
-     "textura": "Rugosa e Heterogênea",
-     "observacoes": "",
-     "pagina": 116,
-     "imagens": [
-      {
-       "src": "img/caatinga/vegetacao_urbana/ex1_landsat_seco.jpg",
-       "rotulo": "Landsat – seco"
-      },
-      {
-       "src": "img/caatinga/vegetacao_urbana/ex1_landsat_chuvoso.jpg",
-       "rotulo": "Landsat – chuvoso"
-      },
-      {
-       "src": "img/caatinga/vegetacao_urbana/ex1_sentinel_seco.jpg",
-       "rotulo": "Sentinel-2 – seco"
-      },
-      {
-       "src": "img/caatinga/vegetacao_urbana/ex1_sentinel_chuvoso.jpg",
-       "rotulo": "Sentinel-2 – chuvoso"
-      },
-      {
-       "src": "img/caatinga/vegetacao_urbana/ex1_google_earth.jpg",
-       "rotulo": "Google Earth"
-      }
-     ],
-     "grafico": "img/caatinga/vegetacao_urbana/ex1_grafico.jpg",
-     "mapa": "img/caatinga/vegetacao_urbana/ex1_mapa.jpg"
-    }
-   ]
-  },
   "mineracao|caatinga": {
    "descricao": "Áreas referentes a extração mineral superficial, de porte industrial ou garimpeiro, havendo clara exposição do solo por ação antrópica. Não são passíveis de detecção nenhum tipo de mineração subterrânea ou subaquática.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 139,
+   "pagina": 129,
    "exemplos": [
     {
      "lat": -11.450972,
@@ -2982,7 +2716,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
-     "pagina": 138,
+     "pagina": 128,
      "imagens": [
       {
        "src": "img/caatinga/mineracao/ex1_landsat_seco.jpg",
@@ -3014,7 +2748,7 @@ window.CHAVE = {
    "descricao": "Instalação de médio a grande porte destinada à geração de energia elétrica por conversão direta da luz solar, com foco na comercialização da energia. No Brasil, são consideradas grandes usinas as centrais com potência superior a 5 MW, conforme regulamentação (Resolução Normativa ANEEL nº 1.071, de 29 de agosto de 2023). A eletricidade gerada é conectada ao Sistema Interligado Nacional (SIN), que distribui energia por todo o país. Em termos de uso do solo, essas usinas ocupam áreas relevantes: estima-se que uma instalação em regiões tropicais demande cerca de 1 ha por MW com o uso de módulos fixos, podendo variar para 2–3 ha/MW em função de tecnologia (trackers) e disposição dos painéis. Exemplos nacionais confirmam essa faixa: o Parque Solar Nova Olinda (292 MW em 690 ha ≈ 2,4 ha/MW), e o Complexo Solar Pirapora (321 MW em ≈ 1 500 ha, cerca de 4,7 ha/MW.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 143,
+   "pagina": 133,
    "exemplos": [
     {
      "lat": -9.6985,
@@ -3024,7 +2758,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "sistema de energia sustentável",
-     "pagina": 142,
+     "pagina": 132,
      "imagens": [
       {
        "src": "img/caatinga/usina_fotovoltaica/ex1_landsat_seco.jpg",
@@ -3056,7 +2790,7 @@ window.CHAVE = {
    "descricao": "Áreas de superfícies não permeáveis (infra-estrutura, expansão urbana ou mineração) não mapeadas em suas classes.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 141,
+   "pagina": 131,
    "exemplos": [
     {
      "lat": null,
@@ -3066,7 +2800,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "",
      "observacoes": "",
-     "pagina": 140,
+     "pagina": 130,
      "imagens": [],
      "grafico": "",
      "mapa": ""
@@ -3077,7 +2811,7 @@ window.CHAVE = {
    "descricao": "Rios, lagos, represas, reservatórios e outros corpos d'água.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 119,
+   "pagina": 109,
    "exemplos": [
     {
      "lat": -5.6318,
@@ -3087,7 +2821,7 @@ window.CHAVE = {
      "tonalidade": "Escura",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 118,
+     "pagina": 108,
      "imagens": [
       {
        "src": "img/caatinga/rio_lago_e_oceano/ex1_landsat_seco.jpg",
@@ -3119,7 +2853,7 @@ window.CHAVE = {
    "descricao": "Área referente a lagos artificiais, onde predominam atividades aquícolas e/ou de salicultura.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 145,
+   "pagina": 135,
    "exemplos": [
     {
      "lat": -4.981664,
@@ -3129,7 +2863,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 144,
+     "pagina": 134,
      "imagens": [
       {
        "src": "img/caatinga/aquicultura/ex1_landsat_seco.jpg",
@@ -3161,7 +2895,7 @@ window.CHAVE = {
    "descricao": "Tipos de vegetação caracterizados pela predominância de espécies arbóreas, com alta densidade de árvores, dossel fechado e estratificação vertical. Inclui as tipologias florestais: Floresta Ombrófila Densa, Aberta e Mista, Floresta Estacional Semidecidual e Decidual, e Formação Pioneira.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 151,
+   "pagina": 139,
    "exemplos": [
     {
      "lat": -6.71115,
@@ -3171,7 +2905,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 150,
+     "pagina": 138,
      "imagens": [
       {
        "src": "img/mata_atlantica/formacao_florestal/ex1_landsat_seco.jpg",
@@ -3203,7 +2937,7 @@ window.CHAVE = {
    "descricao": "Tipo de vegetação caracterizado pela presença de espécies arbóreas e arbustivas esparsas, com dossel semicontínuo. Inclui: Estépica, Savana Florestada e Savana Arborizada.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 153,
+   "pagina": 141,
    "exemplos": [
     {
      "lat": -5.601464,
@@ -3213,7 +2947,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 152,
+     "pagina": 140,
      "imagens": [
       {
        "src": "img/mata_atlantica/formacao_savanica/ex1_landsat_seco.jpg",
@@ -3245,7 +2979,7 @@ window.CHAVE = {
    "descricao": "Formações florestais e/ou arbustivas, densas, sempre-verdes, frequentemente inundadas pela maré e associadas ao ecossistema costeiro de Manguezal.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 171,
+   "pagina": 157,
    "exemplos": [
     {
      "lat": -7.378189,
@@ -3255,7 +2989,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 170,
+     "pagina": 156,
      "imagens": [
       {
        "src": "img/mata_atlantica/mangue/ex1_landsat_seco.jpg",
@@ -3287,7 +3021,7 @@ window.CHAVE = {
    "descricao": "Vegetação dominada por espécies herbáceas e gramíneas, com poucas árvores e arbustos dispersos, geralmente apresentando dossel aberto ou ausente. Ocorre em solos que variam de profundos a rasos, incluindo terrenos rochosos (campos rupestres). Inclui: Savanas Parque e de Estépica Gramíneo-Lenhosa, Estépicas e Formações Pioneiras Arbustivas e Herbáceas.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 155,
+   "pagina": 143,
    "exemplos": [
     {
      "lat": -21.456896,
@@ -3297,7 +3031,7 @@ window.CHAVE = {
      "tonalidade": "Clara",
      "textura": "Lisa e Heterogênea",
      "observacoes": "Relevo montanhoso e altas altitudes, uma das características da Mata Atlântica. NDVI médio, típico de gramínea.",
-     "pagina": 154,
+     "pagina": 142,
      "imagens": [
       {
        "src": "img/mata_atlantica/formacao_campestre/ex1_landsat_seco.jpg",
@@ -3329,7 +3063,7 @@ window.CHAVE = {
    "descricao": "Vegetação de planícies alagáveis ou campos influenciados por dinâmicas fluviais e/ou lacustres, caracterizada pela predominância de vegetação higrófila, incluindo plantas aquáticas emersas, submersas ou flutuantes.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 157,
+   "pagina": 145,
    "exemplos": [
     {
      "lat": -15.95635,
@@ -3339,7 +3073,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
-     "pagina": 156,
+     "pagina": 144,
      "imagens": [
       {
        "src": "img/mata_atlantica/campo_alagado_e_area_pantanosa/ex1_landsat_seco.jpg",
@@ -3371,7 +3105,7 @@ window.CHAVE = {
    "descricao": "Superfícies rochosas naturalmente expostas com pouca ou nenhuma cobertura de solo, frequentemente associados à vegetação rupícola e a terrenos de forte declividade.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 159,
+   "pagina": 147,
    "exemplos": [
     {
      "lat": -18.3555,
@@ -3381,7 +3115,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 158,
+     "pagina": 146,
      "imagens": [
       {
        "src": "img/mata_atlantica/afloramento_rochoso/ex1_landsat_seco.jpg",
@@ -3413,7 +3147,7 @@ window.CHAVE = {
    "descricao": "Apicuns ou Campos Salgados são formações quase sempre desprovidas de vegetação arbórea e arbustiva, associadas a uma zona topograficamente mais alta da planície costeira, hipersalina e com frequência de inundação menor do que o manguezal, em geral na transição entre este e a terra firme ou campos de dunas.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 173,
+   "pagina": 159,
    "exemplos": [
     {
      "lat": -7.68037446,
@@ -3423,7 +3157,7 @@ window.CHAVE = {
      "tonalidade": "Média",
      "textura": "Lisa e Heterogênea",
      "observacoes": "Coloração indicativa de ausência de vegetação e presença de umidade. NDVI baixo e constante.",
-     "pagina": 172,
+     "pagina": 158,
      "imagens": [
       {
        "src": "img/mata_atlantica/apicum/ex1_landsat_seco.jpg",
@@ -3455,7 +3189,7 @@ window.CHAVE = {
    "descricao": "Vegetação herbácea que se estabelece sobre solos arenosos ou sobre dunas costeiras com influência fluviomarinha.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 169,
+   "pagina": 155,
    "exemplos": [
     {
      "lat": -5.258942,
@@ -3465,7 +3199,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 168,
+     "pagina": 154,
      "imagens": [
       {
        "src": "img/mata_atlantica/restinga_herbacea/ex1_landsat_seco.jpg",
@@ -3497,7 +3231,7 @@ window.CHAVE = {
    "descricao": "Áreas de pastagem plantadas, diretamente relacionadas à atividade agropecuária. As áreas de pastagem natural, por sua vez, são predominantemente caracterizadas como formações campestres ou campo alagado, podendo ser submetidas ou não a práticas de pastejo. Podem ocorrer áreas desmatadas recentemente, sem ainda ter iniciado a atividade agropecuária. Pode conter também áreas em estágios iniciais de regeneração. Pequenas áreas agrícolas podem estar contidas.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 175,
+   "pagina": 161,
    "exemplos": [
     {
      "lat": -8.39774,
@@ -3507,7 +3241,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
-     "pagina": 174,
+     "pagina": 160,
      "imagens": [
       {
        "src": "img/mata_atlantica/pastagem/ex1_landsat_seco.jpg",
@@ -3539,7 +3273,7 @@ window.CHAVE = {
    "descricao": "Áreas ocupadas com cultivos agrícolas de curta ou média duração, geralmente com ciclo vegetativo inferior a um ano, que após a colheita necessitam de novo plantio para produzir.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 177,
+   "pagina": 163,
    "exemplos": [
     {
      "lat": -7.019031,
@@ -3549,7 +3283,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 176,
+     "pagina": 162,
      "imagens": [
       {
        "src": "img/mata_atlantica/cultivo_temporario/ex1_landsat_seco.jpg",
@@ -3577,53 +3311,11 @@ window.CHAVE = {
     }
    ]
   },
-  "soja|mata_atlantica": {
-   "descricao": "Áreas cultivadas com a monocultura da soja (primeira safra).",
-   "fonte": "legenda",
-   "observacoes": "",
-   "pagina": 193,
-   "exemplos": [
-    {
-     "lat": -24.076353,
-     "lon": -52.420255,
-     "coords": "-24.076353, -52.420255",
-     "falsa_cor": "Landsat (B5, B6, B4); Sentinel (B11, B8, B4)",
-     "tonalidade": "",
-     "textura": "Lisa e Homogênea",
-     "observacoes": "",
-     "pagina": 192,
-     "imagens": [
-      {
-       "src": "img/mata_atlantica/soja/ex1_landsat_seco.jpg",
-       "rotulo": "Landsat – seco"
-      },
-      {
-       "src": "img/mata_atlantica/soja/ex1_landsat_chuvoso.jpg",
-       "rotulo": "Landsat – chuvoso"
-      },
-      {
-       "src": "img/mata_atlantica/soja/ex1_sentinel_seco.jpg",
-       "rotulo": "Sentinel-2 – seco"
-      },
-      {
-       "src": "img/mata_atlantica/soja/ex1_sentinel_chuvoso.jpg",
-       "rotulo": "Sentinel-2 – chuvoso"
-      },
-      {
-       "src": "img/mata_atlantica/soja/ex1_google_earth.jpg",
-       "rotulo": "Google Earth"
-      }
-     ],
-     "grafico": "img/mata_atlantica/soja/ex1_grafico.jpg",
-     "mapa": "img/mata_atlantica/soja/ex1_mapa.jpg"
-    }
-   ]
-  },
   "arroz|mata_atlantica": {
    "descricao": "Áreas cultivadas com cultura de arroz, exclusivamente sob sistema de irrigação. Este mapa é o mesmo apresentado no módulo irrigação na classe \"Arroz Irrigado\".",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 195,
+   "pagina": 179,
    "exemplos": [
     {
      "lat": -23.17827,
@@ -3633,7 +3325,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 194,
+     "pagina": 178,
      "imagens": [
       {
        "src": "img/mata_atlantica/arroz/ex1_landsat_seco.jpg",
@@ -3665,7 +3357,7 @@ window.CHAVE = {
    "descricao": "Áreas cultivadas com a monocultura da cana-de-açúcar.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 181,
+   "pagina": 167,
    "exemplos": [
     {
      "lat": -7.062681,
@@ -3675,7 +3367,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 180,
+     "pagina": 166,
      "imagens": [
       {
        "src": "img/mata_atlantica/cana_de_acucar/ex1_landsat_seco.jpg",
@@ -3707,7 +3399,7 @@ window.CHAVE = {
    "descricao": "Áreas ocupadas com cultivos agrícolas de ciclo vegetativo longo (mais de um ano), que permitem colheitas sucessivas, sem necessidade de novo plantio.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 179,
+   "pagina": 165,
    "exemplos": [
     {
      "lat": -5.58043,
@@ -3717,7 +3409,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Rugosa e Homogênea",
      "observacoes": "",
-     "pagina": 178,
+     "pagina": 164,
      "imagens": [
       {
        "src": "img/mata_atlantica/cultivo_perene/ex1_landsat_seco.jpg",
@@ -3749,7 +3441,7 @@ window.CHAVE = {
    "descricao": "Espécies arbóreas plantadas para fins comerciais (ex. pinus, eucalipto, araucária).",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 185,
+   "pagina": 171,
    "exemplos": [
     {
      "lat": -12.18596564,
@@ -3759,7 +3451,7 @@ window.CHAVE = {
      "tonalidade": "Escura",
      "textura": "Lisa e Homogênea",
      "observacoes": "Delimitação com textura lisa (para este nível de detalhe da imagem) e homogênea; ver a diferença em relação à formação florestal ao lado. NDVI baixo com aumento para acima de 0,8, indicando o cultivo de espécie arbórea. Esse formato de silvicultura em meio a formações florestais é comum no bioma Mata Atlântica.",
-     "pagina": 182,
+     "pagina": 168,
      "imagens": [
       {
        "src": "img/mata_atlantica/silvicultura/ex1_landsat_seco.jpg",
@@ -3793,7 +3485,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 183,
+     "pagina": 169,
      "imagens": [
       {
        "src": "img/mata_atlantica/silvicultura/ex2_landsat_seco.jpg",
@@ -3827,7 +3519,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 184,
+     "pagina": 170,
      "imagens": [
       {
        "src": "img/mata_atlantica/silvicultura/ex3_landsat_seco.jpg",
@@ -3859,7 +3551,7 @@ window.CHAVE = {
    "descricao": "Cordões arenosos, de coloração branco brilhante, onde não há o predomínio de vegetação de nenhum tipo.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 161,
+   "pagina": 149,
    "exemplos": [
     {
      "lat": -12.323192,
@@ -3869,7 +3561,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 160,
+     "pagina": 148,
      "imagens": [
       {
        "src": "img/mata_atlantica/praia_duna_e_areial/ex1_landsat_seco.jpg",
@@ -3901,7 +3593,7 @@ window.CHAVE = {
    "descricao": "Áreas com significativa densidade de edificações e vias, incluindo infraestrutura e áreas livres de construções.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 163,
+   "pagina": 151,
    "exemplos": [
     {
      "lat": -21.795433,
@@ -3911,7 +3603,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 162,
+     "pagina": 150,
      "imagens": [
       {
        "src": "img/mata_atlantica/area_urbana/ex1_landsat_seco.jpg",
@@ -3939,53 +3631,11 @@ window.CHAVE = {
     }
    ]
   },
-  "vegetacao_urbana|mata_atlantica": {
-   "descricao": "",
-   "fonte": "chave",
-   "observacoes": "",
-   "pagina": 165,
-   "exemplos": [
-    {
-     "lat": -20.662028,
-     "lon": -43.764878,
-     "coords": "-20.662028, -43.764878",
-     "falsa_cor": "Landsat (B5, B6, B4); Sentinel (B11, B8, B4)",
-     "tonalidade": "",
-     "textura": "Rugosa e Heterogênea",
-     "observacoes": "",
-     "pagina": 164,
-     "imagens": [
-      {
-       "src": "img/mata_atlantica/vegetacao_urbana/ex1_landsat_seco.jpg",
-       "rotulo": "Landsat – seco"
-      },
-      {
-       "src": "img/mata_atlantica/vegetacao_urbana/ex1_landsat_chuvoso.jpg",
-       "rotulo": "Landsat – chuvoso"
-      },
-      {
-       "src": "img/mata_atlantica/vegetacao_urbana/ex1_sentinel_seco.jpg",
-       "rotulo": "Sentinel-2 – seco"
-      },
-      {
-       "src": "img/mata_atlantica/vegetacao_urbana/ex1_sentinel_chuvoso.jpg",
-       "rotulo": "Sentinel-2 – chuvoso"
-      },
-      {
-       "src": "img/mata_atlantica/vegetacao_urbana/ex1_google_earth.jpg",
-       "rotulo": "Google Earth"
-      }
-     ],
-     "grafico": "img/mata_atlantica/vegetacao_urbana/ex1_grafico.jpg",
-     "mapa": "img/mata_atlantica/vegetacao_urbana/ex1_mapa.jpg"
-    }
-   ]
-  },
   "mineracao|mata_atlantica": {
    "descricao": "Áreas referentes a extração mineral superficial, de porte industrial ou garimpeiro, havendo clara exposição do solo por ação antrópica. Não são passíveis de detecção nenhum tipo de mineração subterrânea ou subaquática.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 187,
+   "pagina": 173,
    "exemplos": [
     {
      "lat": -23.657,
@@ -3995,7 +3645,7 @@ window.CHAVE = {
      "tonalidade": "Escura",
      "textura": "Lisa e Heterogênea",
      "observacoes": "NDVI abaixo de 0,15 aponta ausência de vegetação. Manchas de solo exposto e lagoas próximas indicam a atividade de mineração.",
-     "pagina": 186,
+     "pagina": 172,
      "imagens": [
       {
        "src": "img/mata_atlantica/mineracao/ex1_landsat_seco.jpg",
@@ -4027,7 +3677,7 @@ window.CHAVE = {
    "descricao": "Áreas naturais com solo exposto resultantes de eventos climáticos (deslizamentos, inundações) e áreas com superfícies não permeáveis (infraestrutura, expansão urbana ou mineração) que não foram mapeadas dentro de suas respectivas classes.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 189,
+   "pagina": 175,
    "exemplos": [
     {
      "lat": -20.543164,
@@ -4037,7 +3687,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 188,
+     "pagina": 174,
      "imagens": [
       {
        "src": "img/mata_atlantica/outras_areas_nao_vegetadas/ex1_landsat_seco.jpg",
@@ -4069,7 +3719,7 @@ window.CHAVE = {
    "descricao": "Rios, lagos, represas, reservatórios e outros corpos d'água.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 167,
+   "pagina": 153,
    "exemplos": [
     {
      "lat": -22.826497,
@@ -4079,7 +3729,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 166,
+     "pagina": 152,
      "imagens": [
       {
        "src": "img/mata_atlantica/rio_lago_e_oceano/ex1_landsat_seco.jpg",
@@ -4111,7 +3761,7 @@ window.CHAVE = {
    "descricao": "Área referente a lagos artificiais, onde predominam atividades aquícolas e/ou de salicultura.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 191,
+   "pagina": 177,
    "exemplos": [
     {
      "lat": -24.7182,
@@ -4121,7 +3771,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 190,
+     "pagina": 176,
      "imagens": [
       {
        "src": "img/mata_atlantica/aquicultura/ex1_landsat_seco.jpg",
@@ -4153,7 +3803,7 @@ window.CHAVE = {
    "descricao": "Árvores altas e arbustos no estrato inferior: Floresta Estacional Decidual e Semidecidual, Savana Florestada, Savana-Estépica Florestada e Formações Pioneiras com influência fluvial e/ou lacustre.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 200,
+   "pagina": 184,
    "exemplos": [
     {
      "lat": -18.4444,
@@ -4163,7 +3813,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 198,
+     "pagina": 182,
      "imagens": [
       {
        "src": "img/pantanal/formacao_florestal/ex1_landsat_seco.jpg",
@@ -4197,7 +3847,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 199,
+     "pagina": 183,
      "imagens": [
       {
        "src": "img/pantanal/formacao_florestal/ex2_landsat_seco.jpg",
@@ -4229,7 +3879,7 @@ window.CHAVE = {
    "descricao": "Espécies arbóreas de pequeno porte, distribuídas de forma esparsa e dispostas em meio à vegetação contínua de porte arbustivo e herbáceo. A vegetação herbácea se mistura com arbustos eretos e decumbentes.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 202,
+   "pagina": 186,
    "exemplos": [
     {
      "lat": -18.1482,
@@ -4239,7 +3889,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 201,
+     "pagina": 185,
      "imagens": [
       {
        "src": "img/pantanal/formacao_savanica/ex1_landsat_seco.jpg",
@@ -4271,7 +3921,7 @@ window.CHAVE = {
    "descricao": "Vegetação com predomínio de estrato herbáceo graminóide, com presença de arbustivas isoladas e lenhosas raquíticas. A composição botânica é influenciada pelos gradientes edáficos e topográficos e pelo manejo pastoril (pecuária). Manchas de vegetação exótica invasora ou de uso forrageiro (pastagem plantada) podem estar presentes formando mosaicos com a vegetação nativa.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 204,
+   "pagina": 188,
    "exemplos": [
     {
      "lat": -18.994711,
@@ -4281,7 +3931,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
-     "pagina": 203,
+     "pagina": 187,
      "imagens": [
       {
        "src": "img/pantanal/formacao_campestre/ex1_landsat_seco.jpg",
@@ -4313,7 +3963,7 @@ window.CHAVE = {
    "descricao": "Vegetação herbácea com predomínio de gramíneas sujeitas ao alagamento permanente ou temporário (pelo menos uma vez ao ano) de acordo com os pulsos naturais de inundação. O elemento lenhoso pode estar presente sobre a matriz campestre formando um mosaico com plantas arbustivas ou arbóreas (ex: cambarazal, paratudal e carandazal). As áreas pantanosas ocorrem geralmente nas margens das lagoas temporárias ou permanentes ocupadas por plantas aquáticas emergentes, submersas ou flutuantes (ex: brejos e baceiros). Áreas com superfície de água, mas de difícil classificação devido a quantidade de macrófitas, eutrofização ou sedimentos, também foram incluídas nesta categoria.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 206,
+   "pagina": 190,
    "exemplos": [
     {
      "lat": -18.5527,
@@ -4323,7 +3973,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 205,
+     "pagina": 189,
      "imagens": [
       {
        "src": "img/pantanal/campo_alagado_e_area_pantanosa/ex1_landsat_seco.jpg",
@@ -4355,7 +4005,7 @@ window.CHAVE = {
    "descricao": "Superfícies rochosas naturalmente expostas com pouca ou nenhuma cobertura de solo e vegetação mínima",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 208,
+   "pagina": 192,
    "exemplos": [
     {
      "lat": -17.898081,
@@ -4365,7 +4015,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 207,
+     "pagina": 191,
      "imagens": [
       {
        "src": "img/pantanal/afloramento_rochoso/ex1_landsat_seco.jpg",
@@ -4397,7 +4047,7 @@ window.CHAVE = {
    "descricao": "Áreas de pastagem plantadas, diretamente relacionadas à atividade agropecuária. As áreas de pastagem natural, por sua vez, são predominantemente caracterizadas como formações campestres ou campo alagado, podendo ser submetidas ou não a práticas de pastejo. Podem ocorrer áreas desmatadas recentemente, sem ainda ter iniciado a atividade agropecuária. Pode conter também áreas em estágios iniciais de regeneração. Pequenas áreas agrícolas podem estar contidas.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 217,
+   "pagina": 199,
    "exemplos": [
     {
      "lat": -21.82170035,
@@ -4407,7 +4057,7 @@ window.CHAVE = {
      "tonalidade": "Clara",
      "textura": "Lisa e Heterogênea",
      "observacoes": "Delimitação que indica que houve desmatamento da vegetação nativa. Manchas características de áreas que sofrem alagamento, típicas do bioma Pantanal. Solo exposto em regiões de alagamento em que a gramínea exótica não sobrevive. Bebedouros para gado. NDVI médio, típico de gramínea.",
-     "pagina": 215,
+     "pagina": 197,
      "imagens": [
       {
        "src": "img/pantanal/pastagem/ex1_landsat_seco.jpg",
@@ -4441,7 +4091,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
-     "pagina": 216,
+     "pagina": 198,
      "imagens": [
       {
        "src": "img/pantanal/pastagem/ex2_landsat_seco.jpg",
@@ -4473,7 +4123,7 @@ window.CHAVE = {
    "descricao": "Áreas ocupadas com cultivos agrícolas de curta ou média duração, geralmente com ciclo vegetativo inferior a um ano, que após a colheita necessitam de novo plantio para produzir.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 219,
+   "pagina": 201,
    "exemplos": [
     {
      "lat": -20.39358,
@@ -4483,7 +4133,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 218,
+     "pagina": 200,
      "imagens": [
       {
        "src": "img/pantanal/cultivo_temporario/ex1_landsat_seco.jpg",
@@ -4511,53 +4161,11 @@ window.CHAVE = {
     }
    ]
   },
-  "soja|pantanal": {
-   "descricao": "Áreas cultivadas com a monocultura da soja (primeira safra).",
-   "fonte": "legenda",
-   "observacoes": "",
-   "pagina": 229,
-   "exemplos": [
-    {
-     "lat": -16.196889,
-     "lon": -57.680637,
-     "coords": "-16.196889, -57.680637",
-     "falsa_cor": "Landsat (B5, B6, B4); Sentinel (B11, B8, B4)",
-     "tonalidade": "",
-     "textura": "Lisa e Homogênea",
-     "observacoes": "",
-     "pagina": 228,
-     "imagens": [
-      {
-       "src": "img/pantanal/soja/ex1_landsat_seco.jpg",
-       "rotulo": "Landsat – seco"
-      },
-      {
-       "src": "img/pantanal/soja/ex1_landsat_chuvoso.jpg",
-       "rotulo": "Landsat – chuvoso"
-      },
-      {
-       "src": "img/pantanal/soja/ex1_sentinel_seco.jpg",
-       "rotulo": "Sentinel-2 – seco"
-      },
-      {
-       "src": "img/pantanal/soja/ex1_sentinel_chuvoso.jpg",
-       "rotulo": "Sentinel-2 – chuvoso"
-      },
-      {
-       "src": "img/pantanal/soja/ex1_google_earth.jpg",
-       "rotulo": "Google Earth"
-      }
-     ],
-     "grafico": "img/pantanal/soja/ex1_grafico.jpg",
-     "mapa": "img/pantanal/soja/ex1_mapa.jpg"
-    }
-   ]
-  },
   "arroz|pantanal": {
    "descricao": "Áreas cultivadas com cultura de arroz, exclusivamente sob sistema de irrigação. Este mapa é o mesmo apresentado no módulo irrigação na classe \"Arroz Irrigado\".",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 231,
+   "pagina": 211,
    "exemplos": [
     {
      "lat": -20.26477112,
@@ -4567,7 +4175,7 @@ window.CHAVE = {
      "tonalidade": "Escura",
      "textura": "Lisa e Homogênea",
      "observacoes": "Padrão de pequenos talhões; a coloração indica umidade (vermelho + azul) e há dutos de irrigação, características do plantio de arroz. O NDVI varia de 0,2 a 1 em alguns meses e volta a 0,2, indicando cultivo e colheita.",
-     "pagina": 230,
+     "pagina": 210,
      "imagens": [
       {
        "src": "img/pantanal/arroz/ex1_landsat_seco.jpg",
@@ -4599,7 +4207,7 @@ window.CHAVE = {
    "descricao": "Áreas cultivadas com a monocultura da cana-de-açúcar.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 221,
+   "pagina": 203,
    "exemplos": [
     {
      "lat": -15.7673,
@@ -4609,7 +4217,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 220,
+     "pagina": 202,
      "imagens": [
       {
        "src": "img/pantanal/cana_de_acucar/ex1_landsat_seco.jpg",
@@ -4641,7 +4249,7 @@ window.CHAVE = {
    "descricao": "Espécies arbóreas plantadas para fins comerciais (ex. pinus, eucalipto, araucária).",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 223,
+   "pagina": 205,
    "exemplos": [
     {
      "lat": -16.174786,
@@ -4651,7 +4259,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Rugosa e Homogênea",
      "observacoes": "",
-     "pagina": 222,
+     "pagina": 204,
      "imagens": [
       {
        "src": "img/pantanal/silvicultura/ex1_landsat_seco.jpg",
@@ -4683,7 +4291,7 @@ window.CHAVE = {
    "descricao": "Áreas com significativa densidade de edificações e vias, incluindo infraestrutura e áreas livres de construções.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 210,
+   "pagina": 194,
    "exemplos": [
     {
      "lat": -16.095833,
@@ -4693,7 +4301,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 209,
+     "pagina": 193,
      "imagens": [
       {
        "src": "img/pantanal/area_urbana/ex1_landsat_seco.jpg",
@@ -4721,53 +4329,11 @@ window.CHAVE = {
     }
    ]
   },
-  "vegetacao_urbana|pantanal": {
-   "descricao": "",
-   "fonte": "chave",
-   "observacoes": "",
-   "pagina": 212,
-   "exemplos": [
-    {
-     "lat": -16.05908,
-     "lon": -57.65819,
-     "coords": "-16.05908, -57.65819",
-     "falsa_cor": "Landsat (B5, B6, B4); Sentinel (B11, B8, B4)",
-     "tonalidade": "",
-     "textura": "Rugosa e Heterogênea",
-     "observacoes": "",
-     "pagina": 211,
-     "imagens": [
-      {
-       "src": "img/pantanal/vegetacao_urbana/ex1_landsat_seco.jpg",
-       "rotulo": "Landsat – seco"
-      },
-      {
-       "src": "img/pantanal/vegetacao_urbana/ex1_landsat_chuvoso.jpg",
-       "rotulo": "Landsat – chuvoso"
-      },
-      {
-       "src": "img/pantanal/vegetacao_urbana/ex1_sentinel_seco.jpg",
-       "rotulo": "Sentinel-2 – seco"
-      },
-      {
-       "src": "img/pantanal/vegetacao_urbana/ex1_sentinel_chuvoso.jpg",
-       "rotulo": "Sentinel-2 – chuvoso"
-      },
-      {
-       "src": "img/pantanal/vegetacao_urbana/ex1_google_earth.jpg",
-       "rotulo": "Google Earth"
-      }
-     ],
-     "grafico": "img/pantanal/vegetacao_urbana/ex1_grafico.jpg",
-     "mapa": "img/pantanal/vegetacao_urbana/ex1_mapa.jpg"
-    }
-   ]
-  },
   "mineracao|pantanal": {
    "descricao": "Áreas referentes a extração mineral superficial, de porte industrial ou garimpeiro, havendo clara exposição do solo por ação antrópica. Não são passíveis de detecção nenhum tipo de mineração subterrânea ou subaquática.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 225,
+   "pagina": 207,
    "exemplos": [
     {
      "lat": -19.211708,
@@ -4777,7 +4343,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
-     "pagina": 224,
+     "pagina": 206,
      "imagens": [
       {
        "src": "img/pantanal/mineracao/ex1_landsat_seco.jpg",
@@ -4809,7 +4375,7 @@ window.CHAVE = {
    "descricao": "Áreas de solo exposto (principalmente solo arenoso) não classificadas na classe de Formação Campestre ou Pastagem.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 227,
+   "pagina": 209,
    "exemplos": [
     {
      "lat": -18.806,
@@ -4819,7 +4385,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 226,
+     "pagina": 208,
      "imagens": [
       {
        "src": "img/pantanal/outras_areas_nao_vegetadas/ex1_landsat_seco.jpg",
@@ -4851,7 +4417,7 @@ window.CHAVE = {
    "descricao": "Rios, lagos, represas, reservatórios e outros corpos d'água.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 214,
+   "pagina": 196,
    "exemplos": [
     {
      "lat": -16.5188,
@@ -4861,7 +4427,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 213,
+     "pagina": 195,
      "imagens": [
       {
        "src": "img/pantanal/rio_lago_e_oceano/ex1_landsat_seco.jpg",
@@ -4893,7 +4459,7 @@ window.CHAVE = {
    "descricao": "Vegetação lenhosa com espécies arbóreas ou arbóreo-arbustivas, com predomínio de dossel contínuo. Inclui as tipologias florestais: ombrófila, estacional decidual e semi-decidual e parte das formações pioneiras.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 235,
+   "pagina": 215,
    "exemplos": [
     {
      "lat": -31.9515,
@@ -4903,7 +4469,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 234,
+     "pagina": 214,
      "imagens": [
       {
        "src": "img/pampa/formacao_florestal/ex1_landsat_seco.jpg",
@@ -4935,7 +4501,7 @@ window.CHAVE = {
    "descricao": "Vegetação com predomínio de estrato herbáceo graminóide, com presença de dicotiledôneas herbáceas e subarbustivas. A composição botânica é influenciada pelos gradientes edáficos e topográficos e pelo manejo pastoril (pecuária). Ocorrem em solos profundos até solos rasos, incluindo terrenos rochosos (campos rupestres) e arenosos (campos arenosos ou psamófilos). Ocupam desde solos bem drenados (campos mésicos), até solos com maior teor de umidade (campos úmidos - com presença marcante de ciperáceas). Na maioria dos casos corresponde à vegetação nativa, mas podem estar presentes manchas de vegetação exótica invasora ou de uso forrageiro (pastagem plantada).",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 237,
+   "pagina": 217,
    "exemplos": [
     {
      "lat": -30.898,
@@ -4945,7 +4511,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
-     "pagina": 236,
+     "pagina": 216,
      "imagens": [
       {
        "src": "img/pampa/formacao_campestre/ex1_landsat_seco.jpg",
@@ -4977,7 +4543,7 @@ window.CHAVE = {
    "descricao": "Áreas pantanosas, denominadas regionalmente de banhados. Vegetação tipicamente higrófila, com plantas aquáticas emergentes, submersas ou flutuantes. Ocupam planícies e depressões do terreno com solo encharcado e também as margens rasas de lagoas ou reservatórios de água.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 239,
+   "pagina": 219,
    "exemplos": [
     {
      "lat": -31.98724,
@@ -4987,7 +4553,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
-     "pagina": 238,
+     "pagina": 218,
      "imagens": [
       {
        "src": "img/pampa/campo_alagado_e_area_pantanosa/ex1_landsat_seco.jpg",
@@ -5019,7 +4585,7 @@ window.CHAVE = {
    "descricao": "Rochas naturalmente expostas na superfície terrestre sem cobertura de solo, muitas vezes com presença parcial de vegetação rupícola.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 241,
+   "pagina": 221,
    "exemplos": [
     {
      "lat": -30.830174,
@@ -5029,7 +4595,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 240,
+     "pagina": 220,
      "imagens": [
       {
        "src": "img/pampa/afloramento_rochoso/ex1_landsat_seco.jpg",
@@ -5061,7 +4627,7 @@ window.CHAVE = {
    "descricao": "Vegetação herbácea que se estabelece sobre solos arenosos ou sobre dunas na zona costeira.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 251,
+   "pagina": 229,
    "exemplos": [
     {
      "lat": -30.36912,
@@ -5071,7 +4637,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 250,
+     "pagina": 228,
      "imagens": [
       {
        "src": "img/pampa/restinga_herbacea/ex1_landsat_seco.jpg",
@@ -5103,7 +4669,7 @@ window.CHAVE = {
    "descricao": "Áreas ocupadas com cultivos agrícolas de curta ou média duração, geralmente com ciclo vegetativo inferior a um ano, que após a colheita necessitam de novo plantio para produzir.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 254,
+   "pagina": 232,
    "exemplos": [
     {
      "lat": -29.982,
@@ -5113,7 +4679,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 252,
+     "pagina": 230,
      "imagens": [
       {
        "src": "img/pampa/cultivo_temporario/ex1_landsat_seco.jpg",
@@ -5147,7 +4713,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 253,
+     "pagina": 231,
      "imagens": [
       {
        "src": "img/pampa/cultivo_temporario/ex2_landsat_seco.jpg",
@@ -5175,53 +4741,11 @@ window.CHAVE = {
     }
    ]
   },
-  "soja|pampa": {
-   "descricao": "Áreas cultivadas com a monocultura da soja (primeira safra).",
-   "fonte": "legenda",
-   "observacoes": "",
-   "pagina": 268,
-   "exemplos": [
-    {
-     "lat": -30.162357,
-     "lon": -50.529081,
-     "coords": "-30.162357, -50.529081",
-     "falsa_cor": "Landsat (B5, B6, B4); Sentinel (B11, B8, B4)",
-     "tonalidade": "",
-     "textura": "Lisa e Homogênea",
-     "observacoes": "",
-     "pagina": 267,
-     "imagens": [
-      {
-       "src": "img/pampa/soja/ex1_landsat_seco.jpg",
-       "rotulo": "Landsat – seco"
-      },
-      {
-       "src": "img/pampa/soja/ex1_landsat_chuvoso.jpg",
-       "rotulo": "Landsat – chuvoso"
-      },
-      {
-       "src": "img/pampa/soja/ex1_sentinel_seco.jpg",
-       "rotulo": "Sentinel-2 – seco"
-      },
-      {
-       "src": "img/pampa/soja/ex1_sentinel_chuvoso.jpg",
-       "rotulo": "Sentinel-2 – chuvoso"
-      },
-      {
-       "src": "img/pampa/soja/ex1_google_earth.jpg",
-       "rotulo": "Google Earth"
-      }
-     ],
-     "grafico": "img/pampa/soja/ex1_grafico.jpg",
-     "mapa": "img/pampa/soja/ex1_mapa.jpg"
-    }
-   ]
-  },
   "arroz|pampa": {
    "descricao": "Áreas cultivadas com cultura de arroz, exclusivamente sob sistema de irrigação. Este mapa é o mesmo apresentado no módulo irrigação na classe \"Arroz Irrigado\".",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 270,
+   "pagina": 246,
    "exemplos": [
     {
      "lat": -33.160594,
@@ -5231,7 +4755,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 269,
+     "pagina": 245,
      "imagens": [
       {
        "src": "img/pampa/arroz/ex1_landsat_seco.jpg",
@@ -5263,7 +4787,7 @@ window.CHAVE = {
    "descricao": "Áreas cultivadas com a monocultura da cana-de-açúcar.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 258,
+   "pagina": 236,
    "exemplos": [
     {
      "lat": null,
@@ -5273,10 +4797,10 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "",
      "observacoes": "",
-     "pagina": 257,
+     "pagina": 235,
      "imagens": [],
      "grafico": "img/pampa/cana_de_acucar/ex1_grafico.jpg",
-     "mapa": "img/pampa/cana_de_acucar/ex1_mapa.jpg"
+     "mapa": ""
     }
    ]
   },
@@ -5284,7 +4808,7 @@ window.CHAVE = {
    "descricao": "Áreas ocupadas com cultivos agrícolas de ciclo vegetativo longo (mais de um ano), que permitem colheitas sucessivas, sem necessidade de novo plantio.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 256,
+   "pagina": 234,
    "exemplos": [
     {
      "lat": -30.8093,
@@ -5294,7 +4818,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Rugosa e Homogênea",
      "observacoes": "",
-     "pagina": 255,
+     "pagina": 233,
      "imagens": [
       {
        "src": "img/pampa/cultivo_perene/ex1_landsat_seco.jpg",
@@ -5326,7 +4850,7 @@ window.CHAVE = {
    "descricao": "Espécies arbóreas plantadas para fins comerciais (ex. pinus, eucalipto, araucária).",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 260,
+   "pagina": 238,
    "exemplos": [
     {
      "lat": -30.175486,
@@ -5336,7 +4860,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Rugosa e Homogênea",
      "observacoes": "",
-     "pagina": 259,
+     "pagina": 237,
      "imagens": [
       {
        "src": "img/pampa/silvicultura/ex1_landsat_seco.jpg",
@@ -5368,7 +4892,7 @@ window.CHAVE = {
    "descricao": "Cordões arenosos, de coloração branco brilhante, onde não há o predomínio de vegetação de nenhum tipo.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 243,
+   "pagina": 223,
    "exemplos": [
     {
      "lat": -30.37574,
@@ -5378,7 +4902,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 242,
+     "pagina": 222,
      "imagens": [
       {
        "src": "img/pampa/praia_duna_e_areial/ex1_landsat_seco.jpg",
@@ -5410,7 +4934,7 @@ window.CHAVE = {
    "descricao": "Áreas com significativa densidade de edificações e vias, incluindo infraestrutura e áreas livres de construções.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 245,
+   "pagina": 225,
    "exemplos": [
     {
      "lat": -31.7722,
@@ -5420,7 +4944,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 244,
+     "pagina": 224,
      "imagens": [
       {
        "src": "img/pampa/area_urbana/ex1_landsat_seco.jpg",
@@ -5448,53 +4972,11 @@ window.CHAVE = {
     }
    ]
   },
-  "vegetacao_urbana|pampa": {
-   "descricao": "",
-   "fonte": "chave",
-   "observacoes": "",
-   "pagina": 247,
-   "exemplos": [
-    {
-     "lat": -29.960433,
-     "lon": -51.188256,
-     "coords": "-29.960433, -51.188256",
-     "falsa_cor": "Landsat (B5, B6, B4); Sentinel (B11, B8, B4)",
-     "tonalidade": "",
-     "textura": "Rugosa e Heterogênea",
-     "observacoes": "",
-     "pagina": 246,
-     "imagens": [
-      {
-       "src": "img/pampa/vegetacao_urbana/ex1_landsat_seco.jpg",
-       "rotulo": "Landsat – seco"
-      },
-      {
-       "src": "img/pampa/vegetacao_urbana/ex1_landsat_chuvoso.jpg",
-       "rotulo": "Landsat – chuvoso"
-      },
-      {
-       "src": "img/pampa/vegetacao_urbana/ex1_sentinel_seco.jpg",
-       "rotulo": "Sentinel-2 – seco"
-      },
-      {
-       "src": "img/pampa/vegetacao_urbana/ex1_sentinel_chuvoso.jpg",
-       "rotulo": "Sentinel-2 – chuvoso"
-      },
-      {
-       "src": "img/pampa/vegetacao_urbana/ex1_google_earth.jpg",
-       "rotulo": "Google Earth"
-      }
-     ],
-     "grafico": "img/pampa/vegetacao_urbana/ex1_grafico.jpg",
-     "mapa": "img/pampa/vegetacao_urbana/ex1_mapa.jpg"
-    }
-   ]
-  },
   "mineracao|pampa": {
    "descricao": "Áreas referentes a extração mineral superficial, de porte industrial ou garimpeiro, havendo clara exposição do solo por ação antrópica. Não são passíveis de detecção nenhum tipo de mineração subterrânea ou subaquática.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 262,
+   "pagina": 240,
    "exemplos": [
     {
      "lat": -31.586689,
@@ -5504,7 +4986,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
-     "pagina": 261,
+     "pagina": 239,
      "imagens": [
       {
        "src": "img/pampa/mineracao/ex1_landsat_seco.jpg",
@@ -5536,7 +5018,7 @@ window.CHAVE = {
    "descricao": "Classe mista que contempla áreas naturais e áreas antropizadas. As áreas naturais incluem superfícies arenosas como as praias fluviais e os areais. As áreas antropizadas incluem áreas de solo exposto e superfícies não permeáveis (infra-estrutura, expansão urbana ou mineração).",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 264,
+   "pagina": 242,
    "exemplos": [
     {
      "lat": -29.8389,
@@ -5546,7 +5028,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 263,
+     "pagina": 241,
      "imagens": [
       {
        "src": "img/pampa/outras_areas_nao_vegetadas/ex1_landsat_seco.jpg",
@@ -5578,7 +5060,7 @@ window.CHAVE = {
    "descricao": "Rios, lagos, represas, reservatórios e outros corpos d'água.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 249,
+   "pagina": 227,
    "exemplos": [
     {
      "lat": -29.7683,
@@ -5588,7 +5070,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 248,
+     "pagina": 226,
      "imagens": [
       {
        "src": "img/pampa/rio_lago_e_oceano/ex1_landsat_seco.jpg",
@@ -5620,7 +5102,7 @@ window.CHAVE = {
    "descricao": "Área referente a lagos artificiais, onde predominam atividades aquícolas e/ou de salicultura.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 266,
+   "pagina": 244,
    "exemplos": [
     {
      "lat": -29.922506,
@@ -5630,7 +5112,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 265,
+     "pagina": 243,
      "imagens": [
       {
        "src": "img/pampa/aquicultura/ex1_landsat_seco.jpg",

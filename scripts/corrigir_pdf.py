@@ -13,6 +13,7 @@ Uso:
   python scripts/corrigir_pdf.py "C:/caminho/Interpretando o brasil.pdf" Interpretando_o_Brasil.pdf
 """
 import csv
+import json
 import sys
 import unicodedata
 from pathlib import Path
@@ -28,6 +29,10 @@ from legenda_mapbiomas import descricao_oficial, ler_legenda  # noqa: E402
 FONTE_R = str(AQUI / "fontes" / "Montserrat-Regular.ttf")
 FONTE_B = str(AQUI / "fontes" / "Montserrat-Bold.ttf")
 F_R, F_B = fitz.Font(fontfile=FONTE_R), fitz.Font(fontfile=FONTE_B)
+# Classes retiradas da chave: páginas excluídas e item removido das listas de cada bioma
+EXCLUIR = {"Vegetação Urbana", "Soja"}
+CINZA_CAIXA = (0.937, 0.937, 0.937)
+
 BIOMAS = {"AMAZONIA": "amazonia", "CERRADO": "cerrado", "CAATINGA": "caatinga",
           "MATAATLANTICA": "mata_atlantica", "PANTANAL": "pantanal", "PAMPA": "pampa"}
 
@@ -109,6 +114,15 @@ def main(entrada, saida):
     exemplos = {e["pagina"]: e for e in ler("exemplos.csv")}
 
     doc = fitz.open(entrada)
+    excluir_paginas = []
+    fichas, ordem_classes = {}, []
+    for pg in doc:
+        b = lado(pg)
+        tt = next((l for l in linhas_da_pagina(pg) if l["tam"] > 20 and l["rect"].y0 < 40), None)
+        if b and tt and tt["texto"] not in EXCLUIR:
+            fichas.setdefault(b, set()).add(tt["texto"])
+            if tt["texto"] not in ordem_classes:
+                ordem_classes.append(tt["texto"])
     log = {"títulos": 0, "listas": 0, "descrições": 0, "campos": 0, "observações": 0}
     for i, p in enumerate(doc):
         n = str(i + 1)
@@ -124,13 +138,56 @@ def main(entrada, saida):
             escrever.append(lambda p, l=titulo, t=novo_nome[nome_pdf]: centralizado(p, l, t, FONTE_B, F_B, 600))
             log["títulos"] += 1
 
-        # 2) listas de classes (páginas de abertura de cada bioma)
-        if titulo and sem_acento(nome_pdf).upper().replace(" ", "") in BIOMAS:
-            for l in linhas:
-                if abs(l["tam"] - 14) < 0.5 and l["texto"] in novo_nome:
-                    apagar_rects.append(l["rect"])
-                    escrever.append(lambda p, l=l, t=novo_nome[l["texto"]]: centralizado(p, l, t, FONTE_R, F_R, 235))
+        # 2) listas de classes (páginas de abertura de cada bioma): sincroniza com as fichas existentes
+        caixas_remover, caixas_novas = [], []
+        chave_bioma = sem_acento(nome_pdf).upper().replace(" ", "") if titulo else ""
+        if chave_bioma in BIOMAS:
+            bio = BIOMAS[chave_bioma]
+            itens = [l for l in linhas if abs(l["tam"] - 14) < 0.5]
+            caixas = [d["rect"] for d in p.get_drawings()
+                      if d.get("fill") and all(abs(a - b) < 0.01 for a, b in zip(d["fill"], CINZA_CAIXA))
+                      and 20 < d["rect"].height < 30]
+            na_lista = {l["texto"] for l in itens}
+            faltando = [c for c in ordem_classes if c in fichas.get(bio, set()) and c not in na_lista]
+            colunas = []
+            for esquerda in (True, False):
+                col = sorted([l for l in itens if ((l["rect"].x0 + l["rect"].x1) / 2 < 360) == esquerda],
+                             key=lambda l: l["rect"].y0)
+                cxs = sorted([r for r in caixas if ((r.x0 + r.x1) / 2 < 360) == esquerda], key=lambda r: r.y0)
+                fica = [l for l in col if l["texto"] not in EXCLUIR and l["texto"] in fichas.get(bio, set())]
+                colunas.append({"col": col, "caixas": cxs, "fica": fica})
+            # itens que faltam vão para o fim da coluna mais curta
+            for c in faltando:
+                alvo = min(colunas, key=lambda k: len(k["fica"]))
+                alvo["fica"].append({"texto": c, "novo": True})
+            for k in colunas:
+                col, cxs, fica = k["col"], k["caixas"], k["fica"]
+                if not col:
+                    continue
+                passo = (col[-1]["origem"][1] - col[0]["origem"][1]) / max(len(col) - 1, 1) if len(col) > 1 else 29.6
+                passo_cx = (cxs[-1].y0 - cxs[0].y0) / max(len(cxs) - 1, 1) if len(cxs) > 1 else passo
+                for j, l in enumerate(fica):
+                    mesma_pos = j < len(col) and col[j] is l
+                    nome = novo_nome.get(l["texto"], l["texto"])
+                    if mesma_pos and nome == l["texto"]:
+                        continue
+                    if j < len(col):
+                        y = col[j]["origem"][1]
+                    else:
+                        y = col[-1]["origem"][1] + passo * (j - len(col) + 1)
+                    base = col[0]
+                    alvo = dict(base, origem=(base["origem"][0], y))
+                    escrever.append(lambda p, a=alvo, t=nome: centralizado(p, a, t, FONTE_R, F_R, 280))
+                    if j >= len(cxs) and cxs:
+                        r = cxs[-1]
+                        caixas_novas.append(fitz.Rect(r.x0, r.y0 + passo_cx * (j - len(cxs) + 1),
+                                                      r.x1, r.y1 + passo_cx * (j - len(cxs) + 1)))
                     log["listas"] += 1
+                # apaga os textos que mudaram de lugar ou saíram
+                for j, l in enumerate(col):
+                    if not (j < len(fica) and fica[j] is l and novo_nome.get(l["texto"], l["texto"]) == l["texto"]):
+                        apagar_rects.append(l["rect"])
+                caixas_remover += cxs[len(fica):]
 
         # 3) páginas de descrição
         if n in descr and any(l["texto"].startswith("Descrição:") for l in linhas):
@@ -157,6 +214,22 @@ def main(entrada, saida):
                         escrever.append(lambda p, l=l, t=f"{rotulo} {c[campo]}": p.insert_text(
                             l["origem"], t, fontsize=l["tam"], fontname="F0", fontfile=FONTE_R))
                         log["campos"] += 1
+            if "mapa" in c:
+                comp = [b for b in p.get_image_info() if (b["width"], b["height"]) == (2048, 984)]
+                if comp:
+                    bx0, by0, bx1, by1 = comp[0]["bbox"]
+                    fx, fy = (bx1 - bx0) / 2048, (by1 - by0) / 984
+                    area = fitz.Rect(bx0 + 1542 * fx, by0 + 640 * fy, bx0 + 2034 * fx, by0 + 980 * fy)
+                else:
+                    area = fitz.Rect(572, 213, 697, 335)
+                novo_mapa = str(RAIZ / c["mapa"]) if c["mapa"] else ""
+
+                def troca_mapa(p, area=area, arq=novo_mapa):
+                    p.draw_rect(area, color=None, fill=(1, 1, 1), overlay=True)
+                    if arq:
+                        p.insert_image(area, filename=arq, keep_proportion=True, overlay=True)
+                escrever.append(troca_mapa)
+                log["mapas"] = log.get("mapas", 0) + 1
             if "observacoes" in c:
                 obs = [l for l in linhas if l["rect"].x0 > 245 and l["rect"].y0 > 345 and l["tam"] < 9]
                 if obs:
@@ -171,11 +244,30 @@ def main(entrada, saida):
                             p, fitz.Rect(258, 350, 695, 396), t, tam, FONTE_R, fitz.TEXT_ALIGN_LEFT, 5))
                     log["observações"] += 1
 
+        if titulo and nome_pdf in EXCLUIR and bioma:
+            excluir_paginas.append(i)
+            continue
         if apagar_rects:
             apagar(p, apagar_rects)
+        if apagar_rects or escrever:
             for f in escrever:
                 f(p)
+        for r in caixas_novas:
+            p.draw_rect(r, color=None, fill=CINZA_CAIXA, radius=0.2, overlay=False)
+        if caixas_remover:
+            for r in caixas_remover:
+                p.add_redact_annot(r, fill=False)
+            p.apply_redactions(images=fitz.PDF_REDACT_IMAGE_NONE,
+                               graphics=fitz.PDF_REDACT_LINE_ART_REMOVE_IF_COVERED,
+                               text=fitz.PDF_REDACT_TEXT_NONE)
 
+    total = len(doc)
+    mantidas = [i for i in range(total) if i not in set(excluir_paginas)]
+    mapa = {str(i + 1): novo + 1 for novo, i in enumerate(mantidas)}
+    if excluir_paginas:
+        doc.delete_pages(excluir_paginas)
+    (DADOS / "paginas_pdf.json").write_text(json.dumps(mapa), encoding="utf-8")
+    log["páginas retiradas"] = len(excluir_paginas)
     doc.save(saida, garbage=3, deflate=True)
     print(f"{saida}: " + ", ".join(f"{k} {v}" for k, v in log.items()))
 

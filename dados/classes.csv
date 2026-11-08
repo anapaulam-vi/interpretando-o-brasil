@@ -10,14 +10,12 @@ Apicum;Apicum;Vegetação Herbácea e Arbustiva;#fc8114;32;Apicum
 Restinga Herbácea;Restinga Herbácea ou Arbustiva;Vegetação Herbácea e Arbustiva;#ad5100;50;Restinga Herbácea
 Pastagem;Pastagem;Agropecuária;#edde8e;15;Pastagem
 Cultivo Temporário;Lavoura Temporária;Agropecuária;#c27ba0;19;Outras Lavouras Temporárias
-Soja;Soja;Agropecuária;#f5b3c8;39;Soja
 Arroz;Arroz;Agropecuária;#c71585;40;Arroz
 Cana-de-açúcar;Cana;Agropecuária;#db7093;20;Cana
 Cultivo Perene;Lavoura Perene;Agropecuária;#d082de;36;Outras Lavouras Perenes
 Silvicultura;Silvicultura;Agropecuária;#7a5900;9;Silvicultura
 Praia, Duna e Areial;Praia, Duna e Areal;Área não Vegetada;#ffa07a;23;Praia, Duna e Areal
 Área Urbana;Área Urbanizada;Área não Vegetada;#d4271e;24;Área Urbanizada
-Vegetação Urbana;Vegetação Urbana;Área não Vegetada;#8fbf7f;;
 Mineração;Mineração;Área não Vegetada;#9c0027;30;Mineração
 Usina Fotovoltaica;Usina Fotovoltaica;Área não Vegetada;#757272;75;Usina Fotovoltaica
 Outras áreas não vegetadas;Outras Áreas não Vegetadas;Área não Vegetada;#db4d4f;25;Outras Áreas não Vegetadas

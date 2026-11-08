@@ -63,7 +63,6 @@ CLASSES = {
     "Silvicultura": ("Agropecuária", "#7a5900", "9", "Silvicultura", "Silvicultura"),
     "Praia, Duna e Areial": ("Área não Vegetada", "#ffa07a", "23", "Praia, Duna e Areal", "Praia, Duna e Areal"),
     "Área Urbana": ("Área não Vegetada", "#d4271e", "24", "Área Urbanizada", "Área Urbanizada"),
-    "Vegetação Urbana": ("Área não Vegetada", "#8fbf7f", "", "Vegetação Urbana", ""),
     "Mineração": ("Área não Vegetada", "#9c0027", "30", "Mineração", "Mineração"),
     "Usina Fotovoltaica": ("Área não Vegetada", "#757272", "75", "Usina Fotovoltaica", "Usina Fotovoltaica"),
     "Outras áreas não vegetadas": ("Área não Vegetada", "#db4d4f", "25", "Outras Áreas não Vegetadas", "Outras Áreas não Vegetadas"),
@@ -89,6 +88,9 @@ PX_QUADROS = [(13, 145, 400, 531), (422, 145, 809, 531), (830, 145, 1218, 531),
               (1239, 145, 1626, 531), (1648, 145, 2035, 531)]
 PX_GRAFICO = (14, 650, 1518, 980)
 PX_MAPA = (1542, 640, 2034, 980)
+
+# Classes do PDF retiradas da chave (decisão de 08/11/2026: Vegetação Urbana não existe na legenda Col. 11; Soja retirada)
+EXCLUIR = {"Vegetação Urbana", "Soja"}
 
 ROTULOS_EX = ["Coords", "Falsa-Cor", "Tonalidade", "Textura", "Observações"]
 ROTULOS_DESC = ["Descrição", "Observações"]
@@ -179,6 +181,8 @@ def main(pdf):
         lado, titulo, corpo = ler_pagina(p)
         bioma = por_lado.get(sem_acento(lado).upper().replace(" ", ""))
         if not bioma or not titulo:
+            continue
+        if any(sem_acento(titulo).lower() == sem_acento(x).lower() for x in EXCLUIR):
             continue
         classe = nome_classe.get(sem_acento(titulo).lower())
         if not classe:

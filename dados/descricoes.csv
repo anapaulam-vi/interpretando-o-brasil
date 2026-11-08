@@ -9,13 +9,11 @@ amazonia;Afloramento Rochoso;Superfícies rochosas naturalmente expostas com pou
 amazonia;Apicum;Apicuns ou Campos Salgados são formações quase sempre desprovidas de vegetação arbórea e arbustiva, associadas a uma zona topograficamente mais alta da planície costeira, hipersalina e com frequência de inundação menor do que o manguezal, em geral na transição entre este e a terra firme ou campos de dunas;;30
 amazonia;Pastagem;Áreas de pastagem plantadas, diretamente relacionadas à atividade agropecuária. As áreas de pastagem natural, por sua vez, são predominantemente caracterizadas como formações campestres ou campo alagado, podendo ser submetidas ou não a práticas de pastejo. Na Amazônia, podem ocorrer áreas desmatadas recentemente, sem ainda ter iniciado a atividade agropecuária.;;32
 amazonia;Cultivo Temporário;Áreas cultivadas com monocultura, em um ciclo de no mínimo 1 ano e meio;;34
-amazonia;Soja;Áreas cultivadas com a monocultura da soja (primeira safra).;;48
 amazonia;Cana-de-açúcar;Áreas cultivadas com a monocultura da cana-de-açúcar.;;38
 amazonia;Cultivo Perene;Áreas ocupadas com cultivos agrícolas de ciclo vegetativo longo (mais de um ano), que permitem colheitas sucessivas, sem necessidade de novo plantio.;;36
 amazonia;Silvicultura;Espécies arbóreas plantadas para fins comerciais (ex. pinus, eucalipto, araucária).;;40
 amazonia;Praia, Duna e Areial;Cordões arenosos, de coloração branco brilhante, onde não há o predomínio de vegetação de nenhum tipo.;;19
 amazonia;Área Urbana;Áreas com significativa densidade de edificações e vias, incluindo infraestrutura e áreas livres de construções.;;21
-amazonia;Vegetação Urbana;;;23
 amazonia;Mineração;Áreas referentes a extração mineral de porte industrial ou garimpeiro, havendo clara exposição do solo por ação antrópica. Somente são consideradas áreas proximas a referências espacias de recursos mineirais do CPRM (GeoSGB), da AhkBrasilien (AHK), do projeto DETER (INPE), do Instituto Socioambiental (ISA), do Amazon Mining Watch (AMW) e de FL Lobo et al. 2018.;;42
 amazonia;Outras áreas não vegetadas;Áreas de superfícies não permeáveis (infra-estrutura, expansão urbana ou mineração) não mapeadas em suas classes.;;44
 amazonia;Rio, Lago e Oceano;Rios, lagos, represas, reservatórios e outros corpos d'água.;;25
@@ -30,13 +28,11 @@ cerrado;Apicum;Apicuns ou Campos Salgados são formações quase sempre desprovi
 cerrado;Restinga Herbácea;Ecossistemas de planície arenosa costeira caracterizados por vegetação predominantemente herbácea e arbustiva, com distribuição esparsa de arbustos.;;75
 cerrado;Pastagem;Áreas de pastagem plantadas, diretamente relacionadas à atividade agropecuária. As áreas de pastagem natural, por sua vez, são predominantemente caracterizadas como formações campestres ou campo alagado, podendo ser submetidas ou não a práticas de pastejo. Na Amazônia, podem ocorrer áreas desmatadas recentemente, sem ainda ter iniciado a atividade agropecuária.;;82
 cerrado;Cultivo Temporário;Áreas ocupadas com cultivos agrícolas de curta ou média duração, geralmente com ciclo vegetativo inferior a um ano, que após a colheita necessitam de novo plantio para produzir.;;84
-cerrado;Soja;Áreas cultivadas com a monocultura da soja (primeira safra).;;99
 cerrado;Cana-de-açúcar;Áreas cultivadas com a monocultura da cana-de-açúcar.;;88
 cerrado;Cultivo Perene;Áreas ocupadas com cultivos agrícolas de ciclo vegetativo longo (mais de um ano), que permitem colheitas sucessivas, sem necessidade de novo plantio.;;86
 cerrado;Silvicultura;Espécies arbóreas plantadas para fins comerciais (ex. pinus, eucalipto, araucária).;;90
 cerrado;Praia, Duna e Areial;Cordões arenosos, de coloração branco brilhante, onde não há o predomínio de vegetação de nenhum tipo;;67
 cerrado;Área Urbana;Áreas com significativa densidade de edificações e vias, incluindo infraestrutura e áreas livres de construções.;;69
-cerrado;Vegetação Urbana;;;71
 cerrado;Mineração;Áreas referentes a extração mineral de porte industrial ou garimpeiro, havendo clara exposição do solo por ação antrópica. Somente são consideradas áreas proximas a referências espacias de recursos mineirais do CPRM (GeoSGB), da AhkBrasilien (AHK), do projeto DETER (INPE), do Instituto Socioambiental (ISA), do Amazon Mining Watch (AMW) e de FL Lobo et al. 2018.;;92
 cerrado;Outras áreas não vegetadas;Inclui superfícies impermeáveis (por exemplo, estradas, prédios, infraestrutura de mineração), solo exposto em ambientes naturais (por exemplo, características de erosão, ravinas, deslizamentos de terra) e terras cultiváveis fora do período de cultivo.;;95
 cerrado;Rio, Lago e Oceano;Rios, lagos, represas, reservatórios e outros corpos d'água.;;73
@@ -51,13 +47,11 @@ caatinga;Apicum;Apicuns ou Campos Salgados são formações quase sempre desprov
 caatinga;Restinga Herbácea;Vegetação herbácea que se estabelece sobre solos arenosos ou sobre dunas costeiras com influência fluviomarinha.;;121
 caatinga;Pastagem;Áreas de pastagem plantadas, diretamente relacionadas à atividade agropecuária. As áreas de pastagem natural, por sua vez, são predominantemente caracterizadas como formações campestres ou campo alagado, podendo ser submetidas ou não a práticas de pastejo. Na Amazônia, podem ocorrer áreas desmatadas recentemente, sem ainda ter iniciado a atividade agropecuária;;127
 caatinga;Cultivo Temporário;Áreas ocupadas com cultivos agrícolas de curta ou média duração, geralmente com ciclo vegetativo inferior a um ano, que após a colheita necessitam de novo plantio para produzir.;;130
-caatinga;Soja;Áreas cultivadas com a monocultura da soja (primeira safra).;;147
 caatinga;Cana-de-açúcar;Áreas cultivadas com a monocultura da cana-de-açúcar.;;135
 caatinga;Cultivo Perene;Áreas ocupadas com cultivos agrícolas de ciclo vegetativo longo (mais de um ano), que permitem colheitas sucessivas, sem necessidade de novo plantio. Nessa versão, o mapa abrange majoritariamente áreas de caju, no litoral do nordeste.;;133
 caatinga;Silvicultura;Espécies arbóreas plantadas para fins comerciais (ex. pinus, eucalipto, araucária).;;137
 caatinga;Praia, Duna e Areial;Cordões arenosos, de coloração branco brilhante, onde não há o predomínio de vegetação de nenhum tipo.;;113
 caatinga;Área Urbana;Áreas com significativa densidade de edificações e vias, incluindo infraestrutura e áreas livres de construções.;;115
-caatinga;Vegetação Urbana;;;117
 caatinga;Mineração;Áreas referentes a extração mineral de porte industrial ou garimpeiro, havendo clara exposição do solo por ação antrópica. Somente são consideradas áreas proximas a referências espacias de recursos mineirais do CPRM (GeoSGB), da AhkBrasilien (AHK), do projeto DETER (INPE), do Instituto Socioambiental (ISA), do Amazon Mining Watch (AMW) e de FL Lobo et al. 2018.;;139
 caatinga;Usina Fotovoltaica;;;143
 caatinga;Outras áreas não vegetadas;Áreas de superfícies não permeáveis (infra-estrutura, expansão urbana ou mineração) não mapeadas em suas classes.;;141
@@ -73,14 +67,12 @@ mata_atlantica;Apicum;Apicuns ou Campos Salgados são formações quase sempre d
 mata_atlantica;Restinga Herbácea;Vegetação herbácea que se estabelece sobre solos arenosos ou sobre dunas costeiras com influência fluviomarinha.;;169
 mata_atlantica;Pastagem;Áreas de pastagem plantadas, diretamente relacionadas à atividade agropecuária. As áreas de pastagem natural, por sua vez, são predominantemente caracterizadas como formações campestres ou campo alagado, podendo ser submetidas ou não a práticas de pastejo. Na Amazônia, podem ocorrer áreas desmatadas recentemente, sem ainda ter iniciado a atividade agropecuária;;175
 mata_atlantica;Cultivo Temporário;Áreas ocupadas com cultivos agrícolas de curta ou média duração, geralmente com ciclo vegetativo inferior a um ano, que após a colheita necessitam de novo plantio para produzir.;;177
-mata_atlantica;Soja;Áreas cultivadas com a monocultura da soja (primeira safra).;;193
 mata_atlantica;Arroz;"Áreas cultivadas com cultura de arroz, exclusivamente sob sistema de irrigação, nos estados do Rio Grande do Sul, Tocantins, Santa Catarina e Litoral do Paraná. Este mapa é o mesmo apresentado no módulo irrigação na classe ""Arroz Irrigado"".";;195
 mata_atlantica;Cana-de-açúcar;Áreas cultivadas com a monocultura da cana-de-açúcar.;;181
 mata_atlantica;Cultivo Perene;Áreas ocupadas com cultivos agrícolas de ciclo vegetativo longo (mais de um ano), que permitem colheitas sucessivas, sem necessidade de novo plantio.;;179
 mata_atlantica;Silvicultura;Espécies arbóreas plantadas para fins comerciais (ex. pinus, eucalipto, araucária).;;185
 mata_atlantica;Praia, Duna e Areial;Cordões arenosos, de coloração branco brilhante, onde não há o predomínio de vegetação de nenhum tipo.;;161
 mata_atlantica;Área Urbana;Áreas com significativa densidade de edificações e vias, incluindo infraestrutura e áreas livres de construções.;;163
-mata_atlantica;Vegetação Urbana;;;165
 mata_atlantica;Mineração;Áreas referentes a extração mineral de porte industrial ou garimpeiro, havendo clara exposição do solo por ação antrópica. Somente são consideradas áreas proximas a referências espacias de recursos mineirais do CPRM (GeoSGB), da AhkBrasilien (AHK), do projeto DETER (INPE), do Instituto Socioambiental (ISA), do Amazon Mining Watch (AMW) e de FL Lobo et al. 2018.;;187
 mata_atlantica;Outras áreas não vegetadas;Áreas naturais com solo exposto resultantes de eventos climáticos (deslizamentos, inundações) e áreas com superfícies não permeáveis (infraestrutura, expansão urbana ou mineração) que não foram mapeadas dentro de suas respectivas classes.;;189
 mata_atlantica;Rio, Lago e Oceano;Rios, lagos, represas, reservatórios e outros corpos d'água.;;167
@@ -92,12 +84,10 @@ pantanal;Campo Alagado e Área Pantanosa;Vegetação herbácea com predomínio d
 pantanal;Afloramento Rochoso;Superfícies rochosas naturalmente expostas com pouca ou nenhuma cobertura de solo e vegetação mínima.;;208
 pantanal;Pastagem;Áreas de pastagem plantadas, diretamente relacionadas à atividade agropecuária. As áreas de pastagem natural, por sua vez, são predominantemente caracterizadas como formações campestres ou campo alagado, podendo ser submetidas ou não a práticas de pastejo. Na Amazônia, podem ocorrer áreas desmatadas recentemente, sem ainda ter iniciado a atividade agropecuária.;;217
 pantanal;Cultivo Temporário;Áreas ocupadas com cultivos agrícolas de curta ou média duração, geralmente com ciclo vegetativo inferior a um ano, que após a colheita necessitam de novo plantio para produzir.;;219
-pantanal;Soja;Áreas cultivadas com a monocultura da soja (primeira safra).;;229
 pantanal;Arroz;"Áreas cultivadas com cultura de arroz, exclusivamente sob sistema de irrigação, nos estados do Rio Grande do Sul, Tocantins, Santa Catarina e Litoral do Paraná. Este mapa é o mesmo apresentado no módulo irrigação na classe ""Arroz Irrigado""";;231
 pantanal;Cana-de-açúcar;Áreas cultivadas com a monocultura da cana-de-açúcar.;;221
 pantanal;Silvicultura;Espécies arbóreas plantadas para fins comerciais (ex. pinus, eucalipto, araucária).;;223
 pantanal;Área Urbana;Áreas com significativa densidade de edificações e vias, incluindo infraestrutura e áreas livres de construções.;;210
-pantanal;Vegetação Urbana;;;212
 pantanal;Mineração;Áreas referentes a extração mineral de porte industrial ou garimpeiro, havendo clara exposição do solo por ação antrópica. Somente são consideradas áreas proximas a referências espacias de recursos mineirais do CPRM (GeoSGB), da AhkBrasilien (AHK), do projeto DETER (INPE), do Instituto Socioambiental (ISA), do Amazon Mining Watch (AMW) e de FL Lobo et al. 2018.;;225
 pantanal;Outras áreas não vegetadas;Áreas de solo exposto (principalmente solo arenoso) não classificadas na classe de Formação Campestre ou Pastagem;;227
 pantanal;Rio, Lago e Oceano;Rios, lagos, represas, reservatórios e outros corpos d'água;;214
@@ -107,14 +97,12 @@ pampa;Campo Alagado e Área Pantanosa;Áreas pantanosas, denominadas regionalmen
 pampa;Afloramento Rochoso;Rochas naturalmente expostas na superfície terrestre sem cobertura de solo, muitas vezes com presença parcial de vegetação rupícola.;;241
 pampa;Restinga Herbácea;Vegetação herbácea que se estabelece sobre solos arenosos ou sobre dunas na zona costeira.;;251
 pampa;Cultivo Temporário;Áreas ocupadas com cultivos agrícolas de curta ou média duração, geralmente com ciclo vegetativo inferior a um ano, que após a colheita necessitam de novo plantio para produzir.;;254
-pampa;Soja;Áreas cultivadas com a monocultura da soja (primeira safra).;;268
 pampa;Arroz;"Áreas cultivadas com cultura de arroz, exclusivamente sob sistema de irrigação, nos estados do Rio Grande do Sul, Tocantins, Santa Catarina e Litoral do Paraná. Este mapa é o mesmo apresentado no módulo irrigação na classe ""Arroz Irrigado""";;270
 pampa;Cana-de-açúcar;Áreas cultivadas com a monocultura da cana-de-açúcar.;;258
 pampa;Cultivo Perene;Áreas ocupadas com cultivos agrícolas de ciclo vegetativo longo (mais de um ano), que permitem colheitas sucessivas, sem necessidade de novo plantio.;;256
 pampa;Silvicultura;Espécies arbóreas plantadas para fins comerciais (ex. pinus, eucalipto, araucária).;;260
 pampa;Praia, Duna e Areial;Rios, lagos, represas, reservatórios e outros corpos d'água.;;243
 pampa;Área Urbana;Áreas com significativa densidade de edificações e vias, incluindo infraestrutura e áreas livres de construções.;;245
-pampa;Vegetação Urbana;;;247
 pampa;Mineração;Áreas referentes a extração mineral de porte industrial ou garimpeiro, havendo clara exposição do solo por ação antrópica. Somente são consideradas áreas proximas a referências espacias de recursos mineirais do CPRM (GeoSGB), da AhkBrasilien (AHK), do projeto DETER (INPE), do Instituto Socioambiental (ISA), do Amazon Mining Watch (AMW) e de FL Lobo et al. 2018.;;262
 pampa;Outras áreas não vegetadas;Classe mista que contempla áreas naturais e áreas antropizadas. As áreas naturais incluem superfícies arenosas como as praias fluviais e os areais. As áreas antropizadas incluem áreas de solo exposto e superfícies não permeáveis (infra-estrutura, expansão urbana ou mineração).;;264
 pampa;Rio, Lago e Oceano;Rios, lagos, represas, reservatórios e outros corpos d'água;;249

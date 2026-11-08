@@ -6,7 +6,9 @@ Gera dados/correcoes.csv com as correções que podem ser feitas sem decisão da
   - falsa-cor com a ordem R-G-B real das composições (Landsat B5-B6-B4, Sentinel-2 B11-B8-B4; o PDF dizia
     B6-B5-B4 e B8-B11-B4, o que não bate com as cores das imagens) e p. 57 (tinha a textura repetida);
   - erros de digitação e decimais com vírgula nas observações (texto revisado à mão abaixo);
-  - observação da p. 8.
+  - observação da p. 8;
+  - mapas de localização errados: p. 104 (mostrava o Brasil inteiro, sem ponto) é redesenhado a partir
+    da coordenada; p. 257 (mapa da Caatinga numa ficha do Pampa, sem coordenada) é retirado.
 
 As descrições das classes NÃO entram aqui: o site e o PDF corrigido usam direto a descrição
 oficial da legenda (dados/legenda_mapbiomas.txt).
@@ -14,7 +16,12 @@ oficial da legenda (dados/legenda_mapbiomas.txt).
 Uso: python scripts/correcoes_automaticas.py   (depois: gerar_dados.py e corrigir_pdf.py)
 """
 import csv
+import re
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from gerar_mapa_localizacao import desenhar  # noqa: E402
 
 RAIZ = Path(__file__).resolve().parent.parent
 DADOS = RAIZ / "dados"
@@ -22,6 +29,9 @@ DADOS = RAIZ / "dados"
 TONALIDADE = {"escuro": "Escura", "escura": "Escura", "médio": "Média", "média": "Média",
               "claro": "Clara", "clara": "Clara"}
 FALSA_COR = "Landsat (B5, B6, B4); Sentinel (B11, B8, B4)"
+
+# página -> "redesenhar" (mapa novo a partir da coordenada) ou "" (retirar o mapa)
+MAPAS = {"104": "redesenhar", "257": ""}
 
 OBS = {  # página -> observação revisada
     "6": "Florestas degradadas são mantidas na classe Formação Florestal até a perda irreversível da "
@@ -85,6 +95,14 @@ def main():
             motivo = ("falsa-cor com a textura repetida" if not e["falsa_cor"].startswith("Vermelho")
                       else "ordem R-G-B das bandas da falsa-cor")
             linhas.append((p, "falsa_cor", FALSA_COR, motivo))
+        if p in MAPAS:
+            if MAPAS[p] == "redesenhar":
+                lat, lon = (float(x) for x in re.findall(r"-?\d+(?:\.\d+)?", e["coords"])[:2])
+                destino = f"img/corrigidos/p{p}_{e['bioma']}_mapa.jpg"
+                desenhar(e["bioma"], lat, lon, RAIZ / destino)
+                linhas.append((p, "mapa", destino, "mapa de localização redesenhado a partir da coordenada"))
+            else:
+                linhas.append((p, "mapa", "", "mapa de localização de outro bioma retirado"))
         if p in OBS and OBS[p] != e["observacoes"]:
             linhas.append((p, "observacoes", OBS[p], "revisão do texto da observação"))
     for d in ler("descricoes.csv"):

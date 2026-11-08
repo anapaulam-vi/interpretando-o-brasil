@@ -77,6 +77,15 @@ def main():
     entradas = {}
     n_of = 0
 
+    # numeração do PDF corrigido (páginas retiradas mudam a numeração); gerado por corrigir_pdf.py
+    arq_pag = DADOS / "paginas_pdf.json"
+    mapa_pag = json.loads(arq_pag.read_text(encoding="utf-8")) if arq_pag.exists() else {}
+
+    def pag(v):
+        if not str(v).isdigit():
+            return None
+        return mapa_pag.get(str(v), int(v)) if mapa_pag else int(v)
+
     correcoes = {}
     for c in ler("correcoes.csv"):
         correcoes.setdefault(c["pagina"], {})[c["campo"]] = c["para"]
@@ -97,7 +106,7 @@ def main():
         entradas[k] = {
             "descricao": of or d.get("descricao", ""), "fonte": "legenda" if of else "chave",
             "observacoes": d.get("observacoes", ""),
-            "pagina": int(d["pagina"]) if d.get("pagina", "").isdigit() else None, "exemplos": [],
+            "pagina": pag(d.get("pagina", "")), "exemplos": [],
         }
 
     exemplos = sorted(map(corrige, ler("exemplos.csv")), key=lambda e: int(e.get("ordem") or 0))
@@ -115,7 +124,7 @@ def main():
             "lat": lat, "lon": lon, "coords": e.get("coords", ""),
             "falsa_cor": e.get("falsa_cor", ""), "tonalidade": e.get("tonalidade", ""),
             "textura": e.get("textura", ""), "observacoes": e.get("observacoes", ""),
-            "pagina": int(e["pagina"]) if e.get("pagina", "").isdigit() else None,
+            "pagina": pag(e.get("pagina", "")),
             "imagens": imgs, "grafico": e.get("grafico", ""), "mapa": e.get("mapa", ""),
         })
 
