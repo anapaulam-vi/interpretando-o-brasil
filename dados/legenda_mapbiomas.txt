@@ -1,0 +1,630 @@
+##### p1
+DESCRIÇÃO DAS CLASSES DA LEGENDA DA
+COLEÇÃO 11 DO MAPBIOMAS BRASIL
+Nivel 1
+Nivel 2
+Nivel 3
+Nivel 4
+Biomas
+Descrição
+Classes IBGE
+Classes FAO
+Classes Inventário Nacional
+de Emissões de GEE
+IUCN
+Floresta
+Formação Florestal
+Amazônia
+Floresta Ombrófila Densa, Floresta Estacional Sempre-Verde, Floresta Ombrófila Aberta, Floresta Estacional
+Semidecidual, Floresta Estacional Decidual, Savana Arborizada, Áreas que sofreram ação do fogo ou exploração
+madeireira, Floresta resultante de processos naturais de sucessão, após supressão total ou parcial de vegetação
+primária por ações antrópicas ou causas naturais, podendo ocorrer árvores remanescentes de vegetação primária.
+Floresta de bambu (Acre). Áreas de Campinarana.
+Da, Db, Ds, Dm, Ha, Hb, Hs,
+Aa, Ab, As, Am, Fa, Fb, Fs, Fm,
+Ca, Cb, Cs, Cm, Ld, La, Vs
+FDP, FEP, FSP,
+FEM, FDM, FSM
+FNM, FM, FSec
+T1.1, T1.4
+Caatinga
+Tipos de vegetação com predomínio de dossel contínuo - Savana-Estépica Florestada, Floresta Estacional
+Semi-Decidual e Decidual.
+Td, Fa, Fb, Fm, Fs, Cb, Cm, Cs,
+Pa, As, Pf, Pm, Ds, Am, Ab, Sd
+FEP, FSP
+FNM, FM
+T1, T1.2
+Cerrado
+Tipos de vegetação caracterizados pela predominância de espécies arbóreas que formam um dossel contínuo. Isso
+inclui Matas Ciliares, Matas de Galeria, Matas Secas e Cerradão (Ribeiro & Walter, 2008), bem como florestas
+estacionais semideciduais.
+Td, Fa, Fb, Fm, Fs, Cb, Cm, Cs
+FEP, FDP, FSP
+FNM, FM
+T1.2, TF1.1
+Mata
+Atlântica
+Tipos de vegetação caracterizados pela predominância de espécies arbóreas, com alta densidade de árvores, dossel
+fechado e estratificação vertical. Inclui as tipologias florestais: Floresta Ombrófila Densa, Aberta e Mista, Floresta
+Estacional Semidecidual e Decidual, e Formação Pioneira.
+D, A, M, F, C, Pma
+FEP, FSP
+FNM, FM
+T1
+Pampa
+Vegetação lenhosa com espécies arbóreas ou arbóreo-arbustivas, com predomínio de dossel contínuo. Inclui as
+tipologias florestais: ombrófila, estacional decidual e semi-decidual e parte das formações pioneiras.
+Da, Db, Ds, Dm, Ma, Ms, Mm,
+Ml, Fa, Fb, Fs, Fm, Ca, Cb, Cs,
+Cm, P, Pa, Pm
+FEP, FDP, FSP
+FNM, FM, FSec, CS
+T1.1
+Pantanal
+Árvores altas e arbustos no estrato inferior: Floresta Estacional Decidual e Semidecidual, Savana Florestada,
+Savana-Estépica Florestada e Formações Pioneiras com influência fluvial e/ou lacustre.
+Ca, Cb, Cs, Fa, Fb, Fs, SN, Sd,
+Td, Pa
+FEP, FSP
+FNM, FM
+T1.2
+Formação Savânica
+Amazônia
+Formação vegetal aberta com um estrato arbustivo e/ou arbóreo mais ou menos desenvolvido, estrato herbáceo
+sempre presente.
+Sa, Ta
+WS, WG
+FNM, FM
+T3.1, T4.2
+Caatinga
+Tipos de vegetação com predomínio de espécies de dossel semi-contínuo - Savana-Estépica Arborizada, Savana
+Arborizada.
+Sa, Ta
+FDP
+FNM, FM
+T3.1, T4.2
+Cerrado
+Tipos de vegetação com uma estratificação distinta de estrato arbóreo, arbustivo e herbáceo. Isso inclui diferentes
+fisionomias de Cerrado sensu stricto (Cerrado Denso, Típico, Ralo e Rupestre) (Ribeiro & Walter, 2008). A classe
+também pode incluir áreas nativas de Cerrado sensu stricto passíveis de uso pastoril, desde que mantenham sua
+estrutura e composição natural.
+Sa, Ta
+FDP, FSP, WS,
+WG
+FNM, FM
+T3.1, T4.2
+Mata
+Atlântica
+Tipo de vegetação caracterizado pela presença de espécies arbóreas e arbustivas esparsas, com dossel
+semicontínuo. Inclui: Estépica, Savana Florestada e Savana Arborizada.
+Sd, Td, Sa, Ta
+FDP, FSP, WS,
+WG
+FNM, FM
+T4.2
+Pantanal
+Espécies arbóreas de pequeno porte, distribuídas de forma esparsa e dispostas em meio à vegetação contínua de
+porte arbustivo e herbáceo. A vegetação herbácea se mistura com arbustos eretos e decumbentes.
+Sa, Sp, Sg, Td, Ta, Tp
+FDP, FSP, WS,
+WG
+FNM, FM
+T4.2, T4.1
+Savana Alagada
+Pantanal
+Espécies arbóreas, distribuídas de forma esparsa e dispostas em meio à vegetação contínua de porte arbustivo e
+herbáceo, estabelecidas ao longo de cursos d'água e na planície de inundação.
+Sa, Sp, Sg, Td, Ta, Tp
+FDP, FSP, WS,
+WG
+FNM, FM
+T4.2, T4.1
+Mangue
+Formações florestais e/ou arbustivas, densas, sempre-verdes, frequentemente inundadas pela maré e associadas ao
+ecossistema costeiro de Manguezal.
+Pf
+FEP, FEM
+FNM, FM
+MFT1.2
+Floresta Alagável
+Amazônia
+Floresta Ombrófila Aberta Aluvial estabelecida ao longo dos cursos de água, ocupa as planícies e terraços
+periodicamente ou permanentemente inundados, que na Amazônia constituem fisionomias de matas-de-várzea
+ou matas-de-igapó, respectivamente.
+Da, Db, Ds, Dm, Ha, Hb, Hs,
+Ld, La, Aa, Ab, As, Am, Fa, Fb,
+Fs, Fm, Ca, Cb, Cs, Cm, Vs
+FDP, FEP, FSP,
+FEM, FDM, FSM
+FNM, FM, FSec
+TF1.1
+Restinga Arbórea
+Mata
+Atlântica
+Formações florestais que se estabelecem sobre solos arenosos ou sobre dunas na zona costeira.
+Pma
+FEP, FEM
+FNM, FM
+MT2
+Pampa
+Formações florestais que se estabelecem sobre solos arenosos ou sobre dunas na zona costeira.
+Pma
+FEP, FEM
+FNM, FM
+T1.1
+
+##### p2
+DESCRIÇÃO DAS CLASSES DA LEGENDA DA
+COLEÇÃO 11 DO MAPBIOMAS BRASIL
+Nivel 1
+Nivel 2
+Nivel 3
+Nivel 4
+Biomas
+Descrição
+Classes IBGE
+Classes FAO
+Classes Inventário Nacional
+de Emissões de GEE
+IUCN
+Vegetação
+Herbácea e
+Arbustiva
+Campo Alagado e Área
+Pantanosa
+Amazônia
+Vegetação de várzea ou campestre que sofre influência fluvial e/ou lacustre.
+Pa
+OM
+GNM, GM, GSec
+TF1.2, TF1.3
+Cerrado
+Ecossistemas dominados por vegetação herbácea sujeitos a inundações sazonais ou influência fluvial/lacustre
+constante. Exemplos incluem Campo Úmido e Brejo. Em algumas áreas, a matriz herbácea é intercalada com
+espécies arbóreas de savana (por exemplo, Parque de Cerrado) ou espécies de palmeiras, como em Veredas e
+Palmeirais (Ribeiro & Walter, 2008).
+Pa, Sp
+OM
+GNM, GM, GSec
+TF1.3, TF1.4
+Mata
+Atlântica
+Vegetação de planícies alagáveis ou campos influenciados por dinâmicas fluviais e/ou lacustres, caracterizada pela
+predominância de vegetação higrófila, incluindo plantas aquáticas emersas, submersas ou flutuantes.
+Pa, Pfh
+OM
+GNM, GM, GSec
+TF1.2
+Pampa
+Áreas pantanosas, denominadas regionalmente de banhados. Vegetação tipicamente higrófila, com plantas
+aquáticas emergentes, submersas ou flutuantes. Ocupam planícies e depressões do terreno com solo encharcado e
+também as margens rasas de lagoas ou reservatórios de água.
+P, Pa, Pm
+OM
+A, Res
+TF1.3, MFT1.3
+Pantanal
+Vegetação herbácea com predomínio de gramíneas sujeitas ao alagamento permanente ou temporário (pelo
+menos uma vez ao ano) de acordo com os pulsos naturais de inundação. O elemento lenhoso pode estar presente
+sobre a matriz campestre formando um mosaico com plantas arbustivas ou arbóreas (ex: cambarazal, paratudal e
+carandazal). As áreas pantanosas ocorrem geralmente nas margens das lagoas temporárias ou permanentes
+ocupadas por plantas aquáticas emergentes, submersas ou flutuantes (ex: brejos e baceiros). Áreas com superfície
+de água, mas de difícil classificação devido a quantidade de macrófitas, eutrofização ou sedimentos, também foram
+incluídas nesta categoria.
+Tg, Sp, Pa, Tp
+OM
+GNM, GM, GSec
+TF1.3, TF1.4
+Formação Campestre
+Amazônia
+Savana, Savana Parque (Marajó), Savana-Estépica (Roraima), Savana Gramíneo-Lenhosa,  Campinarana, para regiões
+fora do Ecótono Amazônia/Cerrado. E para regiões dentro do Ecótono Amazônia/Cerrado predominância de estrato
+herbáceo.
+Sa, Sp, Sg, Ta, Tp, Tg
+WG, OG, WS
+GNM, GM, GSec
+T4.2
+Caatinga
+Tipos de vegetação com predomínio de espécies herbáceas (Savana-Estépica Parque, Savana-Estépica
+Gramíneo-Lenhosa, Savana Parque, Savana Gramíneo-Lenhosa) + (Áreas inundáveis com uma rede de lagoas
+interligadas, localizadas ao longo dos cursos de água e em áreas de depressões que acumulam água, vegetação
+predominantemente herbácea a arbustiva).
+Tp, Sg, Rm, Sp, Tg, Rl
+WG, OG, WS
+GNM, GM, GSec
+T3.1
+Cerrado
+Vegetação aberta dominada por espécies herbáceas, com cobertura arbórea mínima ou inexistente. Inclui as
+fitofisionomias Campos Sujo e Limpo (Ribeiro & Walter, 2008).
+Sg, Tp, Tg
+WG, OG
+GNM, GM, GSec
+T4.5, T3.4
+Mata
+Atlântica
+Vegetação dominada por espécies herbáceas e gramíneas, com poucas árvores e arbustos dispersos, geralmente
+apresentando dossel aberto ou ausente. Ocorre em solos que variam de profundos a rasos, incluindo terrenos
+rochosos (campos rupestres). Inclui: Savanas Parque e de Estépica Gramíneo-Lenhosa, Estépicas e Formações
+Pioneiras Arbustivas e Herbáceas.
+Sp, Sg, Tp, Tg, E, Pa
+WS,OG
+GNM, GM, GSec
+T4.2
+Pampa
+Vegetação com predomínio de estrato herbáceo graminóide, com presença de dicotiledôneas herbáceas e
+subarbustivas. A composição botânica é influenciada pelos gradientes edáficos e topográficos e pelo manejo
+pastoril (pecuária). Ocorrem em solos profundos até solos rasos, incluindo terrenos rochosos (campos rupestres) e
+arenosos (campos arenosos ou psamófilos). Ocupam desde solos bem drenados (campos mésicos), até solos com
+maior teor de umidade (campos úmidos - com presença marcante de ciperáceas). Na maioria dos casos
+corresponde à vegetação nativa, mas podem estar presentes manchas de vegetação exótica invasora ou de uso
+forrageiro (pastagem plantada).
+E, Ea, Ep, Eg, T, Ta, Tp, P, Pa,
+Pm
+WG, OG
+GNM, GM, GSec
+T4.5
+Pantanal
+Vegetação com predomínio de estrato herbáceo graminóide, com presença de arbustivas isoladas e lenhosas
+raquíticas. A composição botânica é influenciada pelos gradientes edáficos e topográficos e pelo manejo pastoril
+(pecuária). Manchas de vegetação exótica invasora ou de uso forrageiro (pastagem plantada) podem estar
+presentes formando mosaicos com a vegetação nativa.
+Sg, Sp, Ta, Tg
+WG, OG
+GNM, GM, GSec
+T4.2
+Apicum
+Apicuns ou Campos Salgados são formações quase sempre desprovidas de vegetação arbórea e arbustiva,
+associadas a uma zona topograficamente mais alta da planície costeira, hipersalina e com frequência de inundação
+menor  do que o manguezal, em geral na transição entre este e a terra firme ou campos de dunas.
+Pf, Pfh
+OM, OX
+NA
+NA
+Afloramento Rochoso
+Amazônia
+Superfícies rochosas naturalmente expostas com pouca ou nenhuma cobertura de solo e vegetação mínima
+Ar
+OX
+ArM, ArNM
+T3.4
+Caatinga
+Superfícies rochosas naturalmente expostas com pouca ou nenhuma cobertura de solo e vegetação mínima
+Ar
+OX
+ArM, ArNM
+T3.4
+Cerrado
+Superfícies rochosas naturalmente expostas, incluindo monólitos, acamamentos ou lajedos com pouca ou
+nenhuma cobertura de solo, normalmente associadas à formações geológicas estáveis de origem sedimentar,
+ígnea ou metamórfica. A classe também inclui áreas de vegetação rupestre associadas a esses ambientes, como
+Cerrado Rupestre e Campo Rupestre (Ribeiro & Walter, 2008).
+Ar
+OX
+ARM, ArNM
+T3.4
+Mata
+Atlântica
+Superfícies rochosas naturalmente expostas com pouca ou nenhuma cobertura de solo, frequentemente
+associados à vegetação rupícola e a terrenos de forte declividade.
+Ar
+OX
+ARM, ArNM
+T3.4
+Pampa
+Rochas naturalmente expostas na superfície terrestre sem cobertura de solo, muitas vezes com presença parcial de
+vegetação rupícola.
+Ar
+OX
+ArM, ArNM
+T3.4
+Pantanal
+Superfícies rochosas naturalmente expostas com pouca ou nenhuma cobertura de solo e vegetação mínima
+Ar
+OX
+ArM, ArNM
+T3.4
+Restinga Herbácea
+Caatinga
+Vegetação herbácea que se estabelece sobre solos arenosos ou sobre dunas costeiras com influência fluviomarinha.
+Pmb, Pmh
+WG, OG
+GNM, GM
+MT2.1
+Cerrado
+Ecossistemas de planície arenosa costeira caracterizados por vegetação predominantemente herbácea e arbustiva,
+com distribuição esparsa de arbustos.
+Pmb, Pmh
+WG, OG
+GNM, GM
+MT2.1
+Mata
+Atlântica
+Vegetação herbácea que se estabelece sobre solos arenosos ou sobre dunas costeiras com influência fluviomarinha.
+Pmb, Pmh
+WG, OG
+GNM, GM
+MT2.1
+Pampa
+Vegetação herbácea que se estabelece sobre solos arenosos ou sobre dunas na zona costeira.
+Pmb, Pmh
+WG, OG
+GNM, GM
+MT2.1
+Formação Herbáceo Arbustiva
+Caatinga
+Vegetação com formação predominantemente herbácea e/ou arbustiva, com gramíneas e plantas lenhosas anãs,
+arbustivas e/ou subarbustivas
+Tg,Tb
+WS, WG
+GNM, GM, GSec
+T3.1
+Marisma
+Pampa
+Vegetação herbácea adaptada à água salobra que se estabelece nas margens de águas estuarinas da zona costeira.
+Pf, Pfh
+OM
+NA
+MFT1.3
+
+##### p3
+DESCRIÇÃO DAS CLASSES DA LEGENDA DA
+COLEÇÃO 11 DO MAPBIOMAS BRASIL
+Nivel 1
+Nivel 2
+Nivel 3
+Nivel 4
+Biomas
+Descrição
+Classes IBGE
+Classes FAO
+Classes Inventário Nacional
+de Emissões de GEE
+IUCN
+Agropecuária
+Área Não
+Vegetada
+Corpos D'água
+Pastagem
+Áreas de pastagem plantadas, diretamente relacionadas à atividade agropecuária. As áreas de pastagem natural,
+por sua vez, são predominantemente caracterizadas como formações campestres ou campo alagado, podendo ser
+submetidas ou não a práticas de pastejo. Podem ocorrer áreas desmatadas recentemente, sem ainda ter iniciado a
+atividade agropecuária. Pode conter também áreas em estágios iniciais de regeneração. Pequenas áreas agricolas
+podem estar contidas.
+AP, PE, PS
+OP, OG
+Ap
+T7.2, T7.5
+Agricultura
+Lavoura
+Temporária
+Soja
+Áreas cultivadas com a monocultura da soja (primeira safra).
+AMc (s)
+OCA
+AC
+T7.1
+Cana
+Áreas cultivadas com a monocultura da cana-de-açúcar.
+AMc (c)
+OCA
+AC
+T7.1
+Arroz
+Áreas cultivadas com cultura de arroz, exclusivamente sob sistema de irrigação. Este mapa é o mesmo apresentado
+no módulo irrigação na classe "Arroz Irrigado".
+AMc
+OCA
+AC
+T7.1
+Algodão (beta)
+Áreas cultivadas com a monocultura do algodão (primeira safra).
+AMc (s)
+OCA
+AC
+T7.1
+Outras Lavouras
+Temporárias
+Áreas ocupadas com cultivos agrícolas de curta ou média duração, geralmente com ciclo vegetativo inferior a um
+ano, que após a colheita necessitam de novo plantio para produzir.
+AMc
+OCA
+AC
+T7.1
+Lavoura
+Perene
+Café
+Áreas cultivadas com a monocultura do café.
+AMp (c)
+OCP
+PER
+T7.3
+Citrus
+Áreas cultivadas com a monocultura do citrus.
+AMp
+OCP
+PER
+T7.3
+Dendê
+Áreas cultivadas com monocultura de dendê.
+AMp
+OCP
+PER
+T7.3
+Outras Lavouras
+Perenes
+Áreas ocupadas com cultivos agrícolas de ciclo vegetativo longo (mais de um ano), que permitem colheitas
+sucessivas, sem necessidade de novo plantio.
+AMp
+OCP
+PER
+T7.3
+Silvicultura
+Espécies arbóreas plantadas para fins comerciais (ex. pinus, eucalipto, araucária).
+R
+FPB, FPC, FPM
+Ref
+T7.3
+Mosaico de usos
+Amazônia
+Classe de transição. Áreas agrícolas em que não foi possível distinguir entre pastagens e áreas de agricultura. Esta
+classe também pode incluir áreas de vegetação secundária em desenvolvimento sobre pastagens abandonadas
+que ainda não atingiram o porte e a estrutura de uma floresta, além de pequenas propriedades de agricultura
+familiar e áreas recentemente desmatadas.
+AP, PE, PS, ATp, ATc, ATpc
+OCA, OCM, OP,
+OG, OB
+AC, PER, Ap, APD, S
+T7.5
+Caatinga
+Áreas de uso agropecuário onde não foi possível distinguir entre pastagem e agricultura. Pode incluir áreas de
+ocupação periurbana, como chácaras, sítios e condomínios
+AP, PE, PS, ATp, ATc, ATpc
+OCA, OCM, OP,
+OG, OB
+AC, PER, Ap, APD, S
+T7.5
+Cerrado
+Paisagens agropecuárias em que não é possível distinguir claramente entre pastagem e agricultura. Essa classe
+pode incluir áreas em estágios iniciais de regeneração natural, zonas antropizadas dentro de áreas protegidas
+(excluindo APAs e Terras Indígenas) e áreas periurbanas, como pequenas fazendas, propriedades rurais e conjuntos
+habitacionais.
+AP, PE, PS, ATp, ATc, ATpc
+OCA, OCM, OP,
+OG, OB
+AC, PER, S
+T7.5
+Mata
+Atlântica
+Áreas destinadas ao uso agropecuário onde não foi possível distinguir entre pastagens e áreas agrícolas, incluindo
+terras em pousio. Essas áreas podem também incluir zonas periurbanas, como pequenas propriedades, sítios e
+chácaras. Estão incluídas também áreas de transição, onde a vegetação secundária está em desenvolvimento em
+pastagens abandonadas ou em processos de restauração ecológica, ainda sem alcançar porte e estrutura florestal.
+AP, PE, PS, ATp, ATc, ATpc
+OCA, OCM, OP,
+OG, OB
+AC, PER, S
+T7.5
+Pantanal
+Esta classe pode incluir áreas periurbanas, instalações rurais (sedes de propriedades), e áreas de transição da classe
+de pastagem para vegetação secundária em regeneração natural, ou para pastagens degradadas e/ou
+abandonadas.
+AP, PE, PS, ATp, ATc, ATpc
+OCA, OCM, OP,
+OG, OB
+AC, PER, S
+T7.5
+Pampa
+Áreas de uso agropecuário, onde não foi possível distinguir entre pastagem e agricultura. Pode incluir áreas de
+cultivos, pastagens de inverno ou de verão e de horticultura. Inclui as áreas de descanso entre safras agrícolas
+(pousio) e as áreas de abandono do uso agrícola. Também pode incluir áreas de ocupação periurbana, como
+chácaras, sítios e condomínios
+AP, AS, AT, AM, PE, PS, Ag,
+Ap, Ac, Acc, Acp, AA
+OCA, OCM, OP,
+OG, OF, OB
+AC, PER, Ap, APD, S
+T7.5
+Praia, Duna e Areal
+Cordões arenosos, de coloração branco brilhante, onde não há o predomínio de vegetação de nenhum tipo.
+Dn
+OX
+DnM,DnNM
+MT1.3
+Área Urbanizada
+Áreas com significativa densidade de edificações e vias, incluindo infraestrutura e áreas livres de construções.
+Iu
+OB
+S
+T7.4
+Mineração
+Áreas referentes a extração mineral superficial, de  porte industrial ou garimpeiro, havendo clara exposição do solo
+por ação antrópica. Não são passíveis de deteção nenhum tipo de mineração subterrâneas ou subaquática.
+MCA
+OQ
+Min
+NA
+Usina Fotovoltaica
+Instalação de médio a grande porte destinada à geração de energia elétrica por conversão direta da luz solar, com
+foco na comercialização da energia. No Brasil, são consideradas grandes usinas as centrais com potência superior a
+5 MW, conforme regulamentação (Resolução Normativa ANEEL nº 1.071, de 29 de agosto de 2023). A eletricidade
+gerada é conectada ao Sistema Interligado Nacional (SIN), que distribui energia por todo o país.Em termos de uso
+do solo, essas usinas ocupam áreas relevantes: estima-se que uma instalação em regiões tropicais demande cerca
+de 1 ha por MW com o uso de módulos fixos, podendo variar para 2–3 ha/MW em função de tecnologia (trackers) e
+disposição dos painéis. Exemplos nacionais confirmam essa faixa: o Parque Solar Nova Olinda (292 MW em 690 ha ≈
+2,4 ha/MW), e o Complexo Solar Pirapora (321 MW em ≈ 1 500 ha, cerca de 4,7 ha/MW.
+NA
+NA
+NA
+NA
+Parque eólico (beta)
+Empreendimentos destinados à geração de energia elétrica a partir da força dos ventos, compostos por múltiplos
+aerogeradores instalados em uma área planejada, terrestre ou marítima, com interligação ao sistema de
+transmissão elétrica (Resolução Normativa ANEEL nº 1.071, de 29 de agosto de 2023).
+NA
+NA
+NA
+NA
+Outras Áreas não Vegetadas
+Amazônia
+Áreas de superfícies não permeáveis (infra-estrutura, expansão urbana ou mineração) não mapeadas em suas
+classes.
+AU, MCA
+OB, OQ
+S, Min
+NA
+Caatinga
+Áreas de superfícies não permeáveis (infra-estrutura, expansão urbana ou mineração) não mapeadas em suas
+classes.
+AU,MCA
+OB, OQ
+S, Min
+NA
+Cerrado
+Inclui superfícies impermeáveis (por exemplo, estradas, prédios, infraestrutura de mineração), solo exposto em
+ambientes naturais (por exemplo, características de erosão, ravinas, deslizamentos de terra) e terras cultiváveis fora
+do período de cultivo.
+AU, MCA
+OB, OQ
+S, Min
+NA
+Mata
+Atlântica
+Áreas naturais com solo exposto resultantes de eventos climáticos (deslizamentos, inundações) e áreas com
+superfícies não permeáveis (infraestrutura, expansão urbana ou mineração) que não foram mapeadas dentro de
+suas respectivas classes.
+AU, MCA
+OB, OQ
+S, Min
+NA
+Pampa
+Classe mista que contempla áreas naturais e áreas antropizadas. As áreas naturais incluem superfícies arenosas
+como as praias fluviais e os areais. As áreas antropizadas incluem áreas de solo exposto e superfícies não
+permeáveis (infra-estrutura, expansão urbana ou mineração).
+AU, MCA, Dn, Iu
+OB, OQ, OX
+S, SE, DnM, DnNM, Min
+NA
+Pantanal
+Áreas de solo exposto (principalmente solo arenoso) não classificadas na classe de Formação Campestre ou
+Pastagem.
+PE, Sg
+OX
+Ap, GNM, GSec
+NA
+Rio, Lago e Oceano
+Rios, lagos, represas, reservatórios e outros corpos d'água.
+NA
+IRP, IRS, IL, ID
+A, Res
+F1.1, F1.2, F2.1,
+F2.2, F3.1,
+F3.2, F3.5,
+FM1.2, FM1.3
+Aquicultura
+Área referente a lagos artificiais, onde predominam atividades aquícolas e/ou de salicultura.
+NA
+NA
+NA
+NA
+Tabela gerada e publicada em 13 de agosto de 2026 - MapBiomas Brasil

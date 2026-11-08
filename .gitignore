@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.vscode/
+# revisão interna da chave (não publicar)
+revisao/

@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interpretando o Brasil</title>
+  <meta name="description" content="Chave de Interpretação Visual para Imagens de Satélite — classes de cobertura e uso da terra em cada bioma brasileiro (legenda MapBiomas Coleção 11).">
+  <link rel="icon" href="img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topo">
+    <div class="topo-inner">
+      <a class="marca" href="./">
+        <img src="img/logo.png" alt="" width="56" height="42">
+        <span>
+          <strong>Interpretando o Brasil</strong>
+          <small>Chave de Interpretação Visual para Imagens de Satélite</small>
+        </span>
+      </a>
+      <div class="acoes">
+        <div class="modo" role="tablist" aria-label="Modo de visualização">
+          <button role="tab" data-modo="bioma" aria-selected="true">Por bioma</button>
+          <button role="tab" data-modo="classe" aria-selected="false">Por classe</button>
+        </div>
+        <button class="btn-sobre" id="btn-sobre" type="button">Sobre</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="filtros" aria-label="Filtros">
+    <div class="filtros-inner">
+      <div class="linha-filtro" id="f-bioma">
+        <span class="rotulo">Bioma</span>
+        <div class="chips" id="chips-bioma"></div>
+      </div>
+      <div class="linha-filtro" id="f-bioma-multi" hidden>
+        <span class="rotulo">Biomas</span>
+        <div class="chips" id="chips-bioma-multi"></div>
+      </div>
+      <div class="linha-filtro" id="f-grupo">
+        <span class="rotulo">Grupo</span>
+        <div class="chips" id="chips-grupo"></div>
+      </div>
+      <div class="linha-filtro extras">
+        <label class="busca">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input id="busca" type="search" placeholder="Buscar classe…" autocomplete="off">
+        </label>
+        <label class="check"><input type="checkbox" id="mostrar-ausentes"> Mostrar classes sem ficha</label>
+      </div>
+    </div>
+  </section>
+
+  <main class="conteudo">
+    <aside class="lista-classes" id="lista-classes" hidden aria-label="Classes"></aside>
+    <div class="painel">
+      <div id="cabecalho-painel"></div>
+      <div id="grade" class="grade"></div>
+      <p id="vazio" class="vazio" hidden></p>
+    </div>
+  </main>
+
+  <dialog id="detalhe" aria-labelledby="det-titulo">
+    <div class="det">
+      <header class="det-topo">
+        <div class="det-id">
+          <span class="swatch" id="det-cor"></span>
+          <div>
+            <div class="det-meta" id="det-meta"></div>
+            <h2 id="det-titulo"></h2>
+          </div>
+        </div>
+        <div class="det-botoes">
+          <button id="det-ant" aria-label="Ficha anterior" title="Anterior (←)">‹</button>
+          <button id="det-prox" aria-label="Próxima ficha" title="Próxima (→)">›</button>
+          <button id="det-fechar" autofocus aria-label="Fechar" title="Fechar (Esc)">×</button>
+        </div>
+      </header>
+      <div class="det-corpo" id="det-corpo"></div>
+    </div>
+  </dialog>
+
+  <dialog id="zoom" aria-label="Imagem ampliada">
+    <figure>
+      <img id="zoom-img" alt="">
+      <figcaption id="zoom-legenda"></figcaption>
+    </figure>
+    <button class="zoom-nav ant" id="zoom-ant" aria-label="Imagem anterior">‹</button>
+    <button class="zoom-nav prox" id="zoom-prox" aria-label="Próxima imagem">›</button>
+    <button class="zoom-fechar" id="zoom-fechar" aria-label="Fechar">×</button>
+  </dialog>
+
+  <dialog id="sobre" aria-labelledby="sobre-titulo">
+    <div class="sobre">
+      <button class="zoom-fechar claro" id="sobre-fechar" aria-label="Fechar">×</button>
+      <img src="img/logo.png" alt="" width="84" height="63">
+      <h2 id="sobre-titulo">Interpretando o Brasil</h2>
+      <p class="sub">Chave de Interpretação Visual para Imagens de Satélite</p>
+      <p id="sobre-texto"></p>
+      <h3>Como ler cada ficha</h3>
+      <ul>
+        <li><strong>Imagens:</strong> composições Landsat e Sentinel-2 nos períodos seco (jul–ago) e chuvoso (jan–fev), e imagem de alta resolução do Google Earth.</li>
+        <li><strong>Falsa-cor (R-G-B):</strong> Landsat B5-B6-B4 (infravermelho próximo, SWIR 1, vermelho), em que a vegetação aparece em tons de vermelho; Sentinel-2 B11-B8-B4 (SWIR 1, infravermelho próximo, vermelho), em que a vegetação aparece verde.</li>
+        <li><strong>Série temporal:</strong> NDVI do Sentinel-2 e precipitação acumulada mensal no ponto.</li>
+        <li><strong>Tonalidade e textura:</strong> padrões de interpretação visual do alvo.</li>
+        <li><strong>Classes e descrições:</strong> nomes, códigos, cores e descrições por bioma seguem a <a href="https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/DESCRICAO_DA_LEGENDA_MAPBIOMAS_BRASIL_COLECAO_11_PDF.pdf" target="_blank" rel="noopener">legenda MapBiomas Coleção 11</a>.</li>
+      </ul>
+      <p><a id="sobre-pdf" class="btn-pdf" href="#" download>Baixar o PDF completo</a></p>
+    </div>
+  </dialog>
+
+  <footer class="rodape">
+    <p>Chave de interpretação elaborada com especialistas em interpretação visual no âmbito do projeto <a href="https://mapbiomas.org" target="_blank" rel="noopener">MapBiomas</a>.</p>
+  </footer>
+
+  <script src="dados/chave.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
