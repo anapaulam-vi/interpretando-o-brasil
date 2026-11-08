@@ -31,7 +31,13 @@ FONTE_B = str(AQUI / "fontes" / "Montserrat-Bold.ttf")
 F_R, F_B = fitz.Font(fontfile=FONTE_R), fitz.Font(fontfile=FONTE_B)
 # Classes retiradas da chave: páginas excluídas e item removido das listas de cada bioma
 EXCLUIR = {"Vegetação Urbana", "Soja"}
+EXCLUIR_BIOMA = {("Cana-de-açúcar", "pampa"), ("Cana-de-açúcar", "pantanal")}
 CINZA_CAIXA = (0.937, 0.937, 0.937)
+# posições dos quadros de imagem: em pixels na captura 2048x984 e em pontos nas páginas com imagens soltas
+PX_QUADROS = [(13, 145, 400, 531), (422, 145, 809, 531), (830, 145, 1218, 531),
+              (1239, 145, 1626, 531), (1648, 145, 2035, 531)]
+QUADROS_PT = [fitz.Rect(44, 61, 168, 201), fitz.Rect(177, 61, 301, 201), fitz.Rect(309, 61, 433, 201),
+              fitz.Rect(440, 61, 565, 201), fitz.Rect(572, 61, 697, 201)]
 
 BIOMAS = {"AMAZONIA": "amazonia", "CERRADO": "cerrado", "CAATINGA": "caatinga",
           "MATAATLANTICA": "mata_atlantica", "PANTANAL": "pantanal", "PAMPA": "pampa"}
@@ -85,7 +91,7 @@ def caixa_que_cabe(p, rect, texto, tam, fonte, alinhar=fitz.TEXT_ALIGN_JUSTIFY, 
     """Escreve o texto no retângulo, reduzindo a fonte até caber."""
     t = tam
     while t >= minimo:
-        sobra = p.insert_textbox(rect, texto, fontsize=t, fontname="F0", fontfile=fonte,
+        sobra = p.insert_textbox(rect, texto, fontsize=t, fontname=("MonB" if fonte == FONTE_B else "MonR"), fontfile=fonte,
                                  align=alinhar, lineheight=1.2)
         if sobra >= 0:
             return t
@@ -99,7 +105,7 @@ def centralizado(p, linha, texto, fonte_arq, fonte_obj, largura_max):
         tam -= 0.5
     cx = (linha["rect"].x0 + linha["rect"].x1) / 2
     x = cx - fonte_obj.text_length(texto, tam) / 2
-    p.insert_text((x, linha["origem"][1]), texto, fontsize=tam, fontname="F0", fontfile=fonte_arq)
+    p.insert_text((x, linha["origem"][1]), texto, fontsize=tam, fontname=("MonB" if fonte_arq == FONTE_B else "MonR"), fontfile=fonte_arq)
 
 
 def main(entrada, saida):
@@ -119,7 +125,7 @@ def main(entrada, saida):
     for pg in doc:
         b = lado(pg)
         tt = next((l for l in linhas_da_pagina(pg) if l["tam"] > 20 and l["rect"].y0 < 40), None)
-        if b and tt and tt["texto"] not in EXCLUIR:
+        if b and tt and tt["texto"] not in EXCLUIR and (tt["texto"], b) not in EXCLUIR_BIOMA:
             fichas.setdefault(b, set()).add(tt["texto"])
             if tt["texto"] not in ordem_classes:
                 ordem_classes.append(tt["texto"])
@@ -212,24 +218,47 @@ def main(entrada, saida):
                     if l:
                         apagar_rects.append(l["rect"])
                         escrever.append(lambda p, l=l, t=f"{rotulo} {c[campo]}": p.insert_text(
-                            l["origem"], t, fontsize=l["tam"], fontname="F0", fontfile=FONTE_R))
+                            l["origem"], t, fontsize=l["tam"], fontname="MonR", fontfile=FONTE_R))
                         log["campos"] += 1
-            if "mapa" in c:
-                comp = [b for b in p.get_image_info() if (b["width"], b["height"]) == (2048, 984)]
+            # imagens trocadas (exemplo refeito ou mapa corrigido): quadros, gráfico e mapa
+            caixas_px = {"landsat_seco": PX_QUADROS[0], "landsat_chuvoso": PX_QUADROS[1],
+                         "sentinel_seco": PX_QUADROS[2], "sentinel_chuvoso": PX_QUADROS[3],
+                         "google_earth": PX_QUADROS[4], "grafico": (14, 650, 1518, 980), "mapa": (1542, 640, 2034, 980)}
+            caixas_pt = {"landsat_seco": QUADROS_PT[0], "landsat_chuvoso": QUADROS_PT[1],
+                         "sentinel_seco": QUADROS_PT[2], "sentinel_chuvoso": QUADROS_PT[3],
+                         "google_earth": QUADROS_PT[4], "grafico": fitz.Rect(43, 212, 566, 336),
+                         "mapa": fitz.Rect(572, 213, 697, 335)}
+            comp = [b for b in p.get_image_info() if (b["width"], b["height"]) == (2048, 984)]
+            for campo in caixas_px:
+                if campo not in c:
+                    continue
                 if comp:
                     bx0, by0, bx1, by1 = comp[0]["bbox"]
                     fx, fy = (bx1 - bx0) / 2048, (by1 - by0) / 984
-                    area = fitz.Rect(bx0 + 1542 * fx, by0 + 640 * fy, bx0 + 2034 * fx, by0 + 980 * fy)
+                    x0, y0, x1, y1 = caixas_px[campo]
+                    area = fitz.Rect(bx0 + x0 * fx, by0 + y0 * fy, bx0 + x1 * fx, by0 + y1 * fy)
                 else:
-                    area = fitz.Rect(572, 213, 697, 335)
-                novo_mapa = str(RAIZ / c["mapa"]) if c["mapa"] else ""
+                    area = caixas_pt[campo]
+                arq = str(RAIZ / c[campo]) if c[campo] else ""
 
-                def troca_mapa(p, area=area, arq=novo_mapa):
+                def troca(p, area=area, arq=arq, campo=campo):
                     p.draw_rect(area, color=None, fill=(1, 1, 1), overlay=True)
                     if arq:
-                        p.insert_image(area, filename=arq, keep_proportion=True, overlay=True)
-                escrever.append(troca_mapa)
-                log["mapas"] = log.get("mapas", 0) + 1
+                        p.insert_image(area, filename=arq, keep_proportion=campo != "grafico", overlay=True)
+                    elif campo == "google_earth":
+                        p.insert_textbox(fitz.Rect(area.x0 + 6, area.y0 + area.height / 2 - 12, area.x1 - 6,
+                                                   area.y1), "Imagem Google Earth\npendente para o novo ponto",
+                                         fontsize=7, fontname="MonR", fontfile=FONTE_R, align=fitz.TEXT_ALIGN_CENTER,
+                                         color=(0.45, 0.45, 0.45))
+                escrever.append(troca)
+                log["imagens"] = log.get("imagens", 0) + 1
+            if "coords" in c:
+                l = next((l for l in linhas if l["texto"].startswith("Coords:") and l["tam"] < 9), None)
+                if l:
+                    apagar_rects.append(l["rect"])
+                    escrever.append(lambda p, l=l, t=f"Coords: {c['coords']}": p.insert_text(
+                        l["origem"], t, fontsize=l["tam"], fontname="MonR", fontfile=FONTE_R))
+                    log["campos"] += 1
             if "observacoes" in c:
                 obs = [l for l in linhas if l["rect"].x0 > 245 and l["rect"].y0 > 345 and l["tam"] < 9]
                 if obs:
@@ -238,13 +267,13 @@ def main(entrada, saida):
                     o = obs[0]
                     if F_R.text_length(texto, o["tam"]) <= 435:
                         escrever.append(lambda p, o=o, t=texto: p.insert_text(
-                            o["origem"], t, fontsize=o["tam"], fontname="F0", fontfile=FONTE_R))
+                            o["origem"], t, fontsize=o["tam"], fontname="MonR", fontfile=FONTE_R))
                     else:
                         escrever.append(lambda p, t=texto, tam=o["tam"]: caixa_que_cabe(
                             p, fitz.Rect(258, 350, 695, 396), t, tam, FONTE_R, fitz.TEXT_ALIGN_LEFT, 5))
                     log["observações"] += 1
 
-        if titulo and nome_pdf in EXCLUIR and bioma:
+        if titulo and bioma and (nome_pdf in EXCLUIR or (nome_pdf, bioma) in EXCLUIR_BIOMA):
             excluir_paginas.append(i)
             continue
         if apagar_rects:

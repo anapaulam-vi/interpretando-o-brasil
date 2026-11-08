@@ -91,6 +91,8 @@ PX_MAPA = (1542, 640, 2034, 980)
 
 # Classes do PDF retiradas da chave (decisão de 08/11/2026: Vegetação Urbana não existe na legenda Col. 11; Soja retirada)
 EXCLUIR = {"Vegetação Urbana", "Soja"}
+# (classe no PDF, bioma) retirados: Cana não ocorre no Pampa nem no Pantanal no mapa MapBiomas Col. 11
+EXCLUIR_BIOMA = {("Cana-de-açúcar", "pampa"), ("Cana-de-açúcar", "pantanal")}
 
 ROTULOS_EX = ["Coords", "Falsa-Cor", "Tonalidade", "Textura", "Observações"]
 ROTULOS_DESC = ["Descrição", "Observações"]
@@ -185,6 +187,8 @@ def main(pdf):
         if any(sem_acento(titulo).lower() == sem_acento(x).lower() for x in EXCLUIR):
             continue
         classe = nome_classe.get(sem_acento(titulo).lower())
+        if (classe, bioma) in EXCLUIR_BIOMA:
+            continue
         if not classe:
             avisos.append(f"p{n}: classe desconhecida '{titulo}' (acrescente em CLASSES)")
             continue

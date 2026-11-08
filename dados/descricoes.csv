@@ -85,7 +85,6 @@ pantanal;Afloramento Rochoso;Superfícies rochosas naturalmente expostas com pou
 pantanal;Pastagem;Áreas de pastagem plantadas, diretamente relacionadas à atividade agropecuária. As áreas de pastagem natural, por sua vez, são predominantemente caracterizadas como formações campestres ou campo alagado, podendo ser submetidas ou não a práticas de pastejo. Na Amazônia, podem ocorrer áreas desmatadas recentemente, sem ainda ter iniciado a atividade agropecuária.;;217
 pantanal;Cultivo Temporário;Áreas ocupadas com cultivos agrícolas de curta ou média duração, geralmente com ciclo vegetativo inferior a um ano, que após a colheita necessitam de novo plantio para produzir.;;219
 pantanal;Arroz;"Áreas cultivadas com cultura de arroz, exclusivamente sob sistema de irrigação, nos estados do Rio Grande do Sul, Tocantins, Santa Catarina e Litoral do Paraná. Este mapa é o mesmo apresentado no módulo irrigação na classe ""Arroz Irrigado""";;231
-pantanal;Cana-de-açúcar;Áreas cultivadas com a monocultura da cana-de-açúcar.;;221
 pantanal;Silvicultura;Espécies arbóreas plantadas para fins comerciais (ex. pinus, eucalipto, araucária).;;223
 pantanal;Área Urbana;Áreas com significativa densidade de edificações e vias, incluindo infraestrutura e áreas livres de construções.;;210
 pantanal;Mineração;Áreas referentes a extração mineral de porte industrial ou garimpeiro, havendo clara exposição do solo por ação antrópica. Somente são consideradas áreas proximas a referências espacias de recursos mineirais do CPRM (GeoSGB), da AhkBrasilien (AHK), do projeto DETER (INPE), do Instituto Socioambiental (ISA), do Amazon Mining Watch (AMW) e de FL Lobo et al. 2018.;;225
@@ -98,7 +97,6 @@ pampa;Afloramento Rochoso;Rochas naturalmente expostas na superfície terrestre 
 pampa;Restinga Herbácea;Vegetação herbácea que se estabelece sobre solos arenosos ou sobre dunas na zona costeira.;;251
 pampa;Cultivo Temporário;Áreas ocupadas com cultivos agrícolas de curta ou média duração, geralmente com ciclo vegetativo inferior a um ano, que após a colheita necessitam de novo plantio para produzir.;;254
 pampa;Arroz;"Áreas cultivadas com cultura de arroz, exclusivamente sob sistema de irrigação, nos estados do Rio Grande do Sul, Tocantins, Santa Catarina e Litoral do Paraná. Este mapa é o mesmo apresentado no módulo irrigação na classe ""Arroz Irrigado""";;270
-pampa;Cana-de-açúcar;Áreas cultivadas com a monocultura da cana-de-açúcar.;;258
 pampa;Cultivo Perene;Áreas ocupadas com cultivos agrícolas de ciclo vegetativo longo (mais de um ano), que permitem colheitas sucessivas, sem necessidade de novo plantio.;;256
 pampa;Silvicultura;Espécies arbóreas plantadas para fins comerciais (ex. pinus, eucalipto, araucária).;;260
 pampa;Praia, Duna e Areial;Rios, lagos, represas, reservatórios e outros corpos d'água.;;243

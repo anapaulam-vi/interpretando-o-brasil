@@ -4126,9 +4126,9 @@ window.CHAVE = {
    "pagina": 201,
    "exemplos": [
     {
-     "lat": -20.39358,
-     "lon": -56.56084,
-     "coords": "-20.39358, -56.56084",
+     "lat": -20.3494,
+     "lon": -56.62526,
+     "coords": "-20.3494, -56.62526",
      "falsa_cor": "Landsat (B5, B6, B4); Sentinel (B11, B8, B4)",
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
@@ -4136,28 +4136,24 @@ window.CHAVE = {
      "pagina": 200,
      "imagens": [
       {
-       "src": "img/pantanal/cultivo_temporario/ex1_landsat_seco.jpg",
+       "src": "img/corrigidos/p218_landsat_seco.jpg",
        "rotulo": "Landsat – seco"
       },
       {
-       "src": "img/pantanal/cultivo_temporario/ex1_landsat_chuvoso.jpg",
+       "src": "img/corrigidos/p218_landsat_chuvoso.jpg",
        "rotulo": "Landsat – chuvoso"
       },
       {
-       "src": "img/pantanal/cultivo_temporario/ex1_sentinel_seco.jpg",
+       "src": "img/corrigidos/p218_sentinel_seco.jpg",
        "rotulo": "Sentinel-2 – seco"
       },
       {
-       "src": "img/pantanal/cultivo_temporario/ex1_sentinel_chuvoso.jpg",
+       "src": "img/corrigidos/p218_sentinel_chuvoso.jpg",
        "rotulo": "Sentinel-2 – chuvoso"
-      },
-      {
-       "src": "img/pantanal/cultivo_temporario/ex1_google_earth.jpg",
-       "rotulo": "Google Earth"
       }
      ],
-     "grafico": "img/pantanal/cultivo_temporario/ex1_grafico.jpg",
-     "mapa": "img/pantanal/cultivo_temporario/ex1_mapa.jpg"
+     "grafico": "img/corrigidos/p218_grafico.jpg",
+     "mapa": "img/corrigidos/p218_mapa.jpg"
     }
    ]
   },
@@ -4165,7 +4161,7 @@ window.CHAVE = {
    "descricao": "Áreas cultivadas com cultura de arroz, exclusivamente sob sistema de irrigação. Este mapa é o mesmo apresentado no módulo irrigação na classe \"Arroz Irrigado\".",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 211,
+   "pagina": 209,
    "exemplos": [
     {
      "lat": -20.26477112,
@@ -4175,7 +4171,7 @@ window.CHAVE = {
      "tonalidade": "Escura",
      "textura": "Lisa e Homogênea",
      "observacoes": "Padrão de pequenos talhões; a coloração indica umidade (vermelho + azul) e há dutos de irrigação, características do plantio de arroz. O NDVI varia de 0,2 a 1 em alguns meses e volta a 0,2, indicando cultivo e colheita.",
-     "pagina": 210,
+     "pagina": 208,
      "imagens": [
       {
        "src": "img/pantanal/arroz/ex1_landsat_seco.jpg",
@@ -4203,87 +4199,41 @@ window.CHAVE = {
     }
    ]
   },
-  "cana|pantanal": {
-   "descricao": "Áreas cultivadas com a monocultura da cana-de-açúcar.",
+  "silvicultura|pantanal": {
+   "descricao": "Espécies arbóreas plantadas para fins comerciais (ex. pinus, eucalipto, araucária).",
    "fonte": "legenda",
    "observacoes": "",
    "pagina": 203,
    "exemplos": [
     {
-     "lat": -15.7673,
-     "lon": -58.028097,
-     "coords": "-15.767300, -58.028097",
-     "falsa_cor": "Landsat (B5, B6, B4); Sentinel (B11, B8, B4)",
-     "tonalidade": "",
-     "textura": "Lisa e Homogênea",
-     "observacoes": "",
-     "pagina": 202,
-     "imagens": [
-      {
-       "src": "img/pantanal/cana_de_acucar/ex1_landsat_seco.jpg",
-       "rotulo": "Landsat – seco"
-      },
-      {
-       "src": "img/pantanal/cana_de_acucar/ex1_landsat_chuvoso.jpg",
-       "rotulo": "Landsat – chuvoso"
-      },
-      {
-       "src": "img/pantanal/cana_de_acucar/ex1_sentinel_seco.jpg",
-       "rotulo": "Sentinel-2 – seco"
-      },
-      {
-       "src": "img/pantanal/cana_de_acucar/ex1_sentinel_chuvoso.jpg",
-       "rotulo": "Sentinel-2 – chuvoso"
-      },
-      {
-       "src": "img/pantanal/cana_de_acucar/ex1_google_earth.jpg",
-       "rotulo": "Google Earth"
-      }
-     ],
-     "grafico": "img/pantanal/cana_de_acucar/ex1_grafico.jpg",
-     "mapa": "img/pantanal/cana_de_acucar/ex1_mapa.jpg"
-    }
-   ]
-  },
-  "silvicultura|pantanal": {
-   "descricao": "Espécies arbóreas plantadas para fins comerciais (ex. pinus, eucalipto, araucária).",
-   "fonte": "legenda",
-   "observacoes": "",
-   "pagina": 205,
-   "exemplos": [
-    {
-     "lat": -16.174786,
-     "lon": -58.462442,
-     "coords": "-16.174786 , -58.462442",
+     "lat": -16.10504,
+     "lon": -58.43087,
+     "coords": "-16.10504, -58.43087",
      "falsa_cor": "Landsat (B5, B6, B4); Sentinel (B11, B8, B4)",
      "tonalidade": "",
      "textura": "Rugosa e Homogênea",
      "observacoes": "",
-     "pagina": 204,
+     "pagina": 202,
      "imagens": [
       {
-       "src": "img/pantanal/silvicultura/ex1_landsat_seco.jpg",
+       "src": "img/corrigidos/p222_landsat_seco.jpg",
        "rotulo": "Landsat – seco"
       },
       {
-       "src": "img/pantanal/silvicultura/ex1_landsat_chuvoso.jpg",
+       "src": "img/corrigidos/p222_landsat_chuvoso.jpg",
        "rotulo": "Landsat – chuvoso"
       },
       {
-       "src": "img/pantanal/silvicultura/ex1_sentinel_seco.jpg",
+       "src": "img/corrigidos/p222_sentinel_seco.jpg",
        "rotulo": "Sentinel-2 – seco"
       },
       {
-       "src": "img/pantanal/silvicultura/ex1_sentinel_chuvoso.jpg",
+       "src": "img/corrigidos/p222_sentinel_chuvoso.jpg",
        "rotulo": "Sentinel-2 – chuvoso"
-      },
-      {
-       "src": "img/pantanal/silvicultura/ex1_google_earth.jpg",
-       "rotulo": "Google Earth"
       }
      ],
-     "grafico": "img/pantanal/silvicultura/ex1_grafico.jpg",
-     "mapa": "img/pantanal/silvicultura/ex1_mapa.jpg"
+     "grafico": "img/corrigidos/p222_grafico.jpg",
+     "mapa": "img/corrigidos/p222_mapa.jpg"
     }
    ]
   },
@@ -4333,7 +4283,7 @@ window.CHAVE = {
    "descricao": "Áreas referentes a extração mineral superficial, de porte industrial ou garimpeiro, havendo clara exposição do solo por ação antrópica. Não são passíveis de detecção nenhum tipo de mineração subterrânea ou subaquática.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 207,
+   "pagina": 205,
    "exemplos": [
     {
      "lat": -19.211708,
@@ -4343,7 +4293,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
-     "pagina": 206,
+     "pagina": 204,
      "imagens": [
       {
        "src": "img/pantanal/mineracao/ex1_landsat_seco.jpg",
@@ -4375,7 +4325,7 @@ window.CHAVE = {
    "descricao": "Áreas de solo exposto (principalmente solo arenoso) não classificadas na classe de Formação Campestre ou Pastagem.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 209,
+   "pagina": 207,
    "exemplos": [
     {
      "lat": -18.806,
@@ -4385,7 +4335,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 208,
+     "pagina": 206,
      "imagens": [
       {
        "src": "img/pantanal/outras_areas_nao_vegetadas/ex1_landsat_seco.jpg",
@@ -4459,7 +4409,7 @@ window.CHAVE = {
    "descricao": "Vegetação lenhosa com espécies arbóreas ou arbóreo-arbustivas, com predomínio de dossel contínuo. Inclui as tipologias florestais: ombrófila, estacional decidual e semi-decidual e parte das formações pioneiras.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 215,
+   "pagina": 213,
    "exemplos": [
     {
      "lat": -31.9515,
@@ -4469,7 +4419,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 214,
+     "pagina": 212,
      "imagens": [
       {
        "src": "img/pampa/formacao_florestal/ex1_landsat_seco.jpg",
@@ -4501,7 +4451,7 @@ window.CHAVE = {
    "descricao": "Vegetação com predomínio de estrato herbáceo graminóide, com presença de dicotiledôneas herbáceas e subarbustivas. A composição botânica é influenciada pelos gradientes edáficos e topográficos e pelo manejo pastoril (pecuária). Ocorrem em solos profundos até solos rasos, incluindo terrenos rochosos (campos rupestres) e arenosos (campos arenosos ou psamófilos). Ocupam desde solos bem drenados (campos mésicos), até solos com maior teor de umidade (campos úmidos - com presença marcante de ciperáceas). Na maioria dos casos corresponde à vegetação nativa, mas podem estar presentes manchas de vegetação exótica invasora ou de uso forrageiro (pastagem plantada).",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 217,
+   "pagina": 215,
    "exemplos": [
     {
      "lat": -30.898,
@@ -4511,7 +4461,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
-     "pagina": 216,
+     "pagina": 214,
      "imagens": [
       {
        "src": "img/pampa/formacao_campestre/ex1_landsat_seco.jpg",
@@ -4543,7 +4493,7 @@ window.CHAVE = {
    "descricao": "Áreas pantanosas, denominadas regionalmente de banhados. Vegetação tipicamente higrófila, com plantas aquáticas emergentes, submersas ou flutuantes. Ocupam planícies e depressões do terreno com solo encharcado e também as margens rasas de lagoas ou reservatórios de água.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 219,
+   "pagina": 217,
    "exemplos": [
     {
      "lat": -31.98724,
@@ -4553,7 +4503,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
-     "pagina": 218,
+     "pagina": 216,
      "imagens": [
       {
        "src": "img/pampa/campo_alagado_e_area_pantanosa/ex1_landsat_seco.jpg",
@@ -4585,7 +4535,7 @@ window.CHAVE = {
    "descricao": "Rochas naturalmente expostas na superfície terrestre sem cobertura de solo, muitas vezes com presença parcial de vegetação rupícola.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 221,
+   "pagina": 219,
    "exemplos": [
     {
      "lat": -30.830174,
@@ -4595,7 +4545,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 220,
+     "pagina": 218,
      "imagens": [
       {
        "src": "img/pampa/afloramento_rochoso/ex1_landsat_seco.jpg",
@@ -4627,7 +4577,7 @@ window.CHAVE = {
    "descricao": "Vegetação herbácea que se estabelece sobre solos arenosos ou sobre dunas na zona costeira.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 229,
+   "pagina": 227,
    "exemplos": [
     {
      "lat": -30.36912,
@@ -4637,7 +4587,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 228,
+     "pagina": 226,
      "imagens": [
       {
        "src": "img/pampa/restinga_herbacea/ex1_landsat_seco.jpg",
@@ -4669,7 +4619,7 @@ window.CHAVE = {
    "descricao": "Áreas ocupadas com cultivos agrícolas de curta ou média duração, geralmente com ciclo vegetativo inferior a um ano, que após a colheita necessitam de novo plantio para produzir.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 232,
+   "pagina": 230,
    "exemplos": [
     {
      "lat": -29.982,
@@ -4679,7 +4629,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 230,
+     "pagina": 228,
      "imagens": [
       {
        "src": "img/pampa/cultivo_temporario/ex1_landsat_seco.jpg",
@@ -4713,7 +4663,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 231,
+     "pagina": 229,
      "imagens": [
       {
        "src": "img/pampa/cultivo_temporario/ex2_landsat_seco.jpg",
@@ -4745,7 +4695,7 @@ window.CHAVE = {
    "descricao": "Áreas cultivadas com cultura de arroz, exclusivamente sob sistema de irrigação. Este mapa é o mesmo apresentado no módulo irrigação na classe \"Arroz Irrigado\".",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 246,
+   "pagina": 242,
    "exemplos": [
     {
      "lat": -33.160594,
@@ -4755,7 +4705,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 245,
+     "pagina": 241,
      "imagens": [
       {
        "src": "img/pampa/arroz/ex1_landsat_seco.jpg",
@@ -4783,32 +4733,11 @@ window.CHAVE = {
     }
    ]
   },
-  "cana|pampa": {
-   "descricao": "Áreas cultivadas com a monocultura da cana-de-açúcar.",
-   "fonte": "legenda",
-   "observacoes": "",
-   "pagina": 236,
-   "exemplos": [
-    {
-     "lat": null,
-     "lon": null,
-     "coords": "",
-     "falsa_cor": "",
-     "tonalidade": "",
-     "textura": "",
-     "observacoes": "",
-     "pagina": 235,
-     "imagens": [],
-     "grafico": "img/pampa/cana_de_acucar/ex1_grafico.jpg",
-     "mapa": ""
-    }
-   ]
-  },
   "lavoura_perene|pampa": {
    "descricao": "Áreas ocupadas com cultivos agrícolas de ciclo vegetativo longo (mais de um ano), que permitem colheitas sucessivas, sem necessidade de novo plantio.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 234,
+   "pagina": 232,
    "exemplos": [
     {
      "lat": -30.8093,
@@ -4818,7 +4747,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Rugosa e Homogênea",
      "observacoes": "",
-     "pagina": 233,
+     "pagina": 231,
      "imagens": [
       {
        "src": "img/pampa/cultivo_perene/ex1_landsat_seco.jpg",
@@ -4850,7 +4779,7 @@ window.CHAVE = {
    "descricao": "Espécies arbóreas plantadas para fins comerciais (ex. pinus, eucalipto, araucária).",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 238,
+   "pagina": 234,
    "exemplos": [
     {
      "lat": -30.175486,
@@ -4860,7 +4789,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Rugosa e Homogênea",
      "observacoes": "",
-     "pagina": 237,
+     "pagina": 233,
      "imagens": [
       {
        "src": "img/pampa/silvicultura/ex1_landsat_seco.jpg",
@@ -4892,7 +4821,7 @@ window.CHAVE = {
    "descricao": "Cordões arenosos, de coloração branco brilhante, onde não há o predomínio de vegetação de nenhum tipo.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 223,
+   "pagina": 221,
    "exemplos": [
     {
      "lat": -30.37574,
@@ -4902,7 +4831,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 222,
+     "pagina": 220,
      "imagens": [
       {
        "src": "img/pampa/praia_duna_e_areial/ex1_landsat_seco.jpg",
@@ -4934,7 +4863,7 @@ window.CHAVE = {
    "descricao": "Áreas com significativa densidade de edificações e vias, incluindo infraestrutura e áreas livres de construções.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 225,
+   "pagina": 223,
    "exemplos": [
     {
      "lat": -31.7722,
@@ -4944,7 +4873,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
-     "pagina": 224,
+     "pagina": 222,
      "imagens": [
       {
        "src": "img/pampa/area_urbana/ex1_landsat_seco.jpg",
@@ -4976,7 +4905,7 @@ window.CHAVE = {
    "descricao": "Áreas referentes a extração mineral superficial, de porte industrial ou garimpeiro, havendo clara exposição do solo por ação antrópica. Não são passíveis de detecção nenhum tipo de mineração subterrânea ou subaquática.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 240,
+   "pagina": 236,
    "exemplos": [
     {
      "lat": -31.586689,
@@ -4986,7 +4915,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
-     "pagina": 239,
+     "pagina": 235,
      "imagens": [
       {
        "src": "img/pampa/mineracao/ex1_landsat_seco.jpg",
@@ -5018,7 +4947,7 @@ window.CHAVE = {
    "descricao": "Classe mista que contempla áreas naturais e áreas antropizadas. As áreas naturais incluem superfícies arenosas como as praias fluviais e os areais. As áreas antropizadas incluem áreas de solo exposto e superfícies não permeáveis (infra-estrutura, expansão urbana ou mineração).",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 242,
+   "pagina": 238,
    "exemplos": [
     {
      "lat": -29.8389,
@@ -5028,7 +4957,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 241,
+     "pagina": 237,
      "imagens": [
       {
        "src": "img/pampa/outras_areas_nao_vegetadas/ex1_landsat_seco.jpg",
@@ -5060,7 +4989,7 @@ window.CHAVE = {
    "descricao": "Rios, lagos, represas, reservatórios e outros corpos d'água.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 227,
+   "pagina": 225,
    "exemplos": [
     {
      "lat": -29.7683,
@@ -5070,7 +4999,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 226,
+     "pagina": 224,
      "imagens": [
       {
        "src": "img/pampa/rio_lago_e_oceano/ex1_landsat_seco.jpg",
@@ -5102,7 +5031,7 @@ window.CHAVE = {
    "descricao": "Área referente a lagos artificiais, onde predominam atividades aquícolas e/ou de salicultura.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 244,
+   "pagina": 240,
    "exemplos": [
     {
      "lat": -29.922506,
@@ -5112,7 +5041,7 @@ window.CHAVE = {
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
      "observacoes": "",
-     "pagina": 243,
+     "pagina": 239,
      "imagens": [
       {
        "src": "img/pampa/aquicultura/ex1_landsat_seco.jpg",

@@ -33,6 +33,11 @@ FALSA_COR = "Landsat (B5, B6, B4); Sentinel (B11, B8, B4)"
 # página -> "redesenhar" (mapa novo a partir da coordenada) ou "" (retirar o mapa)
 MAPAS = {"104": "redesenhar", "257": ""}
 
+# exemplos movidos para um ponto dentro do bioma, mantendo a classe (decisão de 08/11/2026);
+# imagens refeitas com scripts/refazer_exemplo.py (Google Earth fica pendente)
+REFAZER = {"218": (-20.3494, -56.62526), "222": (-16.10504, -58.43087)}
+QUADROS_REFEITOS = ["landsat_seco", "landsat_chuvoso", "sentinel_seco", "sentinel_chuvoso", "grafico", "mapa"]
+
 OBS = {  # página -> observação revisada
     "6": "Florestas degradadas são mantidas na classe Formação Florestal até a perda irreversível da "
          "vegetação. A regeneração só é considerada quando o porte da floresta se assemelha ao natural.",
@@ -95,6 +100,14 @@ def main():
             motivo = ("falsa-cor com a textura repetida" if not e["falsa_cor"].startswith("Vermelho")
                       else "ordem R-G-B das bandas da falsa-cor")
             linhas.append((p, "falsa_cor", FALSA_COR, motivo))
+        if p in REFAZER:
+            lat, lon = REFAZER[p]
+            linhas.append((p, "coords", f"{lat}, {lon}", "ponto movido para dentro do bioma, mesma classe"))
+            for q in QUADROS_REFEITOS:
+                arq = f"img/corrigidos/p{p}_{q}.jpg"
+                if (RAIZ / arq).exists():
+                    linhas.append((p, q, arq, "imagem refeita para o novo ponto"))
+            linhas.append((p, "google_earth", "", "imagem Google Earth pendente para o novo ponto"))
         if p in MAPAS:
             if MAPAS[p] == "redesenhar":
                 lat, lon = (float(x) for x in re.findall(r"-?\d+(?:\.\d+)?", e["coords"])[:2])
