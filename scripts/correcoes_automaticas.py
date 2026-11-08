@@ -35,7 +35,9 @@ MAPAS = {"104": "redesenhar", "257": ""}
 
 # exemplos movidos para um ponto dentro do bioma, mantendo a classe (decisão de 08/11/2026);
 # imagens refeitas com scripts/refazer_exemplo.py (Google Earth fica pendente)
-REFAZER = {"218": (-20.3494, -56.62526), "222": (-16.10504, -58.43087)}
+# 08/11/2026: os pontos encontrados para o Pantanal (Lavoura Temporária e Silvicultura) não eram das classes
+# (erro do mapa nesses pixels); a escolha de um ponto verificado ficou com a equipe.
+REFAZER = {}
 QUADROS_REFEITOS = ["landsat_seco", "landsat_chuvoso", "sentinel_seco", "sentinel_chuvoso", "grafico", "mapa"]
 
 OBS = {  # página -> observação revisada

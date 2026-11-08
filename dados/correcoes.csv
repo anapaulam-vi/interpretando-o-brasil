@@ -175,24 +175,8 @@
 215;observacoes;Delimitação que indica que houve desmatamento da vegetação nativa. Manchas características de áreas que sofrem alagamento, típicas do bioma Pantanal. Solo exposto em regiões de alagamento em que a gramínea exótica não sobrevive. Bebedouros para gado. NDVI médio, típico de gramínea.;revisão do texto da observação
 215;tonalidade;Clara;tonalidade no feminino
 216;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
-218;coords;-20.3494, -56.62526;ponto movido para dentro do bioma, mesma classe
 218;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
-218;google_earth;;imagem Google Earth pendente para o novo ponto
-218;grafico;img/corrigidos/p218_grafico.jpg;imagem refeita para o novo ponto
-218;landsat_chuvoso;img/corrigidos/p218_landsat_chuvoso.jpg;imagem refeita para o novo ponto
-218;landsat_seco;img/corrigidos/p218_landsat_seco.jpg;imagem refeita para o novo ponto
-218;mapa;img/corrigidos/p218_mapa.jpg;imagem refeita para o novo ponto
-218;sentinel_chuvoso;img/corrigidos/p218_sentinel_chuvoso.jpg;imagem refeita para o novo ponto
-218;sentinel_seco;img/corrigidos/p218_sentinel_seco.jpg;imagem refeita para o novo ponto
-222;coords;-16.10504, -58.43087;ponto movido para dentro do bioma, mesma classe
 222;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
-222;google_earth;;imagem Google Earth pendente para o novo ponto
-222;grafico;img/corrigidos/p222_grafico.jpg;imagem refeita para o novo ponto
-222;landsat_chuvoso;img/corrigidos/p222_landsat_chuvoso.jpg;imagem refeita para o novo ponto
-222;landsat_seco;img/corrigidos/p222_landsat_seco.jpg;imagem refeita para o novo ponto
-222;mapa;img/corrigidos/p222_mapa.jpg;imagem refeita para o novo ponto
-222;sentinel_chuvoso;img/corrigidos/p222_sentinel_chuvoso.jpg;imagem refeita para o novo ponto
-222;sentinel_seco;img/corrigidos/p222_sentinel_seco.jpg;imagem refeita para o novo ponto
 224;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 226;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor
 230;falsa_cor;"Landsat (B5, B6, B4); Sentinel (B11, B8, B4)";ordem R-G-B das bandas da falsa-cor

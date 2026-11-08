@@ -4126,9 +4126,9 @@ window.CHAVE = {
    "pagina": 201,
    "exemplos": [
     {
-     "lat": -20.3494,
-     "lon": -56.62526,
-     "coords": "-20.3494, -56.62526",
+     "lat": -20.39358,
+     "lon": -56.56084,
+     "coords": "-20.39358, -56.56084",
      "falsa_cor": "Landsat (B5, B6, B4); Sentinel (B11, B8, B4)",
      "tonalidade": "",
      "textura": "Lisa e Homogênea",
@@ -4136,24 +4136,28 @@ window.CHAVE = {
      "pagina": 200,
      "imagens": [
       {
-       "src": "img/corrigidos/p218_landsat_seco.jpg",
+       "src": "img/pantanal/cultivo_temporario/ex1_landsat_seco.jpg",
        "rotulo": "Landsat – seco"
       },
       {
-       "src": "img/corrigidos/p218_landsat_chuvoso.jpg",
+       "src": "img/pantanal/cultivo_temporario/ex1_landsat_chuvoso.jpg",
        "rotulo": "Landsat – chuvoso"
       },
       {
-       "src": "img/corrigidos/p218_sentinel_seco.jpg",
+       "src": "img/pantanal/cultivo_temporario/ex1_sentinel_seco.jpg",
        "rotulo": "Sentinel-2 – seco"
       },
       {
-       "src": "img/corrigidos/p218_sentinel_chuvoso.jpg",
+       "src": "img/pantanal/cultivo_temporario/ex1_sentinel_chuvoso.jpg",
        "rotulo": "Sentinel-2 – chuvoso"
+      },
+      {
+       "src": "img/pantanal/cultivo_temporario/ex1_google_earth.jpg",
+       "rotulo": "Google Earth"
       }
      ],
-     "grafico": "img/corrigidos/p218_grafico.jpg",
-     "mapa": "img/corrigidos/p218_mapa.jpg"
+     "grafico": "img/pantanal/cultivo_temporario/ex1_grafico.jpg",
+     "mapa": "img/pantanal/cultivo_temporario/ex1_mapa.jpg"
     }
    ]
   },
@@ -4206,9 +4210,9 @@ window.CHAVE = {
    "pagina": 203,
    "exemplos": [
     {
-     "lat": -16.10504,
-     "lon": -58.43087,
-     "coords": "-16.10504, -58.43087",
+     "lat": -16.174786,
+     "lon": -58.462442,
+     "coords": "-16.174786 , -58.462442",
      "falsa_cor": "Landsat (B5, B6, B4); Sentinel (B11, B8, B4)",
      "tonalidade": "",
      "textura": "Rugosa e Homogênea",
@@ -4216,24 +4220,28 @@ window.CHAVE = {
      "pagina": 202,
      "imagens": [
       {
-       "src": "img/corrigidos/p222_landsat_seco.jpg",
+       "src": "img/pantanal/silvicultura/ex1_landsat_seco.jpg",
        "rotulo": "Landsat – seco"
       },
       {
-       "src": "img/corrigidos/p222_landsat_chuvoso.jpg",
+       "src": "img/pantanal/silvicultura/ex1_landsat_chuvoso.jpg",
        "rotulo": "Landsat – chuvoso"
       },
       {
-       "src": "img/corrigidos/p222_sentinel_seco.jpg",
+       "src": "img/pantanal/silvicultura/ex1_sentinel_seco.jpg",
        "rotulo": "Sentinel-2 – seco"
       },
       {
-       "src": "img/corrigidos/p222_sentinel_chuvoso.jpg",
+       "src": "img/pantanal/silvicultura/ex1_sentinel_chuvoso.jpg",
        "rotulo": "Sentinel-2 – chuvoso"
+      },
+      {
+       "src": "img/pantanal/silvicultura/ex1_google_earth.jpg",
+       "rotulo": "Google Earth"
       }
      ],
-     "grafico": "img/corrigidos/p222_grafico.jpg",
-     "mapa": "img/corrigidos/p222_mapa.jpg"
+     "grafico": "img/pantanal/silvicultura/ex1_grafico.jpg",
+     "mapa": "img/pantanal/silvicultura/ex1_mapa.jpg"
     }
    ]
   },
