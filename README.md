@@ -19,6 +19,7 @@ A revisão do PDF em relação às Coleções 10 e 11 fica na pasta local `revis
 
 - `scripts/correcoes_automaticas.py` gera `dados/correcoes.csv`, com a padronização de tonalidade e textura, a falsa-cor da p. 57 e as observações revisadas.
 - `scripts/gerar_dados.py` aplica essas correções e as descrições oficiais da legenda no site.
+- **Português / inglês:** o botão PT | EN do site troca a interface e o conteúdo. As descrições das classes em inglês são as oficiais da legenda Coleção 11 (`dados/legenda_mapbiomas_en.csv`, extraídas por `scripts/ler_legenda_en.py --csv` do PDF da planilha "Descrição Detalhada", aba EN). Os demais textos (observações, limitações, apresentação, tonalidade, textura) vêm de `dados/traducao_en.csv` (colunas `pt;en`, editável no Excel). O que faltar na planilha aparece em português. Os rótulos gravados dentro das imagens e o PDF continuam em português.
 - `scripts/gerar_limitacoes.py` preenche com um texto-base por classe o campo "Limitação de interpretação da classe" de cada exemplo (`dados/limitacoes.csv`). A coluna `equipe` dessa planilha é o complemento da equipe e nunca é sobrescrita.
 - `scripts/corrigir_pdf.py "<PDF original>" Interpretando_o_Brasil.pdf` aplica as mesmas correções no PDF: nomes das classes, descrições oficiais, campos e observações. O texto novo sai em Montserrat (`scripts/fontes`, licença OFL), e as imagens não são tocadas. O PDF publicado no site é essa versão corrigida. O original fica fora do repositório.
 

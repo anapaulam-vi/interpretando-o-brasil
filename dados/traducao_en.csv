@@ -1,0 +1,84 @@
+﻿pt;en
+Amazônia;Amazon
+Cerrado;Cerrado
+Caatinga;Caatinga
+Mata Atlântica;Atlantic Forest
+Pantanal;Pantanal
+Pampa;Pampa
+Floresta;Forest
+Vegetação Herbácea e Arbustiva;Herbaceous and Shrubby Vegetation
+Agropecuária;Farming
+Área não Vegetada;Non vegetated area
+Corpo d'Água;Water
+Formação Florestal;Forest Formation
+Formação Savânica;Savanna Formation
+Floresta Alagável;Floodable Forest
+Mangue;Mangrove
+Formação Campestre;Grassland Formation
+Campo Alagado e Área Pantanosa;Wetland
+Afloramento Rochoso;Rocky Outcrop
+Apicum;Hypersaline Tidal Flat
+Restinga Herbácea ou Arbustiva;Herbaceous Sandbank Vegetation
+Pastagem;Pasture
+Lavoura Temporária;Temporary Crop
+Arroz;Rice
+Cana;Sugar cane
+Lavoura Perene;Perennial Crop
+Silvicultura;Forest Plantation
+Praia, Duna e Areal;Beach, Dune and Sand Spot
+Área Urbanizada;Urban Area
+Mineração;Mining
+Usina Fotovoltaica;Photovoltaic Power Plant
+Outras Áreas não Vegetadas;Other non Vegetated Areas
+Rio, Lago e Oceano;River, Lake and Ocean
+Aquicultura;Aquaculture
+Clara;Light
+Média;Medium
+Escura;Dark
+Rugosa e Homogênea;Rough and Homogeneous
+Rugosa e Heterogênea;Rough and Heterogeneous
+Lisa e Homogênea;Smooth and Homogeneous
+Lisa e Heterogênea;Smooth and Heterogeneous
+Landsat – seco;Landsat – dry
+Landsat – chuvoso;Landsat – rainy
+Sentinel-2 – seco;Sentinel-2 – dry
+Sentinel-2 – chuvoso;Sentinel-2 – rainy
+Google Earth;Google Earth
+A Chave de Interpretação Visual para Imagens de Satélite – Interpretando o Brasil foi elaborada a partir da análise de imagens dos satélites Landsat e Sentinel-2. A metodologia consistiu na avaliação do comportamento espectral e dos índices de vegetação das diferentes classes de uso e cobertura da terra no Brasil e em seus biomas, considerando tanto o período seco quanto o período chuvoso. Para cada classe temática, apresenta-se a descrição do alvo, contemplando seu contexto espacial, suas características vegetacionais e os principais padrões de interpretação, como coloração, tonalidade, textura e variação sazonal. A construção da chave foi realizada em colaboração com especialistas em interpretação visual de imagens de satélite no âmbito do projeto MapBiomas.;The Visual Interpretation Key for Satellite Images – Interpreting Brazil was developed from the analysis of Landsat and Sentinel-2 satellite images. The methodology consisted of evaluating the spectral behavior and vegetation indices of the different land use and land cover classes in Brazil and its biomes, considering both the dry and the rainy season. For each thematic class, the key presents a description of the target, covering its spatial context, its vegetation characteristics and the main interpretation patterns, such as color, tone, texture and seasonal variation. The key was built in collaboration with specialists in visual interpretation of satellite images within the MapBiomas project.
+Florestas degradadas são mantidas na classe Formação Florestal até a perda irreversível da vegetação. A regeneração só é considerada quando o porte da floresta se assemelha ao natural.;Degraded forests are kept in the Forest Formation class until the vegetation is irreversibly lost. Regeneration is only considered when the forest reaches a stature similar to the natural one.
+NDVI alto (0,9) e baixa variação por sazonalidade.;High NDVI (0.9) and little seasonal variation.
+O limite com a Formação Savânica é gradual (dossel mais aberto). Em florestas estacionais, a queda das folhas no período seco reduz o NDVI e pode lembrar savana. Florestas secundárias jovens, degradadas ou com corte seletivo são difíceis de separar da floresta madura na resolução de 10–30 m.;The boundary with Savanna Formation is gradual (more open canopy). In seasonal forests, leaf loss in the dry season lowers the NDVI and may resemble savanna. Young secondary forests, degraded forests or forests under selective logging are hard to separate from mature forest at 10–30 m resolution.
+Savanas alagadas são consideradas na classe “Campo Alagado e Área Pantanosa”.;Flooded savannas are included in the “Wetland” class.
+A densidade de árvores varia de forma contínua, por isso os limites com Formação Florestal e Formação Campestre são subjetivos. No período seco, a resposta se aproxima da de pastagem. Comparar as imagens de seca e de chuva e a série de NDVI.;Tree density varies continuously, so the boundaries with Forest Formation and Grassland Formation are subjective. In the dry season, the response approaches that of pasture. Compare the dry- and rainy-season images and the NDVI series.
+A diferença em relação à Formação Florestal depende do regime de inundação, pouco visível em imagens ópticas sob o dossel. Usar o contexto (várzea, igapó, planície fluvial) e imagens do período de cheia.;The difference from Forest Formation depends on the flooding regime, which is barely visible under the canopy in optical images. Use the context (várzea, igapó, floodplain) and images from the flood season.
+Pode ser confundido com Floresta Alagável e Restinga Arbórea. Os limites com Apicum e com a água variam com a maré. Usar o contexto estuarino.;May be confused with Floodable Forest and Wooded Sandbank Vegetation. The boundaries with Hypersaline Tidal Flat and with water vary with the tide. Use the estuarine context.
+Confunde-se com Pastagem, principalmente pastagem em campo nativo ou com gramíneas exóticas. A separação depende de sinais de manejo (cercas, bebedouros, talhões) e do histórico da área. Queimadas e senescência no período seco alteram a resposta espectral.;Confused with Pasture, especially pasture on native grassland or with exotic grasses. Separation depends on signs of management (fences, water troughs, plots) and on the history of the area. Fires and senescence in the dry season change the spectral response.
+Estado de Roraima contém pastagem natural;The state of Roraima has natural pasture.
+A inundação é sazonal: no período seco a área pode parecer Formação Campestre ou Pastagem e, na cheia, água. Comparar as imagens de seca e de chuva.;Flooding is seasonal: in the dry season the area may look like Grassland Formation or Pasture and, in the flood season, like water. Compare the dry- and rainy-season images.
+Afloramentos pequenos ou entremeados de vegetação ficam abaixo da resolução de 30 m e se misturam com Formação Campestre ou Savânica. A rocha exposta pode lembrar solo exposto ou Outras Áreas não Vegetadas.;Small outcrops or outcrops interspersed with vegetation fall below the 30 m resolution and mix with Grassland or Savanna Formation. Exposed rock may resemble bare soil or Other non Vegetated Areas.
+Confunde-se com Praia, Duna e Areal, Outras Áreas não Vegetadas, salinas e tanques de aquicultura. Os limites com o mangue e com a água variam com a maré.;Confused with Beach, Dune and Sand Spot, Other non Vegetated Areas, salt pans and aquaculture ponds. The boundaries with mangrove and with water vary with the tide.
+Confunde-se com Formação Campestre e Savânica (pastagem em vegetação nativa aberta), com Lavoura Temporária (rotação ou integração lavoura-pecuária) e com Mosaico de Usos. Pastagens degradadas, com solo exposto, podem parecer Outras Áreas não Vegetadas.;Confused with Grassland and Savanna Formation (pasture on open native vegetation), with Temporary Crop (crop-livestock rotation or integration) and with Mosaic of Uses. Degraded pastures with bare soil may look like Other non Vegetated Areas.
+Na entressafra, o solo exposto ou a palhada parecem pastagem degradada ou solo exposto. A identificação depende do calendário agrícola, visível na série de NDVI (ciclos de plantio e colheita).;In the off-season, bare soil or crop residue looks like degraded pasture or bare soil. Identification depends on the crop calendar, visible in the NDVI series (planting and harvest cycles).
+A separação de outras lavouras temporárias e de pastagem depende do ciclo longo (colheita anual e rebrota) na série de NDVI. Áreas em reforma ou recém-colhidas parecem solo exposto.;Separation from other temporary crops and from pasture depends on the long cycle (annual harvest and regrowth) in the NDVI series. Areas being replanted or recently harvested look like bare soil.
+Pode ser confundida com Silvicultura e com Formação Savânica ou Florestal (pomares adultos, café sombreado, dendê), e com Pastagem nas fases iniciais. As linhas de plantio geralmente só aparecem em imagens de alta resolução.;May be confused with Forest Plantation and with Savanna or Forest Formation (mature orchards, shaded coffee, oil palm), and with Pasture in the early stages. Planting rows usually only show up in high-resolution images.
+Plantios jovens ou recém-cortados parecem pastagem ou solo exposto. Plantios adultos parecem floresta. Usar o formato dos talhões, os carreadores e a série histórica (corte e rebrota).;Young or recently cut plantations look like pasture or bare soil. Mature plantations look like forest. Use the shape of the plots, the access roads and the historical series (cutting and regrowth).
+Confunde-se com Outras Áreas não Vegetadas, Apicum e Restinga Herbácea esparsa. O areal (Pampa) pode lembrar o solo exposto de lavouras.;Confused with Other non Vegetated Areas, Hypersaline Tidal Flat and sparse Herbaceous Sandbank Vegetation. Sand spots (Pampa) may resemble the bare soil of croplands.
+Bairros muito arborizados, loteamentos não ocupados e pequenos núcleos rurais são difíceis de delimitar. Telhados e solo exposto podem ser confundidos com Mineração ou Outras Áreas não Vegetadas.;Heavily wooded neighborhoods, unoccupied subdivisions and small rural settlements are hard to delimit. Roofs and bare soil may be confused with Mining or Other non Vegetated Areas.
+Confunde-se com Outras Áreas não Vegetadas, solo exposto e áreas urbanas em expansão. Pela legenda, a mineração subterrânea ou subaquática não é detectável.;Confused with Other non Vegetated Areas, bare soil and expanding urban areas. According to the legend, underground or underwater mining is not detectable.
+É uma classe residual: reúne superfícies não vegetadas que não se encaixam nas demais. Por isso, confunde-se com Mineração, Área Urbanizada, Praia, Duna e Areal, Afloramento Rochoso e lavouras em solo exposto.;It is a residual class: it groups non-vegetated surfaces that do not fit the other classes. Therefore it is confused with Mining, Urban Area, Beach, Dune and Sand Spot, Rocky Outcrop and croplands with bare soil.
+NDVI abaixo de 0 é água;NDVI below 0 indicates water.
+A lâmina d'água varia entre seca e cheia. Rios estreitos (< 30 m) e lagos pequenos podem não aparecer. Água turva ou coberta por plantas aquáticas pode parecer solo ou vegetação.;The water surface varies between the dry and flood seasons. Narrow rivers (< 30 m) and small lakes may not show up. Turbid water or water covered by aquatic plants may look like soil or vegetation.
+Mesmo que no período seco não tenha água, ainda é considerado Rio, Lago e Oceano.;Even if there is no water in the dry season, it is still considered River, Lake and Ocean.
+Tanques escavados parecem pequenos reservatórios e açudes (Rio, Lago e Oceano) e salinas. Tanques pequenos ficam abaixo da resolução de 30 m. O formato retangular e o agrupamento dos tanques ajudam.;Excavated ponds look like small reservoirs and dams (River, Lake and Ocean) and salt pans. Small ponds fall below the 30 m resolution. The rectangular shape and the clustering of the ponds help.
+Vegetação florestal bem marcada em torno de grandes rios e em área rebaixada (com bastante umidade). NDVI acima de 0,8 e sem variação com a sazonalidade. Apicuns associados.;Well-defined forest vegetation around large rivers and in low-lying areas (with plenty of moisture). NDVI above 0.8 with no seasonal variation. Associated hypersaline tidal flats.
+Quando a cobertura é esparsa, confunde-se com Formação Campestre e com Praia, Duna e Areal. Depende do contexto costeiro (cordões arenosos).;When cover is sparse, it is confused with Grassland Formation and with Beach, Dune and Sand Spot. Depends on the coastal context (sandy ridges).
+Delimitação (em talhões) com textura rugosa e homogênea, indicando uma mesma espécie. Essas ‘falhas’ na área podem significar espécies de silvicultura que perdem as folhas ou uma plantação que não teve um bom manejo (plantas que não se desenvolveram). NDVI subindo de 0,2 para 0,8, indicando o plantio, estável em 0,8 por anos, indicando espécie arbórea, e uma queda brusca, indicando a colheita. Tonalidade muito escura, puxada para o marrom, na silvicultura pode significar uma silvicultura velha.;Delimitation (in plots) with rough and homogeneous texture, indicating a single species. These ‘gaps’ in the area may indicate plantation species that shed their leaves or a poorly managed plantation (plants that did not develop). NDVI rising from 0.2 to 0.8 indicates planting, stable at 0.8 for years indicates a tree species, and a sharp drop indicates harvest. A very dark, brownish tone in forest plantations may indicate an old plantation.
+sistema de energia sustentável;Sustainable energy system.
+Pela legenda, a classe considera instalações de médio a grande porte voltadas à comercialização da energia: geração distribuída (telhados) e instalações pequenas não entram. Na resolução de 30 m, os painéis podem ser confundidos com Outras Áreas não Vegetadas ou área urbana.;According to the legend, the class covers medium- to large-scale facilities that sell energy: distributed generation (rooftops) and small installations are not included. At 30 m resolution, the panels may be confused with Other non Vegetated Areas or urban area.
+Relevo montanhoso e altas altitudes, uma das características da Mata Atlântica. NDVI médio, típico de gramínea.;Mountainous relief and high altitudes, one of the characteristics of the Atlantic Forest. Medium NDVI, typical of grasses.
+Coloração indicativa de ausência de vegetação e presença de umidade. NDVI baixo e constante.;Color indicating absence of vegetation and presence of moisture. Low and constant NDVI.
+O arroz irrigado por inundação pode parecer água ou Campo Alagado no início do ciclo. O arroz de sequeiro é difícil de separar das outras lavouras temporárias sem informação de campo.;Flood-irrigated rice may look like water or Wetland at the beginning of the cycle. Upland rice is hard to separate from other temporary crops without field information.
+"Delimitação com textura lisa (para este nível de detalhe da imagem) e homogênea; ver a diferença em relação à formação florestal ao lado. NDVI baixo com aumento para acima de 0,8, indicando o cultivo de espécie arbórea. Esse formato de silvicultura em meio a formações florestais é comum no bioma Mata Atlântica.";"Delimitation with smooth (at this level of image detail) and homogeneous texture; note the difference from the adjacent forest formation. Low NDVI rising above 0.8, indicating the cultivation of a tree species. This pattern of forest plantation within forest formations is common in the Atlantic Forest biome."
+NDVI abaixo de 0,15 aponta ausência de vegetação. Manchas de solo exposto e lagoas próximas indicam a atividade de mineração.;NDVI below 0.15 indicates absence of vegetation. Patches of bare soil and nearby ponds indicate mining activity.
+Delimitação que indica que houve desmatamento da vegetação nativa. Manchas características de áreas que sofrem alagamento, típicas do bioma Pantanal. Solo exposto em regiões de alagamento em que a gramínea exótica não sobrevive. Bebedouros para gado. NDVI médio, típico de gramínea.;Delimitation indicating that the native vegetation was cleared. Patches typical of areas subject to flooding, characteristic of the Pantanal biome. Bare soil in flooded areas where the exotic grass does not survive. Water troughs for cattle. Medium NDVI, typical of grasses.
+"Padrão de pequenos talhões; a coloração indica umidade (vermelho + azul) e há dutos de irrigação, características do plantio de arroz. O NDVI varia de 0,2 a 1 em alguns meses e volta a 0,2, indicando cultivo e colheita.";"Pattern of small plots; the color indicates moisture (red + blue) and there are irrigation channels, characteristics of rice cultivation. NDVI ranges from 0.2 to 1 over some months and returns to 0.2, indicating planting and harvest."

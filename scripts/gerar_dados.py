@@ -10,6 +10,8 @@ Gera dados/chave.js (lido pelo site) a partir das planilhas em dados/:
   exemplos.csv      bioma;classe;ordem;pagina;coords;falsa_cor;tonalidade;textura;observacoes;
                     landsat_seco;landsat_chuvoso;sentinel_seco;sentinel_chuvoso;google_earth;grafico;mapa
   apresentacao.txt  texto da janela "Sobre"
+  legenda_mapbiomas_en.csv  descrição oficial da legenda em inglês (scripts/ler_legenda_en.py --csv)
+  traducao_en.csv   pt;en — tradução dos textos para o botão EN do site (o que faltar aparece em português)
   correcoes.csv     pagina;campo;para;motivo — correções de texto aplicadas por cima do que veio do PDF
                     (sobrevivem a uma nova importação). Campos: descricao, observacoes, coords,
                     falsa_cor, tonalidade, textura.
@@ -74,8 +76,11 @@ def main():
     leg_classe = {c["classe"]: c.get("classe_legenda", "") for c in classes}
     arq_leg = DADOS / "legenda_mapbiomas.txt"
     legenda = ler_legenda(arq_leg) if arq_leg.exists() else {}
+    # descrição oficial da legenda em inglês (scripts/ler_legenda_en.py --csv); "" no bioma = todos os biomas
+    leg_en = {(l["classe_legenda"], l["bioma"]): l["descricao"] for l in ler("legenda_mapbiomas_en.csv")}
+    en = {l["pt"]: l["en"] for l in ler("traducao_en.csv") if l.get("pt") and l.get("en")}
     entradas = {}
-    n_of = 0
+    n_of = n_en = 0
 
     # numeração do PDF corrigido (páginas retiradas mudam a numeração); gerado por corrigir_pdf.py
     arq_pag = DADOS / "paginas_pdf.json"
@@ -103,6 +108,11 @@ def main():
         if of:
             of = re.sub(r"([a-zà-ú])\.([A-ZÁÉÍÓÚ])", r"\1. \2", of)  # "país.Em" -> "país. Em"
             n_of += 1
+            lc = leg_classe[d["classe"]]
+            of_en = leg_en.get((lc, d["bioma"])) or leg_en.get((lc, ""))
+            if of_en:
+                en[of] = of_en  # a descrição oficial em inglês substitui a tradução da planilha
+                n_en += 1
         entradas[k] = {
             "descricao": of or d.get("descricao", ""), "fonte": "legenda" if of else "chave",
             "observacoes": d.get("observacoes", ""),
@@ -147,6 +157,8 @@ def main():
         "classes": [{"id": id_classe[c["classe"]], "nome": c.get("nome") or c["classe"], "grupo": c["grupo"],
                      "cor": c["cor"], "codigo": c.get("codigo", "")} for c in classes],
         "entradas": entradas,
+        # tradução para inglês: texto em português -> inglês (dados/traducao_en.csv, editável no Excel)
+        "en": en,
     }
     destino = DADOS / "chave.js"
     destino.write_text(
@@ -158,7 +170,7 @@ def main():
     print(f"correções aplicadas: {sum(len(v) for v in correcoes.values())}")
     print(f"{destino.relative_to(RAIZ)}: {len(classes)} classes, {len(biomas)} biomas, "
           f"{len(entradas)} fichas ({n_of} com descrição da legenda {LEGENDA}), {n_ex} exemplos, "
-          f"{n_img} imagens de satélite")
+          f"{n_img} imagens de satélite; {n_en} descrições com o texto oficial em inglês")
 
 
 if __name__ == "__main__":
