@@ -89,8 +89,11 @@ PX_QUADROS = [(13, 145, 400, 531), (422, 145, 809, 531), (830, 145, 1218, 531),
 PX_GRAFICO = (14, 650, 1518, 980)
 PX_MAPA = (1542, 640, 2034, 980)
 
-# Classes do PDF retiradas da chave (decisão de 08/11/2026: Vegetação Urbana não existe na legenda Col. 11; Soja retirada)
-EXCLUIR = {"Vegetação Urbana", "Soja"}
+# Classes do PDF retiradas da chave (decisão de 08/11/2026: Vegetação Urbana não existe na legenda Col. 11)
+EXCLUIR = {"Vegetação Urbana"}
+# Classes do PDF cujos EXEMPLOS passam para outra classe (a página de descrição é descartada).
+# 09/11/2026: Soja é subclasse de Lavoura Temporária na Col. 11; os exemplos entram como Lavoura Temporária.
+JUNTAR = {"Soja": "Cultivo Temporário"}
 # (classe no PDF, bioma) retirados: Cana não ocorre no Pampa nem no Pantanal no mapa MapBiomas Col. 11
 EXCLUIR_BIOMA = {("Cana-de-açúcar", "pampa"), ("Cana-de-açúcar", "pantanal")}
 
@@ -186,7 +189,10 @@ def main(pdf):
             continue
         if any(sem_acento(titulo).lower() == sem_acento(x).lower() for x in EXCLUIR):
             continue
-        classe = nome_classe.get(sem_acento(titulo).lower())
+        juntar = next((v for k, v in JUNTAR.items() if sem_acento(titulo).lower() == sem_acento(k).lower()), None)
+        if juntar and "Coords" not in corpo:
+            continue
+        classe = juntar or nome_classe.get(sem_acento(titulo).lower())
         if (classe, bioma) in EXCLUIR_BIOMA:
             continue
         if not classe:

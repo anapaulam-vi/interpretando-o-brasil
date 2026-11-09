@@ -30,7 +30,10 @@ FONTE_R = str(AQUI / "fontes" / "Montserrat-Regular.ttf")
 FONTE_B = str(AQUI / "fontes" / "Montserrat-Bold.ttf")
 F_R, F_B = fitz.Font(fontfile=FONTE_R), fitz.Font(fontfile=FONTE_B)
 # Classes retiradas da chave: páginas excluídas e item removido das listas de cada bioma
-EXCLUIR = {"Vegetação Urbana", "Soja"}
+EXCLUIR = {"Vegetação Urbana"}
+# Classes cujos exemplos passam para outra classe: o título da página de exemplo é trocado, a página vai para
+# junto dos exemplos da classe de destino (antes da página de descrição) e a página de descrição é retirada.
+JUNTAR = {"Soja": "Cultivo Temporário"}
 EXCLUIR_BIOMA = {("Cana-de-açúcar", "pampa"), ("Cana-de-açúcar", "pantanal")}
 CINZA_CAIXA = (0.937, 0.937, 0.937)
 # posições dos quadros de imagem: em pixels na captura 2048x984 e em pontos nas páginas com imagens soltas
@@ -125,10 +128,11 @@ def main(entrada, saida):
     for pg in doc:
         b = lado(pg)
         tt = next((l for l in linhas_da_pagina(pg) if l["tam"] > 20 and l["rect"].y0 < 40), None)
-        if b and tt and tt["texto"] not in EXCLUIR and (tt["texto"], b) not in EXCLUIR_BIOMA:
+        if b and tt and tt["texto"] not in EXCLUIR and tt["texto"] not in JUNTAR and (tt["texto"], b) not in EXCLUIR_BIOMA:
             fichas.setdefault(b, set()).add(tt["texto"])
             if tt["texto"] not in ordem_classes:
                 ordem_classes.append(tt["texto"])
+    info = {}  # índice da página -> (bioma, título no PDF, é página de exemplo)
     log = {"títulos": 0, "listas": 0, "descrições": 0, "campos": 0, "observações": 0}
     for i, p in enumerate(doc):
         n = str(i + 1)
@@ -137,9 +141,16 @@ def main(entrada, saida):
         titulo = next((l for l in linhas if l["tam"] > 20 and l["rect"].y0 < 40), None)
         nome_pdf = titulo["texto"] if titulo else ""
         apagar_rects, escrever = [], []
+        eh_exemplo = any(l["texto"].startswith("Coords:") for l in linhas)
+        info[i] = (bioma, nome_pdf, eh_exemplo)
 
         # 1) título da classe
-        if titulo and nome_pdf in novo_nome:
+        if titulo and nome_pdf in JUNTAR and eh_exemplo:
+            destino = JUNTAR[nome_pdf]
+            apagar_rects.append(titulo["rect"])
+            escrever.append(lambda p, l=titulo, t=novo_nome.get(destino, destino): centralizado(p, l, t, FONTE_B, F_B, 600))
+            log["títulos"] += 1
+        elif titulo and nome_pdf in novo_nome:
             apagar_rects.append(titulo["rect"])
             escrever.append(lambda p, l=titulo, t=novo_nome[nome_pdf]: centralizado(p, l, t, FONTE_B, F_B, 600))
             log["títulos"] += 1
@@ -160,7 +171,7 @@ def main(entrada, saida):
                 col = sorted([l for l in itens if ((l["rect"].x0 + l["rect"].x1) / 2 < 360) == esquerda],
                              key=lambda l: l["rect"].y0)
                 cxs = sorted([r for r in caixas if ((r.x0 + r.x1) / 2 < 360) == esquerda], key=lambda r: r.y0)
-                fica = [l for l in col if l["texto"] not in EXCLUIR and l["texto"] in fichas.get(bio, set())]
+                fica = [l for l in col if l["texto"] in fichas.get(bio, set())]
                 colunas.append({"col": col, "caixas": cxs, "fica": fica})
             # itens que faltam vão para o fim da coluna mais curta
             for c in faltando:
@@ -273,7 +284,8 @@ def main(entrada, saida):
                             p, fitz.Rect(258, 350, 695, 396), t, tam, FONTE_R, fitz.TEXT_ALIGN_LEFT, 5))
                     log["observações"] += 1
 
-        if titulo and bioma and (nome_pdf in EXCLUIR or (nome_pdf, bioma) in EXCLUIR_BIOMA):
+        if titulo and bioma and (nome_pdf in EXCLUIR or (nome_pdf, bioma) in EXCLUIR_BIOMA
+                                 or (nome_pdf in JUNTAR and not eh_exemplo)):
             excluir_paginas.append(i)
             continue
         if apagar_rects:
@@ -292,9 +304,15 @@ def main(entrada, saida):
 
     total = len(doc)
     mantidas = [i for i in range(total) if i not in set(excluir_paginas)]
+    # exemplos juntados: vão para depois do último exemplo da classe de destino no mesmo bioma
+    for i in [i for i in mantidas if info[i][1] in JUNTAR]:
+        b, t, _ = info[i]
+        mantidas.remove(i)
+        alvo = [j for j in mantidas if info[j][0] == b and info[j][1] == JUNTAR[t] and info[j][2]]
+        mantidas.insert(mantidas.index(alvo[-1]) + 1, i)
+        log["exemplos juntados"] = log.get("exemplos juntados", 0) + 1
     mapa = {str(i + 1): novo + 1 for novo, i in enumerate(mantidas)}
-    if excluir_paginas:
-        doc.delete_pages(excluir_paginas)
+    doc.select(mantidas)
     (DADOS / "paginas_pdf.json").write_text(json.dumps(mapa), encoding="utf-8")
     log["páginas retiradas"] = len(excluir_paginas)
     doc.save(saida, garbage=3, deflate=True)

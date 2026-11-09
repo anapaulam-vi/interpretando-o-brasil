@@ -641,6 +641,43 @@ window.CHAVE = {
      ],
      "grafico": "img/amazonia/cultivo_temporario/ex1_grafico.jpg",
      "mapa": "img/amazonia/cultivo_temporario/ex1_mapa.jpg"
+    },
+    {
+     "lat": -9.8626,
+     "lon": -57.3772,
+     "coords": "-9.8626, -57.3772",
+     "falsa_cor": "Landsat (B5, B6, B4); Sentinel (B11, B8, B4)",
+     "tonalidade": "Clara",
+     "textura": "Lisa e Homogênea",
+     "observacoes": "",
+     "limitacao": {
+      "geral": "Na entressafra, o solo exposto ou a palhada parecem pastagem degradada ou solo exposto. A identificação depende do calendário agrícola, visível na série de NDVI (ciclos de plantio e colheita)."
+     },
+     "pagina": 34,
+     "imagens": [
+      {
+       "src": "img/amazonia/cultivo_temporario/ex2_landsat_seco.jpg",
+       "rotulo": "Landsat – seco"
+      },
+      {
+       "src": "img/amazonia/cultivo_temporario/ex2_landsat_chuvoso.jpg",
+       "rotulo": "Landsat – chuvoso"
+      },
+      {
+       "src": "img/amazonia/cultivo_temporario/ex2_sentinel_seco.jpg",
+       "rotulo": "Sentinel-2 – seco"
+      },
+      {
+       "src": "img/amazonia/cultivo_temporario/ex2_sentinel_chuvoso.jpg",
+       "rotulo": "Sentinel-2 – chuvoso"
+      },
+      {
+       "src": "img/amazonia/cultivo_temporario/ex2_google_earth.jpg",
+       "rotulo": "Google Earth"
+      }
+     ],
+     "grafico": "img/amazonia/cultivo_temporario/ex2_grafico.jpg",
+     "mapa": "img/amazonia/cultivo_temporario/ex2_mapa.jpg"
     }
    ]
   },
@@ -648,7 +685,7 @@ window.CHAVE = {
    "descricao": "Áreas cultivadas com a monocultura da cana-de-açúcar.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 36,
+   "pagina": 37,
    "exemplos": [
     {
      "lat": -1.9742,
@@ -661,7 +698,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "A separação de outras lavouras temporárias e de pastagem depende do ciclo longo (colheita anual e rebrota) na série de NDVI. Áreas em reforma ou recém-colhidas parecem solo exposto."
      },
-     "pagina": 37,
+     "pagina": 38,
      "imagens": [
       {
        "src": "img/amazonia/cana_de_acucar/ex1_landsat_seco.jpg",
@@ -693,7 +730,7 @@ window.CHAVE = {
    "descricao": "Áreas ocupadas com cultivos agrícolas de ciclo vegetativo longo (mais de um ano), que permitem colheitas sucessivas, sem necessidade de novo plantio.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 34,
+   "pagina": 35,
    "exemplos": [
     {
      "lat": -1.543,
@@ -706,7 +743,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Pode ser confundida com Silvicultura e com Formação Savânica ou Florestal (pomares adultos, café sombreado, dendê), e com Pastagem nas fases iniciais. As linhas de plantio geralmente só aparecem em imagens de alta resolução."
      },
-     "pagina": 35,
+     "pagina": 36,
      "imagens": [
       {
        "src": "img/amazonia/cultivo_perene/ex1_landsat_seco.jpg",
@@ -738,7 +775,7 @@ window.CHAVE = {
    "descricao": "Espécies arbóreas plantadas para fins comerciais (ex. pinus, eucalipto, araucária).",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 38,
+   "pagina": 39,
    "exemplos": [
     {
      "lat": -3.0654,
@@ -751,7 +788,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Plantios jovens ou recém-cortados parecem pastagem ou solo exposto. Plantios adultos parecem floresta. Usar o formato dos talhões, os carreadores e a série histórica (corte e rebrota)."
      },
-     "pagina": 39,
+     "pagina": 40,
      "imagens": [
       {
        "src": "img/amazonia/silvicultura/ex1_landsat_seco.jpg",
@@ -852,7 +889,7 @@ window.CHAVE = {
    "descricao": "Áreas referentes a extração mineral superficial, de porte industrial ou garimpeiro, havendo clara exposição do solo por ação antrópica. Não são passíveis de detecção nenhum tipo de mineração subterrânea ou subaquática.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 40,
+   "pagina": 41,
    "exemplos": [
     {
      "lat": -8.5844,
@@ -865,7 +902,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Confunde-se com Outras Áreas não Vegetadas, solo exposto e áreas urbanas em expansão. Pela legenda, a mineração subterrânea ou subaquática não é detectável."
      },
-     "pagina": 41,
+     "pagina": 42,
      "imagens": [
       {
        "src": "img/amazonia/mineracao/ex1_landsat_seco.jpg",
@@ -897,7 +934,7 @@ window.CHAVE = {
    "descricao": "Áreas de superfícies não permeáveis (infra-estrutura, expansão urbana ou mineração) não mapeadas em suas classes.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 42,
+   "pagina": 43,
    "exemplos": [
     {
      "lat": 4.1632,
@@ -910,7 +947,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "É uma classe residual: reúne superfícies não vegetadas que não se encaixam nas demais. Por isso, confunde-se com Mineração, Área Urbanizada, Praia, Duna e Areal, Afloramento Rochoso e lavouras em solo exposto."
      },
-     "pagina": 43,
+     "pagina": 44,
      "imagens": [
       {
        "src": "img/amazonia/outras_areas_nao_vegetadas/ex1_landsat_seco.jpg",
@@ -1024,7 +1061,7 @@ window.CHAVE = {
    "descricao": "Área referente a lagos artificiais, onde predominam atividades aquícolas e/ou de salicultura.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 44,
+   "pagina": 45,
    "exemplos": [
     {
      "lat": -10.723728,
@@ -1037,7 +1074,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Tanques escavados parecem pequenos reservatórios e açudes (Rio, Lago e Oceano) e salinas. Tanques pequenos ficam abaixo da resolução de 30 m. O formato retangular e o agrupamento dos tanques ajudam."
      },
-     "pagina": 45,
+     "pagina": 46,
      "imagens": [
       {
        "src": "img/amazonia/aquicultura/ex1_landsat_seco.jpg",
@@ -1069,7 +1106,7 @@ window.CHAVE = {
    "descricao": "Tipos de vegetação caracterizados pela predominância de espécies arbóreas que formam um dossel contínuo. Isso inclui Matas Ciliares, Matas de Galeria, Matas Secas e Cerradão (Ribeiro & Walter, 2008), bem como florestas estacionais semideciduais.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 48,
+   "pagina": 49,
    "exemplos": [
     {
      "lat": -19.6288,
@@ -1082,7 +1119,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "O limite com a Formação Savânica é gradual (dossel mais aberto). Em florestas estacionais, a queda das folhas no período seco reduz o NDVI e pode lembrar savana. Florestas secundárias jovens, degradadas ou com corte seletivo são difíceis de separar da floresta madura na resolução de 10–30 m."
      },
-     "pagina": 49,
+     "pagina": 50,
      "imagens": [
       {
        "src": "img/cerrado/formacao_florestal/ex1_landsat_seco.jpg",
@@ -1114,7 +1151,7 @@ window.CHAVE = {
    "descricao": "Tipos de vegetação com uma estratificação distinta de estrato arbóreo, arbustivo e herbáceo. Isso inclui diferentes fisionomias de Cerrado sensu stricto (Cerrado Denso, Típico e Ralo) (Ribeiro & Walter, 2008). A classe também pode incluir áreas nativas de Cerrado sensu stricto passíveis de uso pastoril, desde que mantenham sua estrutura e composição natural.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 50,
+   "pagina": 51,
    "exemplos": [
     {
      "lat": -6.6082,
@@ -1127,7 +1164,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "A densidade de árvores varia de forma contínua, por isso os limites com Formação Florestal e Formação Campestre são subjetivos. No período seco, a resposta se aproxima da de pastagem. Comparar as imagens de seca e de chuva e a série de NDVI."
      },
-     "pagina": 51,
+     "pagina": 52,
      "imagens": [
       {
        "src": "img/cerrado/formacao_savanica/ex1_landsat_seco.jpg",
@@ -1164,7 +1201,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "A densidade de árvores varia de forma contínua, por isso os limites com Formação Florestal e Formação Campestre são subjetivos. No período seco, a resposta se aproxima da de pastagem. Comparar as imagens de seca e de chuva e a série de NDVI."
      },
-     "pagina": 52,
+     "pagina": 53,
      "imagens": [
       {
        "src": "img/cerrado/formacao_savanica/ex2_landsat_seco.jpg",
@@ -1201,7 +1238,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "A densidade de árvores varia de forma contínua, por isso os limites com Formação Florestal e Formação Campestre são subjetivos. No período seco, a resposta se aproxima da de pastagem. Comparar as imagens de seca e de chuva e a série de NDVI."
      },
-     "pagina": 53,
+     "pagina": 54,
      "imagens": [
       {
        "src": "img/cerrado/formacao_savanica/ex3_landsat_seco.jpg",
@@ -1233,7 +1270,7 @@ window.CHAVE = {
    "descricao": "Formações florestais e/ou arbustivas, densas, sempre-verdes, frequentemente inundadas pela maré e associadas ao ecossistema costeiro de Manguezal.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 71,
+   "pagina": 72,
    "exemplos": [
     {
      "lat": -2.57117012,
@@ -1246,7 +1283,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Pode ser confundido com Floresta Alagável e Restinga Arbórea. Os limites com Apicum e com a água variam com a maré. Usar o contexto estuarino."
      },
-     "pagina": 72,
+     "pagina": 73,
      "imagens": [
       {
        "src": "img/cerrado/mangue/ex1_landsat_seco.jpg",
@@ -1278,7 +1315,7 @@ window.CHAVE = {
    "descricao": "Vegetação aberta dominada por espécies herbáceas, com cobertura arbórea mínima ou inexistente. Inclui as fitofisionomias Campos Sujo e Limpo (Ribeiro & Walter, 2008).",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 54,
+   "pagina": 55,
    "exemplos": [
     {
      "lat": -18.2045,
@@ -1291,7 +1328,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Confunde-se com Pastagem, principalmente pastagem em campo nativo ou com gramíneas exóticas. A separação depende de sinais de manejo (cercas, bebedouros, talhões) e do histórico da área. Queimadas e senescência no período seco alteram a resposta espectral."
      },
-     "pagina": 55,
+     "pagina": 56,
      "imagens": [
       {
        "src": "img/cerrado/formacao_campestre/ex1_landsat_seco.jpg",
@@ -1328,7 +1365,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Confunde-se com Pastagem, principalmente pastagem em campo nativo ou com gramíneas exóticas. A separação depende de sinais de manejo (cercas, bebedouros, talhões) e do histórico da área. Queimadas e senescência no período seco alteram a resposta espectral."
      },
-     "pagina": 56,
+     "pagina": 57,
      "imagens": [
       {
        "src": "img/cerrado/formacao_campestre/ex2_landsat_seco.jpg",
@@ -1365,7 +1402,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Confunde-se com Pastagem, principalmente pastagem em campo nativo ou com gramíneas exóticas. A separação depende de sinais de manejo (cercas, bebedouros, talhões) e do histórico da área. Queimadas e senescência no período seco alteram a resposta espectral."
      },
-     "pagina": 57,
+     "pagina": 58,
      "imagens": [
       {
        "src": "img/cerrado/formacao_campestre/ex3_landsat_seco.jpg",
@@ -1397,7 +1434,7 @@ window.CHAVE = {
    "descricao": "Ecossistemas dominados por vegetação herbácea sujeitos a inundações sazonais ou influência fluvial/lacustre constante. Exemplos incluem Campo Úmido e Brejo. Em algumas áreas, a matriz herbácea é intercalada com espécies arbóreas de savana (por exemplo, Parque de Cerrado) ou espécies de palmeiras, como em Veredas e Palmeirais (Ribeiro & Walter, 2008).",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 58,
+   "pagina": 59,
    "exemplos": [
     {
      "lat": -13.6568,
@@ -1410,7 +1447,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "A inundação é sazonal: no período seco a área pode parecer Formação Campestre ou Pastagem e, na cheia, água. Comparar as imagens de seca e de chuva."
      },
-     "pagina": 59,
+     "pagina": 60,
      "imagens": [
       {
        "src": "img/cerrado/campo_alagado_e_area_pantanosa/ex1_landsat_seco.jpg",
@@ -1447,7 +1484,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "A inundação é sazonal: no período seco a área pode parecer Formação Campestre ou Pastagem e, na cheia, água. Comparar as imagens de seca e de chuva."
      },
-     "pagina": 60,
+     "pagina": 61,
      "imagens": [
       {
        "src": "img/cerrado/campo_alagado_e_area_pantanosa/ex2_landsat_seco.jpg",
@@ -1479,7 +1516,7 @@ window.CHAVE = {
    "descricao": "Superfícies rochosas naturalmente expostas, incluindo monólitos, acamamentos ou lajedos com pouca ou nenhuma cobertura de solo, normalmente associadas a formações geológicas estáveis de origem sedimentar, ígnea ou metamórfica. A classe também inclui áreas de vegetação rupestre associadas a esses ambientes, como Cerrado Rupestre e Campo Rupestre (Ribeiro & Walter, 2008).",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 61,
+   "pagina": 62,
    "exemplos": [
     {
      "lat": -18.166147,
@@ -1492,7 +1529,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Afloramentos pequenos ou entremeados de vegetação ficam abaixo da resolução de 30 m e se misturam com Formação Campestre ou Savânica. A rocha exposta pode lembrar solo exposto ou Outras Áreas não Vegetadas."
      },
-     "pagina": 62,
+     "pagina": 63,
      "imagens": [
       {
        "src": "img/cerrado/afloramento_rochoso/ex1_landsat_seco.jpg",
@@ -1524,7 +1561,7 @@ window.CHAVE = {
    "descricao": "Apicuns ou Campos Salgados são formações quase sempre desprovidas de vegetação arbórea e arbustiva, associadas a uma zona topograficamente mais alta da planície costeira, hipersalina e com frequência de inundação menor do que o manguezal, em geral na transição entre este e a terra firme ou campos de dunas.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 74,
+   "pagina": 75,
    "exemplos": [
     {
      "lat": -2.7894,
@@ -1537,7 +1574,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Confunde-se com Praia, Duna e Areal, Outras Áreas não Vegetadas, salinas e tanques de aquicultura. Os limites com o mangue e com a água variam com a maré."
      },
-     "pagina": 73,
+     "pagina": 74,
      "imagens": [
       {
        "src": "img/cerrado/apicum/ex1_landsat_seco.jpg",
@@ -1569,7 +1606,7 @@ window.CHAVE = {
    "descricao": "Ecossistemas de planície arenosa costeira caracterizados por vegetação predominantemente herbácea e arbustiva, com distribuição esparsa de arbustos.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 69,
+   "pagina": 70,
    "exemplos": [
     {
      "lat": -2.689217,
@@ -1582,7 +1619,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Quando a cobertura é esparsa, confunde-se com Formação Campestre e com Praia, Duna e Areal. Depende do contexto costeiro (cordões arenosos)."
      },
-     "pagina": 70,
+     "pagina": 71,
      "imagens": [
       {
        "src": "img/cerrado/restinga_herbacea/ex1_landsat_seco.jpg",
@@ -1614,7 +1651,7 @@ window.CHAVE = {
    "descricao": "Áreas de pastagem plantadas, diretamente relacionadas à atividade agropecuária. As áreas de pastagem natural, por sua vez, são predominantemente caracterizadas como formações campestres ou campo alagado, podendo ser submetidas ou não a práticas de pastejo. Podem ocorrer áreas desmatadas recentemente, sem ainda ter iniciado a atividade agropecuária. Pode conter também áreas em estágios iniciais de regeneração. Pequenas áreas agrícolas podem estar contidas.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 76,
+   "pagina": 77,
    "exemplos": [
     {
      "lat": -13.2014,
@@ -1627,7 +1664,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Confunde-se com Formação Campestre e Savânica (pastagem em vegetação nativa aberta), com Lavoura Temporária (rotação ou integração lavoura-pecuária) e com Mosaico de Usos. Pastagens degradadas, com solo exposto, podem parecer Outras Áreas não Vegetadas."
      },
-     "pagina": 75,
+     "pagina": 76,
      "imagens": [
       {
        "src": "img/cerrado/pastagem/ex1_landsat_seco.jpg",
@@ -1659,7 +1696,7 @@ window.CHAVE = {
    "descricao": "Áreas ocupadas com cultivos agrícolas de curta ou média duração, geralmente com ciclo vegetativo inferior a um ano, que após a colheita necessitam de novo plantio para produzir.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 78,
+   "pagina": 80,
    "exemplos": [
     {
      "lat": -13.3038,
@@ -1672,7 +1709,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Na entressafra, o solo exposto ou a palhada parecem pastagem degradada ou solo exposto. A identificação depende do calendário agrícola, visível na série de NDVI (ciclos de plantio e colheita)."
      },
-     "pagina": 77,
+     "pagina": 78,
      "imagens": [
       {
        "src": "img/cerrado/cultivo_temporario/ex1_landsat_seco.jpg",
@@ -1697,6 +1734,43 @@ window.CHAVE = {
      ],
      "grafico": "img/cerrado/cultivo_temporario/ex1_grafico.jpg",
      "mapa": "img/cerrado/cultivo_temporario/ex1_mapa.jpg"
+    },
+    {
+     "lat": -14.1842,
+     "lon": -45.9916,
+     "coords": "-14.1842, -45.9916",
+     "falsa_cor": "Landsat (B5, B6, B4); Sentinel (B11, B8, B4)",
+     "tonalidade": "Clara",
+     "textura": "Lisa e Homogênea",
+     "observacoes": "",
+     "limitacao": {
+      "geral": "Na entressafra, o solo exposto ou a palhada parecem pastagem degradada ou solo exposto. A identificação depende do calendário agrícola, visível na série de NDVI (ciclos de plantio e colheita)."
+     },
+     "pagina": 79,
+     "imagens": [
+      {
+       "src": "img/cerrado/cultivo_temporario/ex2_landsat_seco.jpg",
+       "rotulo": "Landsat – seco"
+      },
+      {
+       "src": "img/cerrado/cultivo_temporario/ex2_landsat_chuvoso.jpg",
+       "rotulo": "Landsat – chuvoso"
+      },
+      {
+       "src": "img/cerrado/cultivo_temporario/ex2_sentinel_seco.jpg",
+       "rotulo": "Sentinel-2 – seco"
+      },
+      {
+       "src": "img/cerrado/cultivo_temporario/ex2_sentinel_chuvoso.jpg",
+       "rotulo": "Sentinel-2 – chuvoso"
+      },
+      {
+       "src": "img/cerrado/cultivo_temporario/ex2_google_earth.jpg",
+       "rotulo": "Google Earth"
+      }
+     ],
+     "grafico": "img/cerrado/cultivo_temporario/ex2_grafico.jpg",
+     "mapa": "img/cerrado/cultivo_temporario/ex2_mapa.jpg"
     }
    ]
   },
@@ -1704,7 +1778,7 @@ window.CHAVE = {
    "descricao": "Áreas cultivadas com a monocultura da cana-de-açúcar.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 82,
+   "pagina": 84,
    "exemplos": [
     {
      "lat": -19.3593,
@@ -1717,7 +1791,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "A separação de outras lavouras temporárias e de pastagem depende do ciclo longo (colheita anual e rebrota) na série de NDVI. Áreas em reforma ou recém-colhidas parecem solo exposto."
      },
-     "pagina": 81,
+     "pagina": 83,
      "imagens": [
       {
        "src": "img/cerrado/cana_de_acucar/ex1_landsat_seco.jpg",
@@ -1749,7 +1823,7 @@ window.CHAVE = {
    "descricao": "Áreas ocupadas com cultivos agrícolas de ciclo vegetativo longo (mais de um ano), que permitem colheitas sucessivas, sem necessidade de novo plantio.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 80,
+   "pagina": 82,
    "exemplos": [
     {
      "lat": -12.1865,
@@ -1762,7 +1836,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Pode ser confundida com Silvicultura e com Formação Savânica ou Florestal (pomares adultos, café sombreado, dendê), e com Pastagem nas fases iniciais. As linhas de plantio geralmente só aparecem em imagens de alta resolução."
      },
-     "pagina": 79,
+     "pagina": 81,
      "imagens": [
       {
        "src": "img/cerrado/cultivo_perene/ex1_landsat_seco.jpg",
@@ -1794,7 +1868,7 @@ window.CHAVE = {
    "descricao": "Espécies arbóreas plantadas para fins comerciais (ex. pinus, eucalipto, araucária).",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 84,
+   "pagina": 86,
    "exemplos": [
     {
      "lat": -17.212,
@@ -1807,7 +1881,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Plantios jovens ou recém-cortados parecem pastagem ou solo exposto. Plantios adultos parecem floresta. Usar o formato dos talhões, os carreadores e a série histórica (corte e rebrota)."
      },
-     "pagina": 83,
+     "pagina": 85,
      "imagens": [
       {
        "src": "img/cerrado/silvicultura/ex1_landsat_seco.jpg",
@@ -1839,7 +1913,7 @@ window.CHAVE = {
    "descricao": "Cordões arenosos, de coloração branco brilhante, onde não há o predomínio de vegetação de nenhum tipo.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 63,
+   "pagina": 64,
    "exemplos": [
     {
      "lat": -2.6221,
@@ -1852,7 +1926,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Confunde-se com Outras Áreas não Vegetadas, Apicum e Restinga Herbácea esparsa. O areal (Pampa) pode lembrar o solo exposto de lavouras."
      },
-     "pagina": 64,
+     "pagina": 65,
      "imagens": [
       {
        "src": "img/cerrado/praia_duna_e_areial/ex1_landsat_seco.jpg",
@@ -1884,7 +1958,7 @@ window.CHAVE = {
    "descricao": "Áreas com significativa densidade de edificações e vias, incluindo infraestrutura e áreas livres de construções.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 65,
+   "pagina": 66,
    "exemplos": [
     {
      "lat": -16.2658,
@@ -1897,7 +1971,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Bairros muito arborizados, loteamentos não ocupados e pequenos núcleos rurais são difíceis de delimitar. Telhados e solo exposto podem ser confundidos com Mineração ou Outras Áreas não Vegetadas."
      },
-     "pagina": 66,
+     "pagina": 67,
      "imagens": [
       {
        "src": "img/cerrado/area_urbana/ex1_landsat_seco.jpg",
@@ -1929,7 +2003,7 @@ window.CHAVE = {
    "descricao": "Áreas referentes a extração mineral superficial, de porte industrial ou garimpeiro, havendo clara exposição do solo por ação antrópica. Não são passíveis de detecção nenhum tipo de mineração subterrânea ou subaquática.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 86,
+   "pagina": 88,
    "exemplos": [
     {
      "lat": -19.8805,
@@ -1942,7 +2016,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Confunde-se com Outras Áreas não Vegetadas, solo exposto e áreas urbanas em expansão. Pela legenda, a mineração subterrânea ou subaquática não é detectável."
      },
-     "pagina": 85,
+     "pagina": 87,
      "imagens": [
       {
        "src": "img/cerrado/mineracao/ex1_landsat_seco.jpg",
@@ -1974,7 +2048,7 @@ window.CHAVE = {
    "descricao": "Inclui superfícies impermeáveis (por exemplo, estradas, prédios, infraestrutura de mineração), solo exposto em ambientes naturais (por exemplo, características de erosão, ravinas, deslizamentos de terra) e terras cultiváveis fora do período de cultivo.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 89,
+   "pagina": 91,
    "exemplos": [
     {
      "lat": -11.7027,
@@ -1987,7 +2061,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "É uma classe residual: reúne superfícies não vegetadas que não se encaixam nas demais. Por isso, confunde-se com Mineração, Área Urbanizada, Praia, Duna e Areal, Afloramento Rochoso e lavouras em solo exposto."
      },
-     "pagina": 87,
+     "pagina": 89,
      "imagens": [
       {
        "src": "img/cerrado/outras_areas_nao_vegetadas/ex1_landsat_seco.jpg",
@@ -2024,7 +2098,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "É uma classe residual: reúne superfícies não vegetadas que não se encaixam nas demais. Por isso, confunde-se com Mineração, Área Urbanizada, Praia, Duna e Areal, Afloramento Rochoso e lavouras em solo exposto."
      },
-     "pagina": 88,
+     "pagina": 90,
      "imagens": [
       {
        "src": "img/cerrado/outras_areas_nao_vegetadas/ex2_landsat_seco.jpg",
@@ -2056,7 +2130,7 @@ window.CHAVE = {
    "descricao": "Rios, lagos, represas, reservatórios e outros corpos d'água.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 67,
+   "pagina": 68,
    "exemplos": [
     {
      "lat": null,
@@ -2069,7 +2143,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "A lâmina d'água varia entre seca e cheia. Rios estreitos (< 30 m) e lagos pequenos podem não aparecer. Água turva ou coberta por plantas aquáticas pode parecer solo ou vegetação."
      },
-     "pagina": 68,
+     "pagina": 69,
      "imagens": [
       {
        "src": "img/cerrado/rio_lago_e_oceano/ex1_landsat_seco.jpg",
@@ -2101,7 +2175,7 @@ window.CHAVE = {
    "descricao": "Área referente a lagos artificiais, onde predominam atividades aquícolas e/ou de salicultura.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 91,
+   "pagina": 93,
    "exemplos": [
     {
      "lat": -5.2642,
@@ -2114,7 +2188,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Tanques escavados parecem pequenos reservatórios e açudes (Rio, Lago e Oceano) e salinas. Tanques pequenos ficam abaixo da resolução de 30 m. O formato retangular e o agrupamento dos tanques ajudam."
      },
-     "pagina": 90,
+     "pagina": 92,
      "imagens": [
       {
        "src": "img/cerrado/aquicultura/ex1_landsat_seco.jpg",
@@ -2146,7 +2220,7 @@ window.CHAVE = {
    "descricao": "Tipos de vegetação com predomínio de dossel contínuo - Savana-Estépica Florestada, Floresta Estacional Semi-Decidual e Decidual.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 95,
+   "pagina": 97,
    "exemplos": [
     {
      "lat": -10.2827,
@@ -2159,7 +2233,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "O limite com a Formação Savânica é gradual (dossel mais aberto). Em florestas estacionais, a queda das folhas no período seco reduz o NDVI e pode lembrar savana. Florestas secundárias jovens, degradadas ou com corte seletivo são difíceis de separar da floresta madura na resolução de 10–30 m."
      },
-     "pagina": 94,
+     "pagina": 96,
      "imagens": [
       {
        "src": "img/caatinga/formacao_florestal/ex1_landsat_seco.jpg",
@@ -2191,7 +2265,7 @@ window.CHAVE = {
    "descricao": "Tipos de vegetação com predomínio de espécies de dossel semi-contínuo - Savana-Estépica Arborizada, Savana Arborizada.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 97,
+   "pagina": 99,
    "exemplos": [
     {
      "lat": -8.7326,
@@ -2204,7 +2278,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "A densidade de árvores varia de forma contínua, por isso os limites com Formação Florestal e Formação Campestre são subjetivos. No período seco, a resposta se aproxima da de pastagem. Comparar as imagens de seca e de chuva e a série de NDVI."
      },
-     "pagina": 96,
+     "pagina": 98,
      "imagens": [
       {
        "src": "img/caatinga/formacao_savanica/ex1_landsat_seco.jpg",
@@ -2236,7 +2310,7 @@ window.CHAVE = {
    "descricao": "Formações florestais e/ou arbustivas, densas, sempre-verdes, frequentemente inundadas pela maré e associadas ao ecossistema costeiro de Manguezal.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 113,
+   "pagina": 115,
    "exemplos": [
     {
      "lat": -2.8913,
@@ -2249,7 +2323,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Pode ser confundido com Floresta Alagável e Restinga Arbórea. Os limites com Apicum e com a água variam com a maré. Usar o contexto estuarino."
      },
-     "pagina": 112,
+     "pagina": 114,
      "imagens": [
       {
        "src": "img/caatinga/mangue/ex1_landsat_seco.jpg",
@@ -2281,7 +2355,7 @@ window.CHAVE = {
    "descricao": "Tipos de vegetação com predomínio de espécies herbáceas (Savana-Estépica Parque, Savana-Estépica Gramíneo-Lenhosa, Savana Parque, Savana Gramíneo-Lenhosa) + (Áreas inundáveis com uma rede de lagoas interligadas, localizadas ao longo dos cursos de água e em áreas de depressões que acumulam água, vegetação predominantemente herbácea a arbustiva).",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 99,
+   "pagina": 101,
    "exemplos": [
     {
      "lat": -9.7131,
@@ -2294,7 +2368,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Confunde-se com Pastagem, principalmente pastagem em campo nativo ou com gramíneas exóticas. A separação depende de sinais de manejo (cercas, bebedouros, talhões) e do histórico da área. Queimadas e senescência no período seco alteram a resposta espectral."
      },
-     "pagina": 98,
+     "pagina": 100,
      "imagens": [
       {
        "src": "img/caatinga/formacao_campestre/ex1_landsat_seco.jpg",
@@ -2326,7 +2400,7 @@ window.CHAVE = {
    "descricao": "",
    "fonte": "chave",
    "observacoes": "",
-   "pagina": 101,
+   "pagina": 103,
    "exemplos": [
     {
      "lat": -10.096,
@@ -2339,7 +2413,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "A inundação é sazonal: no período seco a área pode parecer Formação Campestre ou Pastagem e, na cheia, água. Comparar as imagens de seca e de chuva."
      },
-     "pagina": 100,
+     "pagina": 102,
      "imagens": [
       {
        "src": "img/caatinga/campo_alagado_e_area_pantanosa/ex1_landsat_seco.jpg",
@@ -2371,7 +2445,7 @@ window.CHAVE = {
    "descricao": "Superfícies rochosas naturalmente expostas com pouca ou nenhuma cobertura de solo e vegetação mínima",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 103,
+   "pagina": 105,
    "exemplos": [
     {
      "lat": -13.3914,
@@ -2384,7 +2458,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Afloramentos pequenos ou entremeados de vegetação ficam abaixo da resolução de 30 m e se misturam com Formação Campestre ou Savânica. A rocha exposta pode lembrar solo exposto ou Outras Áreas não Vegetadas."
      },
-     "pagina": 102,
+     "pagina": 104,
      "imagens": [
       {
        "src": "img/caatinga/afloramento_rochoso/ex1_landsat_seco.jpg",
@@ -2416,7 +2490,7 @@ window.CHAVE = {
    "descricao": "Apicuns ou Campos Salgados são formações quase sempre desprovidas de vegetação arbórea e arbustiva, associadas a uma zona topograficamente mais alta da planície costeira, hipersalina e com frequência de inundação menor do que o manguezal, em geral na transição entre este e a terra firme ou campos de dunas.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 115,
+   "pagina": 117,
    "exemplos": [
     {
      "lat": -2.8913,
@@ -2429,7 +2503,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Confunde-se com Praia, Duna e Areal, Outras Áreas não Vegetadas, salinas e tanques de aquicultura. Os limites com o mangue e com a água variam com a maré."
      },
-     "pagina": 114,
+     "pagina": 116,
      "imagens": [
       {
        "src": "img/caatinga/apicum/ex1_landsat_seco.jpg",
@@ -2461,7 +2535,7 @@ window.CHAVE = {
    "descricao": "Vegetação herbácea que se estabelece sobre solos arenosos ou sobre dunas costeiras com influência fluviomarinha.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 111,
+   "pagina": 113,
    "exemplos": [
     {
      "lat": -4.142572,
@@ -2474,7 +2548,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Quando a cobertura é esparsa, confunde-se com Formação Campestre e com Praia, Duna e Areal. Depende do contexto costeiro (cordões arenosos)."
      },
-     "pagina": 110,
+     "pagina": 112,
      "imagens": [
       {
        "src": "img/caatinga/restinga_herbacea/ex1_landsat_seco.jpg",
@@ -2506,7 +2580,7 @@ window.CHAVE = {
    "descricao": "Áreas de pastagem plantadas, diretamente relacionadas à atividade agropecuária. As áreas de pastagem natural, por sua vez, são predominantemente caracterizadas como formações campestres ou campo alagado, podendo ser submetidas ou não a práticas de pastejo. Podem ocorrer áreas desmatadas recentemente, sem ainda ter iniciado a atividade agropecuária. Pode conter também áreas em estágios iniciais de regeneração. Pequenas áreas agrícolas podem estar contidas.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 117,
+   "pagina": 119,
    "exemplos": [
     {
      "lat": -9.8354,
@@ -2519,7 +2593,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Confunde-se com Formação Campestre e Savânica (pastagem em vegetação nativa aberta), com Lavoura Temporária (rotação ou integração lavoura-pecuária) e com Mosaico de Usos. Pastagens degradadas, com solo exposto, podem parecer Outras Áreas não Vegetadas."
      },
-     "pagina": 116,
+     "pagina": 118,
      "imagens": [
       {
        "src": "img/caatinga/pastagem/ex1_landsat_seco.jpg",
@@ -2551,7 +2625,7 @@ window.CHAVE = {
    "descricao": "Áreas ocupadas com cultivos agrícolas de curta ou média duração, geralmente com ciclo vegetativo inferior a um ano, que após a colheita necessitam de novo plantio para produzir.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 120,
+   "pagina": 123,
    "exemplos": [
     {
      "lat": -5.192677,
@@ -2564,7 +2638,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Na entressafra, o solo exposto ou a palhada parecem pastagem degradada ou solo exposto. A identificação depende do calendário agrícola, visível na série de NDVI (ciclos de plantio e colheita)."
      },
-     "pagina": 118,
+     "pagina": 120,
      "imagens": [
       {
        "src": "img/caatinga/cultivo_temporario/ex1_landsat_seco.jpg",
@@ -2601,7 +2675,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Na entressafra, o solo exposto ou a palhada parecem pastagem degradada ou solo exposto. A identificação depende do calendário agrícola, visível na série de NDVI (ciclos de plantio e colheita)."
      },
-     "pagina": 119,
+     "pagina": 121,
      "imagens": [
       {
        "src": "img/caatinga/cultivo_temporario/ex2_landsat_seco.jpg",
@@ -2626,6 +2700,43 @@ window.CHAVE = {
      ],
      "grafico": "img/caatinga/cultivo_temporario/ex2_grafico.jpg",
      "mapa": "img/caatinga/cultivo_temporario/ex2_mapa.jpg"
+    },
+    {
+     "lat": -5.192336,
+     "lon": -38.015717,
+     "coords": "-5.192336, -38.015717",
+     "falsa_cor": "Landsat (B5, B6, B4); Sentinel (B11, B8, B4)",
+     "tonalidade": "",
+     "textura": "Lisa e Homogênea",
+     "observacoes": "",
+     "limitacao": {
+      "geral": "Na entressafra, o solo exposto ou a palhada parecem pastagem degradada ou solo exposto. A identificação depende do calendário agrícola, visível na série de NDVI (ciclos de plantio e colheita)."
+     },
+     "pagina": 122,
+     "imagens": [
+      {
+       "src": "img/caatinga/cultivo_temporario/ex3_landsat_seco.jpg",
+       "rotulo": "Landsat – seco"
+      },
+      {
+       "src": "img/caatinga/cultivo_temporario/ex3_landsat_chuvoso.jpg",
+       "rotulo": "Landsat – chuvoso"
+      },
+      {
+       "src": "img/caatinga/cultivo_temporario/ex3_sentinel_seco.jpg",
+       "rotulo": "Sentinel-2 – seco"
+      },
+      {
+       "src": "img/caatinga/cultivo_temporario/ex3_sentinel_chuvoso.jpg",
+       "rotulo": "Sentinel-2 – chuvoso"
+      },
+      {
+       "src": "img/caatinga/cultivo_temporario/ex3_google_earth.jpg",
+       "rotulo": "Google Earth"
+      }
+     ],
+     "grafico": "img/caatinga/cultivo_temporario/ex3_grafico.jpg",
+     "mapa": "img/caatinga/cultivo_temporario/ex3_mapa.jpg"
     }
    ]
   },
@@ -2633,7 +2744,7 @@ window.CHAVE = {
    "descricao": "Áreas cultivadas com a monocultura da cana-de-açúcar.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 125,
+   "pagina": 128,
    "exemplos": [
     {
      "lat": -5.883469,
@@ -2646,7 +2757,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "A separação de outras lavouras temporárias e de pastagem depende do ciclo longo (colheita anual e rebrota) na série de NDVI. Áreas em reforma ou recém-colhidas parecem solo exposto."
      },
-     "pagina": 124,
+     "pagina": 127,
      "imagens": [
       {
        "src": "img/caatinga/cana_de_acucar/ex1_landsat_seco.jpg",
@@ -2678,7 +2789,7 @@ window.CHAVE = {
    "descricao": "Áreas ocupadas com cultivos agrícolas de ciclo vegetativo longo (mais de um ano), que permitem colheitas sucessivas, sem necessidade de novo plantio.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 123,
+   "pagina": 126,
    "exemplos": [
     {
      "lat": -12.41564,
@@ -2691,7 +2802,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Pode ser confundida com Silvicultura e com Formação Savânica ou Florestal (pomares adultos, café sombreado, dendê), e com Pastagem nas fases iniciais. As linhas de plantio geralmente só aparecem em imagens de alta resolução."
      },
-     "pagina": 121,
+     "pagina": 124,
      "imagens": [
       {
        "src": "img/caatinga/cultivo_perene/ex1_landsat_seco.jpg",
@@ -2728,7 +2839,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Pode ser confundida com Silvicultura e com Formação Savânica ou Florestal (pomares adultos, café sombreado, dendê), e com Pastagem nas fases iniciais. As linhas de plantio geralmente só aparecem em imagens de alta resolução."
      },
-     "pagina": 122,
+     "pagina": 125,
      "imagens": [
       {
        "src": "img/caatinga/cultivo_perene/ex2_landsat_seco.jpg",
@@ -2760,7 +2871,7 @@ window.CHAVE = {
    "descricao": "Espécies arbóreas plantadas para fins comerciais (ex. pinus, eucalipto, araucária).",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 127,
+   "pagina": 130,
    "exemplos": [
     {
      "lat": -13.186961,
@@ -2773,7 +2884,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Plantios jovens ou recém-cortados parecem pastagem ou solo exposto. Plantios adultos parecem floresta. Usar o formato dos talhões, os carreadores e a série histórica (corte e rebrota)."
      },
-     "pagina": 126,
+     "pagina": 129,
      "imagens": [
       {
        "src": "img/caatinga/silvicultura/ex1_landsat_seco.jpg",
@@ -2805,7 +2916,7 @@ window.CHAVE = {
    "descricao": "Cordões arenosos, de coloração branco brilhante, onde não há o predomínio de vegetação de nenhum tipo.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 105,
+   "pagina": 107,
    "exemplos": [
     {
      "lat": -4.13974,
@@ -2818,7 +2929,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Confunde-se com Outras Áreas não Vegetadas, Apicum e Restinga Herbácea esparsa. O areal (Pampa) pode lembrar o solo exposto de lavouras."
      },
-     "pagina": 104,
+     "pagina": 106,
      "imagens": [
       {
        "src": "img/caatinga/praia_duna_e_areial/ex1_landsat_seco.jpg",
@@ -2850,7 +2961,7 @@ window.CHAVE = {
    "descricao": "Áreas com significativa densidade de edificações e vias, incluindo infraestrutura e áreas livres de construções.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 107,
+   "pagina": 109,
    "exemplos": [
     {
      "lat": -10.8271,
@@ -2863,7 +2974,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Bairros muito arborizados, loteamentos não ocupados e pequenos núcleos rurais são difíceis de delimitar. Telhados e solo exposto podem ser confundidos com Mineração ou Outras Áreas não Vegetadas."
      },
-     "pagina": 106,
+     "pagina": 108,
      "imagens": [
       {
        "src": "img/caatinga/area_urbana/ex1_landsat_seco.jpg",
@@ -2895,7 +3006,7 @@ window.CHAVE = {
    "descricao": "Áreas referentes a extração mineral superficial, de porte industrial ou garimpeiro, havendo clara exposição do solo por ação antrópica. Não são passíveis de detecção nenhum tipo de mineração subterrânea ou subaquática.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 129,
+   "pagina": 132,
    "exemplos": [
     {
      "lat": -11.450972,
@@ -2908,7 +3019,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Confunde-se com Outras Áreas não Vegetadas, solo exposto e áreas urbanas em expansão. Pela legenda, a mineração subterrânea ou subaquática não é detectável."
      },
-     "pagina": 128,
+     "pagina": 131,
      "imagens": [
       {
        "src": "img/caatinga/mineracao/ex1_landsat_seco.jpg",
@@ -2940,7 +3051,7 @@ window.CHAVE = {
    "descricao": "Instalação de médio a grande porte destinada à geração de energia elétrica por conversão direta da luz solar, com foco na comercialização da energia. No Brasil, são consideradas grandes usinas as centrais com potência superior a 5 MW, conforme regulamentação (Resolução Normativa ANEEL nº 1.071, de 29 de agosto de 2023). A eletricidade gerada é conectada ao Sistema Interligado Nacional (SIN), que distribui energia por todo o país. Em termos de uso do solo, essas usinas ocupam áreas relevantes: estima-se que uma instalação em regiões tropicais demande cerca de 1 ha por MW com o uso de módulos fixos, podendo variar para 2–3 ha/MW em função de tecnologia (trackers) e disposição dos painéis. Exemplos nacionais confirmam essa faixa: o Parque Solar Nova Olinda (292 MW em 690 ha ≈ 2,4 ha/MW), e o Complexo Solar Pirapora (321 MW em ≈ 1 500 ha, cerca de 4,7 ha/MW.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 133,
+   "pagina": 136,
    "exemplos": [
     {
      "lat": -9.6985,
@@ -2953,7 +3064,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Pela legenda, a classe considera instalações de médio a grande porte voltadas à comercialização da energia: geração distribuída (telhados) e instalações pequenas não entram. Na resolução de 30 m, os painéis podem ser confundidos com Outras Áreas não Vegetadas ou área urbana."
      },
-     "pagina": 132,
+     "pagina": 135,
      "imagens": [
       {
        "src": "img/caatinga/usina_fotovoltaica/ex1_landsat_seco.jpg",
@@ -2985,7 +3096,7 @@ window.CHAVE = {
    "descricao": "Áreas de superfícies não permeáveis (infra-estrutura, expansão urbana ou mineração) não mapeadas em suas classes.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 131,
+   "pagina": 134,
    "exemplos": [
     {
      "lat": null,
@@ -2998,7 +3109,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "É uma classe residual: reúne superfícies não vegetadas que não se encaixam nas demais. Por isso, confunde-se com Mineração, Área Urbanizada, Praia, Duna e Areal, Afloramento Rochoso e lavouras em solo exposto."
      },
-     "pagina": 130,
+     "pagina": 133,
      "imagens": [],
      "grafico": "",
      "mapa": ""
@@ -3009,7 +3120,7 @@ window.CHAVE = {
    "descricao": "Rios, lagos, represas, reservatórios e outros corpos d'água.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 109,
+   "pagina": 111,
    "exemplos": [
     {
      "lat": -5.6318,
@@ -3022,7 +3133,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "A lâmina d'água varia entre seca e cheia. Rios estreitos (< 30 m) e lagos pequenos podem não aparecer. Água turva ou coberta por plantas aquáticas pode parecer solo ou vegetação."
      },
-     "pagina": 108,
+     "pagina": 110,
      "imagens": [
       {
        "src": "img/caatinga/rio_lago_e_oceano/ex1_landsat_seco.jpg",
@@ -3054,7 +3165,7 @@ window.CHAVE = {
    "descricao": "Área referente a lagos artificiais, onde predominam atividades aquícolas e/ou de salicultura.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 135,
+   "pagina": 138,
    "exemplos": [
     {
      "lat": -4.981664,
@@ -3067,7 +3178,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Tanques escavados parecem pequenos reservatórios e açudes (Rio, Lago e Oceano) e salinas. Tanques pequenos ficam abaixo da resolução de 30 m. O formato retangular e o agrupamento dos tanques ajudam."
      },
-     "pagina": 134,
+     "pagina": 137,
      "imagens": [
       {
        "src": "img/caatinga/aquicultura/ex1_landsat_seco.jpg",
@@ -3099,7 +3210,7 @@ window.CHAVE = {
    "descricao": "Tipos de vegetação caracterizados pela predominância de espécies arbóreas, com alta densidade de árvores, dossel fechado e estratificação vertical. Inclui as tipologias florestais: Floresta Ombrófila Densa, Aberta e Mista, Floresta Estacional Semidecidual e Decidual, e Formação Pioneira.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 139,
+   "pagina": 142,
    "exemplos": [
     {
      "lat": -6.71115,
@@ -3112,7 +3223,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "O limite com a Formação Savânica é gradual (dossel mais aberto). Em florestas estacionais, a queda das folhas no período seco reduz o NDVI e pode lembrar savana. Florestas secundárias jovens, degradadas ou com corte seletivo são difíceis de separar da floresta madura na resolução de 10–30 m."
      },
-     "pagina": 138,
+     "pagina": 141,
      "imagens": [
       {
        "src": "img/mata_atlantica/formacao_florestal/ex1_landsat_seco.jpg",
@@ -3144,7 +3255,7 @@ window.CHAVE = {
    "descricao": "Tipo de vegetação caracterizado pela presença de espécies arbóreas e arbustivas esparsas, com dossel semicontínuo. Inclui: Estépica, Savana Florestada e Savana Arborizada.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 141,
+   "pagina": 144,
    "exemplos": [
     {
      "lat": -5.601464,
@@ -3157,7 +3268,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "A densidade de árvores varia de forma contínua, por isso os limites com Formação Florestal e Formação Campestre são subjetivos. No período seco, a resposta se aproxima da de pastagem. Comparar as imagens de seca e de chuva e a série de NDVI."
      },
-     "pagina": 140,
+     "pagina": 143,
      "imagens": [
       {
        "src": "img/mata_atlantica/formacao_savanica/ex1_landsat_seco.jpg",
@@ -3189,7 +3300,7 @@ window.CHAVE = {
    "descricao": "Formações florestais e/ou arbustivas, densas, sempre-verdes, frequentemente inundadas pela maré e associadas ao ecossistema costeiro de Manguezal.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 157,
+   "pagina": 160,
    "exemplos": [
     {
      "lat": -7.378189,
@@ -3202,7 +3313,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Pode ser confundido com Floresta Alagável e Restinga Arbórea. Os limites com Apicum e com a água variam com a maré. Usar o contexto estuarino."
      },
-     "pagina": 156,
+     "pagina": 159,
      "imagens": [
       {
        "src": "img/mata_atlantica/mangue/ex1_landsat_seco.jpg",
@@ -3234,7 +3345,7 @@ window.CHAVE = {
    "descricao": "Vegetação dominada por espécies herbáceas e gramíneas, com poucas árvores e arbustos dispersos, geralmente apresentando dossel aberto ou ausente. Ocorre em solos que variam de profundos a rasos, incluindo terrenos rochosos (campos rupestres). Inclui: Savanas Parque e de Estépica Gramíneo-Lenhosa, Estépicas e Formações Pioneiras Arbustivas e Herbáceas.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 143,
+   "pagina": 146,
    "exemplos": [
     {
      "lat": -21.456896,
@@ -3247,7 +3358,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Confunde-se com Pastagem, principalmente pastagem em campo nativo ou com gramíneas exóticas. A separação depende de sinais de manejo (cercas, bebedouros, talhões) e do histórico da área. Queimadas e senescência no período seco alteram a resposta espectral."
      },
-     "pagina": 142,
+     "pagina": 145,
      "imagens": [
       {
        "src": "img/mata_atlantica/formacao_campestre/ex1_landsat_seco.jpg",
@@ -3279,7 +3390,7 @@ window.CHAVE = {
    "descricao": "Vegetação de planícies alagáveis ou campos influenciados por dinâmicas fluviais e/ou lacustres, caracterizada pela predominância de vegetação higrófila, incluindo plantas aquáticas emersas, submersas ou flutuantes.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 145,
+   "pagina": 148,
    "exemplos": [
     {
      "lat": -15.95635,
@@ -3292,7 +3403,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "A inundação é sazonal: no período seco a área pode parecer Formação Campestre ou Pastagem e, na cheia, água. Comparar as imagens de seca e de chuva."
      },
-     "pagina": 144,
+     "pagina": 147,
      "imagens": [
       {
        "src": "img/mata_atlantica/campo_alagado_e_area_pantanosa/ex1_landsat_seco.jpg",
@@ -3324,7 +3435,7 @@ window.CHAVE = {
    "descricao": "Superfícies rochosas naturalmente expostas com pouca ou nenhuma cobertura de solo, frequentemente associados à vegetação rupícola e a terrenos de forte declividade.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 147,
+   "pagina": 150,
    "exemplos": [
     {
      "lat": -18.3555,
@@ -3337,7 +3448,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Afloramentos pequenos ou entremeados de vegetação ficam abaixo da resolução de 30 m e se misturam com Formação Campestre ou Savânica. A rocha exposta pode lembrar solo exposto ou Outras Áreas não Vegetadas."
      },
-     "pagina": 146,
+     "pagina": 149,
      "imagens": [
       {
        "src": "img/mata_atlantica/afloramento_rochoso/ex1_landsat_seco.jpg",
@@ -3369,7 +3480,7 @@ window.CHAVE = {
    "descricao": "Apicuns ou Campos Salgados são formações quase sempre desprovidas de vegetação arbórea e arbustiva, associadas a uma zona topograficamente mais alta da planície costeira, hipersalina e com frequência de inundação menor do que o manguezal, em geral na transição entre este e a terra firme ou campos de dunas.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 159,
+   "pagina": 162,
    "exemplos": [
     {
      "lat": -7.68037446,
@@ -3382,7 +3493,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Confunde-se com Praia, Duna e Areal, Outras Áreas não Vegetadas, salinas e tanques de aquicultura. Os limites com o mangue e com a água variam com a maré."
      },
-     "pagina": 158,
+     "pagina": 161,
      "imagens": [
       {
        "src": "img/mata_atlantica/apicum/ex1_landsat_seco.jpg",
@@ -3414,7 +3525,7 @@ window.CHAVE = {
    "descricao": "Vegetação herbácea que se estabelece sobre solos arenosos ou sobre dunas costeiras com influência fluviomarinha.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 155,
+   "pagina": 158,
    "exemplos": [
     {
      "lat": -5.258942,
@@ -3427,7 +3538,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Quando a cobertura é esparsa, confunde-se com Formação Campestre e com Praia, Duna e Areal. Depende do contexto costeiro (cordões arenosos)."
      },
-     "pagina": 154,
+     "pagina": 157,
      "imagens": [
       {
        "src": "img/mata_atlantica/restinga_herbacea/ex1_landsat_seco.jpg",
@@ -3459,7 +3570,7 @@ window.CHAVE = {
    "descricao": "Áreas de pastagem plantadas, diretamente relacionadas à atividade agropecuária. As áreas de pastagem natural, por sua vez, são predominantemente caracterizadas como formações campestres ou campo alagado, podendo ser submetidas ou não a práticas de pastejo. Podem ocorrer áreas desmatadas recentemente, sem ainda ter iniciado a atividade agropecuária. Pode conter também áreas em estágios iniciais de regeneração. Pequenas áreas agrícolas podem estar contidas.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 161,
+   "pagina": 164,
    "exemplos": [
     {
      "lat": -8.39774,
@@ -3472,7 +3583,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Confunde-se com Formação Campestre e Savânica (pastagem em vegetação nativa aberta), com Lavoura Temporária (rotação ou integração lavoura-pecuária) e com Mosaico de Usos. Pastagens degradadas, com solo exposto, podem parecer Outras Áreas não Vegetadas."
      },
-     "pagina": 160,
+     "pagina": 163,
      "imagens": [
       {
        "src": "img/mata_atlantica/pastagem/ex1_landsat_seco.jpg",
@@ -3504,7 +3615,7 @@ window.CHAVE = {
    "descricao": "Áreas ocupadas com cultivos agrícolas de curta ou média duração, geralmente com ciclo vegetativo inferior a um ano, que após a colheita necessitam de novo plantio para produzir.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 163,
+   "pagina": 167,
    "exemplos": [
     {
      "lat": -7.019031,
@@ -3517,7 +3628,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Na entressafra, o solo exposto ou a palhada parecem pastagem degradada ou solo exposto. A identificação depende do calendário agrícola, visível na série de NDVI (ciclos de plantio e colheita)."
      },
-     "pagina": 162,
+     "pagina": 165,
      "imagens": [
       {
        "src": "img/mata_atlantica/cultivo_temporario/ex1_landsat_seco.jpg",
@@ -3542,6 +3653,43 @@ window.CHAVE = {
      ],
      "grafico": "img/mata_atlantica/cultivo_temporario/ex1_grafico.jpg",
      "mapa": "img/mata_atlantica/cultivo_temporario/ex1_mapa.jpg"
+    },
+    {
+     "lat": -24.076353,
+     "lon": -52.420255,
+     "coords": "-24.076353, -52.420255",
+     "falsa_cor": "Landsat (B5, B6, B4); Sentinel (B11, B8, B4)",
+     "tonalidade": "",
+     "textura": "Lisa e Homogênea",
+     "observacoes": "",
+     "limitacao": {
+      "geral": "Na entressafra, o solo exposto ou a palhada parecem pastagem degradada ou solo exposto. A identificação depende do calendário agrícola, visível na série de NDVI (ciclos de plantio e colheita)."
+     },
+     "pagina": 166,
+     "imagens": [
+      {
+       "src": "img/mata_atlantica/cultivo_temporario/ex2_landsat_seco.jpg",
+       "rotulo": "Landsat – seco"
+      },
+      {
+       "src": "img/mata_atlantica/cultivo_temporario/ex2_landsat_chuvoso.jpg",
+       "rotulo": "Landsat – chuvoso"
+      },
+      {
+       "src": "img/mata_atlantica/cultivo_temporario/ex2_sentinel_seco.jpg",
+       "rotulo": "Sentinel-2 – seco"
+      },
+      {
+       "src": "img/mata_atlantica/cultivo_temporario/ex2_sentinel_chuvoso.jpg",
+       "rotulo": "Sentinel-2 – chuvoso"
+      },
+      {
+       "src": "img/mata_atlantica/cultivo_temporario/ex2_google_earth.jpg",
+       "rotulo": "Google Earth"
+      }
+     ],
+     "grafico": "img/mata_atlantica/cultivo_temporario/ex2_grafico.jpg",
+     "mapa": "img/mata_atlantica/cultivo_temporario/ex2_mapa.jpg"
     }
    ]
   },
@@ -3549,7 +3697,7 @@ window.CHAVE = {
    "descricao": "Áreas cultivadas com cultura de arroz, exclusivamente sob sistema de irrigação. Este mapa é o mesmo apresentado no módulo irrigação na classe \"Arroz Irrigado\".",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 179,
+   "pagina": 183,
    "exemplos": [
     {
      "lat": -23.17827,
@@ -3562,7 +3710,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "O arroz irrigado por inundação pode parecer água ou Campo Alagado no início do ciclo. O arroz de sequeiro é difícil de separar das outras lavouras temporárias sem informação de campo."
      },
-     "pagina": 178,
+     "pagina": 182,
      "imagens": [
       {
        "src": "img/mata_atlantica/arroz/ex1_landsat_seco.jpg",
@@ -3594,7 +3742,7 @@ window.CHAVE = {
    "descricao": "Áreas cultivadas com a monocultura da cana-de-açúcar.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 167,
+   "pagina": 171,
    "exemplos": [
     {
      "lat": -7.062681,
@@ -3607,7 +3755,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "A separação de outras lavouras temporárias e de pastagem depende do ciclo longo (colheita anual e rebrota) na série de NDVI. Áreas em reforma ou recém-colhidas parecem solo exposto."
      },
-     "pagina": 166,
+     "pagina": 170,
      "imagens": [
       {
        "src": "img/mata_atlantica/cana_de_acucar/ex1_landsat_seco.jpg",
@@ -3639,7 +3787,7 @@ window.CHAVE = {
    "descricao": "Áreas ocupadas com cultivos agrícolas de ciclo vegetativo longo (mais de um ano), que permitem colheitas sucessivas, sem necessidade de novo plantio.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 165,
+   "pagina": 169,
    "exemplos": [
     {
      "lat": -5.58043,
@@ -3652,7 +3800,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Pode ser confundida com Silvicultura e com Formação Savânica ou Florestal (pomares adultos, café sombreado, dendê), e com Pastagem nas fases iniciais. As linhas de plantio geralmente só aparecem em imagens de alta resolução."
      },
-     "pagina": 164,
+     "pagina": 168,
      "imagens": [
       {
        "src": "img/mata_atlantica/cultivo_perene/ex1_landsat_seco.jpg",
@@ -3684,7 +3832,7 @@ window.CHAVE = {
    "descricao": "Espécies arbóreas plantadas para fins comerciais (ex. pinus, eucalipto, araucária).",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 171,
+   "pagina": 175,
    "exemplos": [
     {
      "lat": -12.18596564,
@@ -3697,7 +3845,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Plantios jovens ou recém-cortados parecem pastagem ou solo exposto. Plantios adultos parecem floresta. Usar o formato dos talhões, os carreadores e a série histórica (corte e rebrota)."
      },
-     "pagina": 168,
+     "pagina": 172,
      "imagens": [
       {
        "src": "img/mata_atlantica/silvicultura/ex1_landsat_seco.jpg",
@@ -3734,7 +3882,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Plantios jovens ou recém-cortados parecem pastagem ou solo exposto. Plantios adultos parecem floresta. Usar o formato dos talhões, os carreadores e a série histórica (corte e rebrota)."
      },
-     "pagina": 169,
+     "pagina": 173,
      "imagens": [
       {
        "src": "img/mata_atlantica/silvicultura/ex2_landsat_seco.jpg",
@@ -3771,7 +3919,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Plantios jovens ou recém-cortados parecem pastagem ou solo exposto. Plantios adultos parecem floresta. Usar o formato dos talhões, os carreadores e a série histórica (corte e rebrota)."
      },
-     "pagina": 170,
+     "pagina": 174,
      "imagens": [
       {
        "src": "img/mata_atlantica/silvicultura/ex3_landsat_seco.jpg",
@@ -3803,7 +3951,7 @@ window.CHAVE = {
    "descricao": "Cordões arenosos, de coloração branco brilhante, onde não há o predomínio de vegetação de nenhum tipo.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 149,
+   "pagina": 152,
    "exemplos": [
     {
      "lat": -12.323192,
@@ -3816,7 +3964,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Confunde-se com Outras Áreas não Vegetadas, Apicum e Restinga Herbácea esparsa. O areal (Pampa) pode lembrar o solo exposto de lavouras."
      },
-     "pagina": 148,
+     "pagina": 151,
      "imagens": [
       {
        "src": "img/mata_atlantica/praia_duna_e_areial/ex1_landsat_seco.jpg",
@@ -3848,7 +3996,7 @@ window.CHAVE = {
    "descricao": "Áreas com significativa densidade de edificações e vias, incluindo infraestrutura e áreas livres de construções.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 151,
+   "pagina": 154,
    "exemplos": [
     {
      "lat": -21.795433,
@@ -3861,7 +4009,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Bairros muito arborizados, loteamentos não ocupados e pequenos núcleos rurais são difíceis de delimitar. Telhados e solo exposto podem ser confundidos com Mineração ou Outras Áreas não Vegetadas."
      },
-     "pagina": 150,
+     "pagina": 153,
      "imagens": [
       {
        "src": "img/mata_atlantica/area_urbana/ex1_landsat_seco.jpg",
@@ -3893,7 +4041,7 @@ window.CHAVE = {
    "descricao": "Áreas referentes a extração mineral superficial, de porte industrial ou garimpeiro, havendo clara exposição do solo por ação antrópica. Não são passíveis de detecção nenhum tipo de mineração subterrânea ou subaquática.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 173,
+   "pagina": 177,
    "exemplos": [
     {
      "lat": -23.657,
@@ -3906,7 +4054,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Confunde-se com Outras Áreas não Vegetadas, solo exposto e áreas urbanas em expansão. Pela legenda, a mineração subterrânea ou subaquática não é detectável."
      },
-     "pagina": 172,
+     "pagina": 176,
      "imagens": [
       {
        "src": "img/mata_atlantica/mineracao/ex1_landsat_seco.jpg",
@@ -3938,7 +4086,7 @@ window.CHAVE = {
    "descricao": "Áreas naturais com solo exposto resultantes de eventos climáticos (deslizamentos, inundações) e áreas com superfícies não permeáveis (infraestrutura, expansão urbana ou mineração) que não foram mapeadas dentro de suas respectivas classes.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 175,
+   "pagina": 179,
    "exemplos": [
     {
      "lat": -20.543164,
@@ -3951,7 +4099,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "É uma classe residual: reúne superfícies não vegetadas que não se encaixam nas demais. Por isso, confunde-se com Mineração, Área Urbanizada, Praia, Duna e Areal, Afloramento Rochoso e lavouras em solo exposto."
      },
-     "pagina": 174,
+     "pagina": 178,
      "imagens": [
       {
        "src": "img/mata_atlantica/outras_areas_nao_vegetadas/ex1_landsat_seco.jpg",
@@ -3983,7 +4131,7 @@ window.CHAVE = {
    "descricao": "Rios, lagos, represas, reservatórios e outros corpos d'água.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 153,
+   "pagina": 156,
    "exemplos": [
     {
      "lat": -22.826497,
@@ -3996,7 +4144,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "A lâmina d'água varia entre seca e cheia. Rios estreitos (< 30 m) e lagos pequenos podem não aparecer. Água turva ou coberta por plantas aquáticas pode parecer solo ou vegetação."
      },
-     "pagina": 152,
+     "pagina": 155,
      "imagens": [
       {
        "src": "img/mata_atlantica/rio_lago_e_oceano/ex1_landsat_seco.jpg",
@@ -4028,7 +4176,7 @@ window.CHAVE = {
    "descricao": "Área referente a lagos artificiais, onde predominam atividades aquícolas e/ou de salicultura.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 177,
+   "pagina": 181,
    "exemplos": [
     {
      "lat": -24.7182,
@@ -4041,7 +4189,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Tanques escavados parecem pequenos reservatórios e açudes (Rio, Lago e Oceano) e salinas. Tanques pequenos ficam abaixo da resolução de 30 m. O formato retangular e o agrupamento dos tanques ajudam."
      },
-     "pagina": 176,
+     "pagina": 180,
      "imagens": [
       {
        "src": "img/mata_atlantica/aquicultura/ex1_landsat_seco.jpg",
@@ -4073,7 +4221,7 @@ window.CHAVE = {
    "descricao": "Árvores altas e arbustos no estrato inferior: Floresta Estacional Decidual e Semidecidual, Savana Florestada, Savana-Estépica Florestada e Formações Pioneiras com influência fluvial e/ou lacustre.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 184,
+   "pagina": 188,
    "exemplos": [
     {
      "lat": -18.4444,
@@ -4086,7 +4234,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "O limite com a Formação Savânica é gradual (dossel mais aberto). Em florestas estacionais, a queda das folhas no período seco reduz o NDVI e pode lembrar savana. Florestas secundárias jovens, degradadas ou com corte seletivo são difíceis de separar da floresta madura na resolução de 10–30 m."
      },
-     "pagina": 182,
+     "pagina": 186,
      "imagens": [
       {
        "src": "img/pantanal/formacao_florestal/ex1_landsat_seco.jpg",
@@ -4123,7 +4271,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "O limite com a Formação Savânica é gradual (dossel mais aberto). Em florestas estacionais, a queda das folhas no período seco reduz o NDVI e pode lembrar savana. Florestas secundárias jovens, degradadas ou com corte seletivo são difíceis de separar da floresta madura na resolução de 10–30 m."
      },
-     "pagina": 183,
+     "pagina": 187,
      "imagens": [
       {
        "src": "img/pantanal/formacao_florestal/ex2_landsat_seco.jpg",
@@ -4155,7 +4303,7 @@ window.CHAVE = {
    "descricao": "Espécies arbóreas de pequeno porte, distribuídas de forma esparsa e dispostas em meio à vegetação contínua de porte arbustivo e herbáceo. A vegetação herbácea se mistura com arbustos eretos e decumbentes.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 186,
+   "pagina": 190,
    "exemplos": [
     {
      "lat": -18.1482,
@@ -4168,7 +4316,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "A densidade de árvores varia de forma contínua, por isso os limites com Formação Florestal e Formação Campestre são subjetivos. No período seco, a resposta se aproxima da de pastagem. Comparar as imagens de seca e de chuva e a série de NDVI."
      },
-     "pagina": 185,
+     "pagina": 189,
      "imagens": [
       {
        "src": "img/pantanal/formacao_savanica/ex1_landsat_seco.jpg",
@@ -4200,7 +4348,7 @@ window.CHAVE = {
    "descricao": "Vegetação com predomínio de estrato herbáceo graminóide, com presença de arbustivas isoladas e lenhosas raquíticas. A composição botânica é influenciada pelos gradientes edáficos e topográficos e pelo manejo pastoril (pecuária). Manchas de vegetação exótica invasora ou de uso forrageiro (pastagem plantada) podem estar presentes formando mosaicos com a vegetação nativa.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 188,
+   "pagina": 192,
    "exemplos": [
     {
      "lat": -18.994711,
@@ -4213,7 +4361,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Confunde-se com Pastagem, principalmente pastagem em campo nativo ou com gramíneas exóticas. A separação depende de sinais de manejo (cercas, bebedouros, talhões) e do histórico da área. Queimadas e senescência no período seco alteram a resposta espectral."
      },
-     "pagina": 187,
+     "pagina": 191,
      "imagens": [
       {
        "src": "img/pantanal/formacao_campestre/ex1_landsat_seco.jpg",
@@ -4245,7 +4393,7 @@ window.CHAVE = {
    "descricao": "Vegetação herbácea com predomínio de gramíneas sujeitas ao alagamento permanente ou temporário (pelo menos uma vez ao ano) de acordo com os pulsos naturais de inundação. O elemento lenhoso pode estar presente sobre a matriz campestre formando um mosaico com plantas arbustivas ou arbóreas (ex: cambarazal, paratudal e carandazal). As áreas pantanosas ocorrem geralmente nas margens das lagoas temporárias ou permanentes ocupadas por plantas aquáticas emergentes, submersas ou flutuantes (ex: brejos e baceiros). Áreas com superfície de água, mas de difícil classificação devido a quantidade de macrófitas, eutrofização ou sedimentos, também foram incluídas nesta categoria.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 190,
+   "pagina": 194,
    "exemplos": [
     {
      "lat": -18.5527,
@@ -4258,7 +4406,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "A inundação é sazonal: no período seco a área pode parecer Formação Campestre ou Pastagem e, na cheia, água. Comparar as imagens de seca e de chuva."
      },
-     "pagina": 189,
+     "pagina": 193,
      "imagens": [
       {
        "src": "img/pantanal/campo_alagado_e_area_pantanosa/ex1_landsat_seco.jpg",
@@ -4290,7 +4438,7 @@ window.CHAVE = {
    "descricao": "Superfícies rochosas naturalmente expostas com pouca ou nenhuma cobertura de solo e vegetação mínima",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 192,
+   "pagina": 196,
    "exemplos": [
     {
      "lat": -17.898081,
@@ -4303,7 +4451,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Afloramentos pequenos ou entremeados de vegetação ficam abaixo da resolução de 30 m e se misturam com Formação Campestre ou Savânica. A rocha exposta pode lembrar solo exposto ou Outras Áreas não Vegetadas."
      },
-     "pagina": 191,
+     "pagina": 195,
      "imagens": [
       {
        "src": "img/pantanal/afloramento_rochoso/ex1_landsat_seco.jpg",
@@ -4335,7 +4483,7 @@ window.CHAVE = {
    "descricao": "Áreas de pastagem plantadas, diretamente relacionadas à atividade agropecuária. As áreas de pastagem natural, por sua vez, são predominantemente caracterizadas como formações campestres ou campo alagado, podendo ser submetidas ou não a práticas de pastejo. Podem ocorrer áreas desmatadas recentemente, sem ainda ter iniciado a atividade agropecuária. Pode conter também áreas em estágios iniciais de regeneração. Pequenas áreas agrícolas podem estar contidas.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 199,
+   "pagina": 203,
    "exemplos": [
     {
      "lat": -21.82170035,
@@ -4348,7 +4496,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Confunde-se com Formação Campestre e Savânica (pastagem em vegetação nativa aberta), com Lavoura Temporária (rotação ou integração lavoura-pecuária) e com Mosaico de Usos. Pastagens degradadas, com solo exposto, podem parecer Outras Áreas não Vegetadas."
      },
-     "pagina": 197,
+     "pagina": 201,
      "imagens": [
       {
        "src": "img/pantanal/pastagem/ex1_landsat_seco.jpg",
@@ -4385,7 +4533,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Confunde-se com Formação Campestre e Savânica (pastagem em vegetação nativa aberta), com Lavoura Temporária (rotação ou integração lavoura-pecuária) e com Mosaico de Usos. Pastagens degradadas, com solo exposto, podem parecer Outras Áreas não Vegetadas."
      },
-     "pagina": 198,
+     "pagina": 202,
      "imagens": [
       {
        "src": "img/pantanal/pastagem/ex2_landsat_seco.jpg",
@@ -4417,7 +4565,7 @@ window.CHAVE = {
    "descricao": "Áreas ocupadas com cultivos agrícolas de curta ou média duração, geralmente com ciclo vegetativo inferior a um ano, que após a colheita necessitam de novo plantio para produzir.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 201,
+   "pagina": 206,
    "exemplos": [
     {
      "lat": -20.39358,
@@ -4430,7 +4578,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Na entressafra, o solo exposto ou a palhada parecem pastagem degradada ou solo exposto. A identificação depende do calendário agrícola, visível na série de NDVI (ciclos de plantio e colheita)."
      },
-     "pagina": 200,
+     "pagina": 204,
      "imagens": [
       {
        "src": "img/pantanal/cultivo_temporario/ex1_landsat_seco.jpg",
@@ -4455,6 +4603,43 @@ window.CHAVE = {
      ],
      "grafico": "img/pantanal/cultivo_temporario/ex1_grafico.jpg",
      "mapa": "img/pantanal/cultivo_temporario/ex1_mapa.jpg"
+    },
+    {
+     "lat": -16.196889,
+     "lon": -57.680637,
+     "coords": "-16.196889, -57.680637",
+     "falsa_cor": "Landsat (B5, B6, B4); Sentinel (B11, B8, B4)",
+     "tonalidade": "",
+     "textura": "Lisa e Homogênea",
+     "observacoes": "",
+     "limitacao": {
+      "geral": "Na entressafra, o solo exposto ou a palhada parecem pastagem degradada ou solo exposto. A identificação depende do calendário agrícola, visível na série de NDVI (ciclos de plantio e colheita)."
+     },
+     "pagina": 205,
+     "imagens": [
+      {
+       "src": "img/pantanal/cultivo_temporario/ex2_landsat_seco.jpg",
+       "rotulo": "Landsat – seco"
+      },
+      {
+       "src": "img/pantanal/cultivo_temporario/ex2_landsat_chuvoso.jpg",
+       "rotulo": "Landsat – chuvoso"
+      },
+      {
+       "src": "img/pantanal/cultivo_temporario/ex2_sentinel_seco.jpg",
+       "rotulo": "Sentinel-2 – seco"
+      },
+      {
+       "src": "img/pantanal/cultivo_temporario/ex2_sentinel_chuvoso.jpg",
+       "rotulo": "Sentinel-2 – chuvoso"
+      },
+      {
+       "src": "img/pantanal/cultivo_temporario/ex2_google_earth.jpg",
+       "rotulo": "Google Earth"
+      }
+     ],
+     "grafico": "img/pantanal/cultivo_temporario/ex2_grafico.jpg",
+     "mapa": "img/pantanal/cultivo_temporario/ex2_mapa.jpg"
     }
    ]
   },
@@ -4462,7 +4647,7 @@ window.CHAVE = {
    "descricao": "Áreas cultivadas com cultura de arroz, exclusivamente sob sistema de irrigação. Este mapa é o mesmo apresentado no módulo irrigação na classe \"Arroz Irrigado\".",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 209,
+   "pagina": 214,
    "exemplos": [
     {
      "lat": -20.26477112,
@@ -4475,7 +4660,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "O arroz irrigado por inundação pode parecer água ou Campo Alagado no início do ciclo. O arroz de sequeiro é difícil de separar das outras lavouras temporárias sem informação de campo."
      },
-     "pagina": 208,
+     "pagina": 213,
      "imagens": [
       {
        "src": "img/pantanal/arroz/ex1_landsat_seco.jpg",
@@ -4507,7 +4692,7 @@ window.CHAVE = {
    "descricao": "Espécies arbóreas plantadas para fins comerciais (ex. pinus, eucalipto, araucária).",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 203,
+   "pagina": 208,
    "exemplos": [
     {
      "lat": -16.174786,
@@ -4520,7 +4705,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Plantios jovens ou recém-cortados parecem pastagem ou solo exposto. Plantios adultos parecem floresta. Usar o formato dos talhões, os carreadores e a série histórica (corte e rebrota)."
      },
-     "pagina": 202,
+     "pagina": 207,
      "imagens": [
       {
        "src": "img/pantanal/silvicultura/ex1_landsat_seco.jpg",
@@ -4552,7 +4737,7 @@ window.CHAVE = {
    "descricao": "Áreas com significativa densidade de edificações e vias, incluindo infraestrutura e áreas livres de construções.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 194,
+   "pagina": 198,
    "exemplos": [
     {
      "lat": -16.095833,
@@ -4565,7 +4750,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Bairros muito arborizados, loteamentos não ocupados e pequenos núcleos rurais são difíceis de delimitar. Telhados e solo exposto podem ser confundidos com Mineração ou Outras Áreas não Vegetadas."
      },
-     "pagina": 193,
+     "pagina": 197,
      "imagens": [
       {
        "src": "img/pantanal/area_urbana/ex1_landsat_seco.jpg",
@@ -4597,7 +4782,7 @@ window.CHAVE = {
    "descricao": "Áreas referentes a extração mineral superficial, de porte industrial ou garimpeiro, havendo clara exposição do solo por ação antrópica. Não são passíveis de detecção nenhum tipo de mineração subterrânea ou subaquática.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 205,
+   "pagina": 210,
    "exemplos": [
     {
      "lat": -19.211708,
@@ -4610,7 +4795,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Confunde-se com Outras Áreas não Vegetadas, solo exposto e áreas urbanas em expansão. Pela legenda, a mineração subterrânea ou subaquática não é detectável."
      },
-     "pagina": 204,
+     "pagina": 209,
      "imagens": [
       {
        "src": "img/pantanal/mineracao/ex1_landsat_seco.jpg",
@@ -4642,7 +4827,7 @@ window.CHAVE = {
    "descricao": "Áreas de solo exposto (principalmente solo arenoso) não classificadas na classe de Formação Campestre ou Pastagem.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 207,
+   "pagina": 212,
    "exemplos": [
     {
      "lat": -18.806,
@@ -4655,7 +4840,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "É uma classe residual: reúne superfícies não vegetadas que não se encaixam nas demais. Por isso, confunde-se com Mineração, Área Urbanizada, Praia, Duna e Areal, Afloramento Rochoso e lavouras em solo exposto."
      },
-     "pagina": 206,
+     "pagina": 211,
      "imagens": [
       {
        "src": "img/pantanal/outras_areas_nao_vegetadas/ex1_landsat_seco.jpg",
@@ -4687,7 +4872,7 @@ window.CHAVE = {
    "descricao": "Rios, lagos, represas, reservatórios e outros corpos d'água.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 196,
+   "pagina": 200,
    "exemplos": [
     {
      "lat": -16.5188,
@@ -4700,7 +4885,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "A lâmina d'água varia entre seca e cheia. Rios estreitos (< 30 m) e lagos pequenos podem não aparecer. Água turva ou coberta por plantas aquáticas pode parecer solo ou vegetação."
      },
-     "pagina": 195,
+     "pagina": 199,
      "imagens": [
       {
        "src": "img/pantanal/rio_lago_e_oceano/ex1_landsat_seco.jpg",
@@ -4732,7 +4917,7 @@ window.CHAVE = {
    "descricao": "Vegetação lenhosa com espécies arbóreas ou arbóreo-arbustivas, com predomínio de dossel contínuo. Inclui as tipologias florestais: ombrófila, estacional decidual e semi-decidual e parte das formações pioneiras.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 213,
+   "pagina": 218,
    "exemplos": [
     {
      "lat": -31.9515,
@@ -4745,7 +4930,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "O limite com a Formação Savânica é gradual (dossel mais aberto). Em florestas estacionais, a queda das folhas no período seco reduz o NDVI e pode lembrar savana. Florestas secundárias jovens, degradadas ou com corte seletivo são difíceis de separar da floresta madura na resolução de 10–30 m."
      },
-     "pagina": 212,
+     "pagina": 217,
      "imagens": [
       {
        "src": "img/pampa/formacao_florestal/ex1_landsat_seco.jpg",
@@ -4777,7 +4962,7 @@ window.CHAVE = {
    "descricao": "Vegetação com predomínio de estrato herbáceo graminóide, com presença de dicotiledôneas herbáceas e subarbustivas. A composição botânica é influenciada pelos gradientes edáficos e topográficos e pelo manejo pastoril (pecuária). Ocorrem em solos profundos até solos rasos, incluindo terrenos rochosos (campos rupestres) e arenosos (campos arenosos ou psamófilos). Ocupam desde solos bem drenados (campos mésicos), até solos com maior teor de umidade (campos úmidos - com presença marcante de ciperáceas). Na maioria dos casos corresponde à vegetação nativa, mas podem estar presentes manchas de vegetação exótica invasora ou de uso forrageiro (pastagem plantada).",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 215,
+   "pagina": 220,
    "exemplos": [
     {
      "lat": -30.898,
@@ -4790,7 +4975,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Confunde-se com Pastagem, principalmente pastagem em campo nativo ou com gramíneas exóticas. A separação depende de sinais de manejo (cercas, bebedouros, talhões) e do histórico da área. Queimadas e senescência no período seco alteram a resposta espectral."
      },
-     "pagina": 214,
+     "pagina": 219,
      "imagens": [
       {
        "src": "img/pampa/formacao_campestre/ex1_landsat_seco.jpg",
@@ -4822,7 +5007,7 @@ window.CHAVE = {
    "descricao": "Áreas pantanosas, denominadas regionalmente de banhados. Vegetação tipicamente higrófila, com plantas aquáticas emergentes, submersas ou flutuantes. Ocupam planícies e depressões do terreno com solo encharcado e também as margens rasas de lagoas ou reservatórios de água.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 217,
+   "pagina": 222,
    "exemplos": [
     {
      "lat": -31.98724,
@@ -4835,7 +5020,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "A inundação é sazonal: no período seco a área pode parecer Formação Campestre ou Pastagem e, na cheia, água. Comparar as imagens de seca e de chuva."
      },
-     "pagina": 216,
+     "pagina": 221,
      "imagens": [
       {
        "src": "img/pampa/campo_alagado_e_area_pantanosa/ex1_landsat_seco.jpg",
@@ -4867,7 +5052,7 @@ window.CHAVE = {
    "descricao": "Rochas naturalmente expostas na superfície terrestre sem cobertura de solo, muitas vezes com presença parcial de vegetação rupícola.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 219,
+   "pagina": 224,
    "exemplos": [
     {
      "lat": -30.830174,
@@ -4880,7 +5065,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Afloramentos pequenos ou entremeados de vegetação ficam abaixo da resolução de 30 m e se misturam com Formação Campestre ou Savânica. A rocha exposta pode lembrar solo exposto ou Outras Áreas não Vegetadas."
      },
-     "pagina": 218,
+     "pagina": 223,
      "imagens": [
       {
        "src": "img/pampa/afloramento_rochoso/ex1_landsat_seco.jpg",
@@ -4912,7 +5097,7 @@ window.CHAVE = {
    "descricao": "Vegetação herbácea que se estabelece sobre solos arenosos ou sobre dunas na zona costeira.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 227,
+   "pagina": 232,
    "exemplos": [
     {
      "lat": -30.36912,
@@ -4925,7 +5110,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Quando a cobertura é esparsa, confunde-se com Formação Campestre e com Praia, Duna e Areal. Depende do contexto costeiro (cordões arenosos)."
      },
-     "pagina": 226,
+     "pagina": 231,
      "imagens": [
       {
        "src": "img/pampa/restinga_herbacea/ex1_landsat_seco.jpg",
@@ -4957,7 +5142,7 @@ window.CHAVE = {
    "descricao": "Áreas ocupadas com cultivos agrícolas de curta ou média duração, geralmente com ciclo vegetativo inferior a um ano, que após a colheita necessitam de novo plantio para produzir.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 230,
+   "pagina": 236,
    "exemplos": [
     {
      "lat": -29.982,
@@ -4970,7 +5155,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Na entressafra, o solo exposto ou a palhada parecem pastagem degradada ou solo exposto. A identificação depende do calendário agrícola, visível na série de NDVI (ciclos de plantio e colheita)."
      },
-     "pagina": 228,
+     "pagina": 233,
      "imagens": [
       {
        "src": "img/pampa/cultivo_temporario/ex1_landsat_seco.jpg",
@@ -5007,7 +5192,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Na entressafra, o solo exposto ou a palhada parecem pastagem degradada ou solo exposto. A identificação depende do calendário agrícola, visível na série de NDVI (ciclos de plantio e colheita)."
      },
-     "pagina": 229,
+     "pagina": 234,
      "imagens": [
       {
        "src": "img/pampa/cultivo_temporario/ex2_landsat_seco.jpg",
@@ -5032,6 +5217,43 @@ window.CHAVE = {
      ],
      "grafico": "img/pampa/cultivo_temporario/ex2_grafico.jpg",
      "mapa": "img/pampa/cultivo_temporario/ex2_mapa.jpg"
+    },
+    {
+     "lat": -30.162357,
+     "lon": -50.529081,
+     "coords": "-30.162357, -50.529081",
+     "falsa_cor": "Landsat (B5, B6, B4); Sentinel (B11, B8, B4)",
+     "tonalidade": "",
+     "textura": "Lisa e Homogênea",
+     "observacoes": "",
+     "limitacao": {
+      "geral": "Na entressafra, o solo exposto ou a palhada parecem pastagem degradada ou solo exposto. A identificação depende do calendário agrícola, visível na série de NDVI (ciclos de plantio e colheita)."
+     },
+     "pagina": 235,
+     "imagens": [
+      {
+       "src": "img/pampa/cultivo_temporario/ex3_landsat_seco.jpg",
+       "rotulo": "Landsat – seco"
+      },
+      {
+       "src": "img/pampa/cultivo_temporario/ex3_landsat_chuvoso.jpg",
+       "rotulo": "Landsat – chuvoso"
+      },
+      {
+       "src": "img/pampa/cultivo_temporario/ex3_sentinel_seco.jpg",
+       "rotulo": "Sentinel-2 – seco"
+      },
+      {
+       "src": "img/pampa/cultivo_temporario/ex3_sentinel_chuvoso.jpg",
+       "rotulo": "Sentinel-2 – chuvoso"
+      },
+      {
+       "src": "img/pampa/cultivo_temporario/ex3_google_earth.jpg",
+       "rotulo": "Google Earth"
+      }
+     ],
+     "grafico": "img/pampa/cultivo_temporario/ex3_grafico.jpg",
+     "mapa": "img/pampa/cultivo_temporario/ex3_mapa.jpg"
     }
    ]
   },
@@ -5039,7 +5261,7 @@ window.CHAVE = {
    "descricao": "Áreas cultivadas com cultura de arroz, exclusivamente sob sistema de irrigação. Este mapa é o mesmo apresentado no módulo irrigação na classe \"Arroz Irrigado\".",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 242,
+   "pagina": 248,
    "exemplos": [
     {
      "lat": -33.160594,
@@ -5052,7 +5274,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "O arroz irrigado por inundação pode parecer água ou Campo Alagado no início do ciclo. O arroz de sequeiro é difícil de separar das outras lavouras temporárias sem informação de campo."
      },
-     "pagina": 241,
+     "pagina": 247,
      "imagens": [
       {
        "src": "img/pampa/arroz/ex1_landsat_seco.jpg",
@@ -5084,7 +5306,7 @@ window.CHAVE = {
    "descricao": "Áreas ocupadas com cultivos agrícolas de ciclo vegetativo longo (mais de um ano), que permitem colheitas sucessivas, sem necessidade de novo plantio.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 232,
+   "pagina": 238,
    "exemplos": [
     {
      "lat": -30.8093,
@@ -5097,7 +5319,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Pode ser confundida com Silvicultura e com Formação Savânica ou Florestal (pomares adultos, café sombreado, dendê), e com Pastagem nas fases iniciais. As linhas de plantio geralmente só aparecem em imagens de alta resolução."
      },
-     "pagina": 231,
+     "pagina": 237,
      "imagens": [
       {
        "src": "img/pampa/cultivo_perene/ex1_landsat_seco.jpg",
@@ -5129,7 +5351,7 @@ window.CHAVE = {
    "descricao": "Espécies arbóreas plantadas para fins comerciais (ex. pinus, eucalipto, araucária).",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 234,
+   "pagina": 240,
    "exemplos": [
     {
      "lat": -30.175486,
@@ -5142,7 +5364,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Plantios jovens ou recém-cortados parecem pastagem ou solo exposto. Plantios adultos parecem floresta. Usar o formato dos talhões, os carreadores e a série histórica (corte e rebrota)."
      },
-     "pagina": 233,
+     "pagina": 239,
      "imagens": [
       {
        "src": "img/pampa/silvicultura/ex1_landsat_seco.jpg",
@@ -5174,7 +5396,7 @@ window.CHAVE = {
    "descricao": "Cordões arenosos, de coloração branco brilhante, onde não há o predomínio de vegetação de nenhum tipo.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 221,
+   "pagina": 226,
    "exemplos": [
     {
      "lat": -30.37574,
@@ -5187,7 +5409,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Confunde-se com Outras Áreas não Vegetadas, Apicum e Restinga Herbácea esparsa. O areal (Pampa) pode lembrar o solo exposto de lavouras."
      },
-     "pagina": 220,
+     "pagina": 225,
      "imagens": [
       {
        "src": "img/pampa/praia_duna_e_areial/ex1_landsat_seco.jpg",
@@ -5219,7 +5441,7 @@ window.CHAVE = {
    "descricao": "Áreas com significativa densidade de edificações e vias, incluindo infraestrutura e áreas livres de construções.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 223,
+   "pagina": 228,
    "exemplos": [
     {
      "lat": -31.7722,
@@ -5232,7 +5454,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Bairros muito arborizados, loteamentos não ocupados e pequenos núcleos rurais são difíceis de delimitar. Telhados e solo exposto podem ser confundidos com Mineração ou Outras Áreas não Vegetadas."
      },
-     "pagina": 222,
+     "pagina": 227,
      "imagens": [
       {
        "src": "img/pampa/area_urbana/ex1_landsat_seco.jpg",
@@ -5264,7 +5486,7 @@ window.CHAVE = {
    "descricao": "Áreas referentes a extração mineral superficial, de porte industrial ou garimpeiro, havendo clara exposição do solo por ação antrópica. Não são passíveis de detecção nenhum tipo de mineração subterrânea ou subaquática.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 236,
+   "pagina": 242,
    "exemplos": [
     {
      "lat": -31.586689,
@@ -5277,7 +5499,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Confunde-se com Outras Áreas não Vegetadas, solo exposto e áreas urbanas em expansão. Pela legenda, a mineração subterrânea ou subaquática não é detectável."
      },
-     "pagina": 235,
+     "pagina": 241,
      "imagens": [
       {
        "src": "img/pampa/mineracao/ex1_landsat_seco.jpg",
@@ -5309,7 +5531,7 @@ window.CHAVE = {
    "descricao": "Classe mista que contempla áreas naturais e áreas antropizadas. As áreas naturais incluem superfícies arenosas como as praias fluviais e os areais. As áreas antropizadas incluem áreas de solo exposto e superfícies não permeáveis (infra-estrutura, expansão urbana ou mineração).",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 238,
+   "pagina": 244,
    "exemplos": [
     {
      "lat": -29.8389,
@@ -5322,7 +5544,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "É uma classe residual: reúne superfícies não vegetadas que não se encaixam nas demais. Por isso, confunde-se com Mineração, Área Urbanizada, Praia, Duna e Areal, Afloramento Rochoso e lavouras em solo exposto."
      },
-     "pagina": 237,
+     "pagina": 243,
      "imagens": [
       {
        "src": "img/pampa/outras_areas_nao_vegetadas/ex1_landsat_seco.jpg",
@@ -5354,7 +5576,7 @@ window.CHAVE = {
    "descricao": "Rios, lagos, represas, reservatórios e outros corpos d'água.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 225,
+   "pagina": 230,
    "exemplos": [
     {
      "lat": -29.7683,
@@ -5367,7 +5589,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "A lâmina d'água varia entre seca e cheia. Rios estreitos (< 30 m) e lagos pequenos podem não aparecer. Água turva ou coberta por plantas aquáticas pode parecer solo ou vegetação."
      },
-     "pagina": 224,
+     "pagina": 229,
      "imagens": [
       {
        "src": "img/pampa/rio_lago_e_oceano/ex1_landsat_seco.jpg",
@@ -5399,7 +5621,7 @@ window.CHAVE = {
    "descricao": "Área referente a lagos artificiais, onde predominam atividades aquícolas e/ou de salicultura.",
    "fonte": "legenda",
    "observacoes": "",
-   "pagina": 240,
+   "pagina": 246,
    "exemplos": [
     {
      "lat": -29.922506,
@@ -5412,7 +5634,7 @@ window.CHAVE = {
      "limitacao": {
       "geral": "Tanques escavados parecem pequenos reservatórios e açudes (Rio, Lago e Oceano) e salinas. Tanques pequenos ficam abaixo da resolução de 30 m. O formato retangular e o agrupamento dos tanques ajudam."
      },
-     "pagina": 239,
+     "pagina": 245,
      "imagens": [
       {
        "src": "img/pampa/aquicultura/ex1_landsat_seco.jpg",
