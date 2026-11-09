@@ -42,7 +42,7 @@ code { font-size: .9em; background: var(--surface-2); padding: 1px 5px; border-r
 .topo-inner, .filtros-inner, .conteudo, .rodape { max-width: 1360px; margin: 0 auto; padding-left: 16px; padding-right: 16px; }
 .topo-inner { display: flex; flex-wrap: wrap; gap: 14px 24px; align-items: center; justify-content: space-between; padding-top: 14px; padding-bottom: 14px; }
 .marca { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--text); }
-.marca img { width: 56px; height: auto; }
+.marca img { height: 42px; width: auto; background: #fff; border-radius: 6px; padding: 3px 6px; box-sizing: content-box; }
 .marca strong { display: block; font-family: var(--titulo); font-size: 1.35rem; line-height: 1.2; letter-spacing: -.01em; }
 .marca small { display: block; color: var(--muted); font-size: .85rem; }
 .acoes { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
@@ -170,6 +170,7 @@ figcaption { font-size: .76rem; font-weight: 600; color: var(--muted); margin-bo
 /* ---------- sobre ---------- */
 #sobre { border-radius: 16px; background: var(--surface); width: min(640px, calc(100vw - 32px)); max-height: calc(100vh - 32px); }
 .sobre { padding: 28px 30px; text-align: left; position: relative; }
+.logo-sobre { height: 60px; width: auto; background: #fff; border-radius: 8px; padding: 4px 8px; }
 .sobre h2 { font-family: var(--titulo); margin: 10px 0 0; }
 .sobre .sub { color: var(--muted); margin: 0 0 14px; }
 .sobre h3 { font-size: .95rem; margin: 18px 0 6px; }
@@ -190,6 +191,8 @@ figcaption { font-size: .76rem; font-weight: 600; color: var(--muted); margin-bo
   .lista-classes { position: static; max-height: 230px; }
 }
 @media (max-width: 560px) {
+  .marca { flex-direction: column; align-items: flex-start; gap: 6px; }
+  .marca img { height: 30px; }
   .filtros { position: static; }
   .rotulo { min-width: 0; width: 100%; }
   .grade, .grade.por-classe { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }

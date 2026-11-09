@@ -36,6 +36,8 @@ EXCLUIR = {"Vegetação Urbana"}
 JUNTAR = {"Soja": "Cultivo Temporário"}
 EXCLUIR_BIOMA = {("Cana-de-açúcar", "pampa"), ("Cana-de-açúcar", "pantanal")}
 CINZA_CAIXA = (0.937, 0.937, 0.937)
+# capa: o logo MapBiomas acima do título é trocado pelo logo LAPIG + UFG
+LOGO_CAPA = RAIZ / "img" / "logo_lapig_ufg.png"
 # posições dos quadros de imagem: em pixels na captura 2048x984 e em pontos nas páginas com imagens soltas
 PX_QUADROS = [(13, 145, 400, 531), (422, 145, 809, 531), (830, 145, 1218, 531),
               (1239, 145, 1626, 531), (1648, 145, 2035, 531)]
@@ -134,6 +136,16 @@ def main(entrada, saida):
                 ordem_classes.append(tt["texto"])
     info = {}  # índice da página -> (bioma, título no PDF, é página de exemplo)
     log = {"títulos": 0, "listas": 0, "descrições": 0, "campos": 0, "observações": 0}
+    capa = doc[0]
+    logo = max(capa.get_image_info(), key=lambda b: (b["bbox"][2] - b["bbox"][0]) * (b["bbox"][3] - b["bbox"][1]))
+    r = fitz.Rect(logo["bbox"])
+    capa.draw_rect(r + (-4, -4, 4, 4), color=None, fill=(1, 1, 1), overlay=True)
+    lw = 260
+    lh = lw * 418 / 1645
+    cx, cy = (r.x0 + r.x1) / 2, (r.y0 + r.y1) / 2
+    capa.insert_image(fitz.Rect(cx - lw / 2, cy - lh / 2, cx + lw / 2, cy + lh / 2), filename=str(LOGO_CAPA))
+    log["capa"] = "logo LAPIG + UFG"
+
     for i, p in enumerate(doc):
         n = str(i + 1)
         linhas = linhas_da_pagina(p)

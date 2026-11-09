@@ -8,7 +8,6 @@ Gera, a partir do PDF:
   dados/exemplos.csv     uma linha por exemplo (página de exemplo): coordenadas, falsa-cor,
                          tonalidade, textura, observações, imagens e página do PDF
   img/<bioma>/<classe>/exN_*.jpg   recortes de cada página de exemplo
-  img/logo.png
 
 Uso (na pasta do projeto):
   python scripts/importar_pdf.py "C:/caminho/Interpretando o brasil.pdf"
@@ -234,12 +233,6 @@ def main(pdf):
             if vazios == len(QUADROS):
                 avisos.append(f"p{n}: {bioma} / {classe} ex{cont[k]} sem imagens de satélite")
             exemplos.append(linha)
-
-    # logo da capa
-    IMG.mkdir(exist_ok=True)
-    capa = doc[0]
-    pix = capa.get_pixmap(matrix=fitz.Matrix(3, 3), clip=fitz.Rect(278, 52, 442, 175))
-    Image.open(io.BytesIO(pix.tobytes("png"))).save(IMG / "logo.png", optimize=True)
 
     # apresentação (página 2)
     apres = limpa(doc[1].get_text()).replace("APRESENTAÇÃO", "").strip()
