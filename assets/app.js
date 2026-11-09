@@ -15,7 +15,7 @@
   const LEGPDF = "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/DESCRICAO_DA_LEGENDA_MAPBIOMAS_BRASIL_COLECAO_11_PDF.pdf";
   const UI = {
     pt: {
-      subtitulo: "Chave de Interpretação Visual para Imagens de Satélite", modoAria: "Modo de visualização",
+      titulo: "Interpretando o Brasil", subtitulo: "Chave de Interpretação Visual para Imagens de Satélite", modoAria: "Modo de visualização",
       porBioma: "Por bioma", porClasse: "Por classe", sobre: "Sobre", filtros: "Filtros", bioma: "Bioma",
       biomas: "Biomas", grupo: "Grupo", busca: "Buscar classe…", ausentes: "Mostrar classes sem ficha",
       fichaAnt: "Ficha anterior", fichaProx: "Próxima ficha", anterior: "Anterior (←)", proxima: "Próxima (→)",
@@ -47,7 +47,7 @@
       nenhumEx: "Nenhum exemplo cadastrado.", legenda: (l) => l,
     },
     en: {
-      subtitulo: "Visual Interpretation Key for Satellite Images", modoAria: "View mode",
+      titulo: "Interpreting Brazil", subtitulo: "Visual Interpretation Key for Satellite Images", modoAria: "View mode",
       porBioma: "By biome", porClasse: "By class", sobre: "About", filtros: "Filters", bioma: "Biome",
       biomas: "Biomes", grupo: "Group", busca: "Search class…", ausentes: "Show classes without a sheet",
       fichaAnt: "Previous sheet", fichaProx: "Next sheet", anterior: "Previous (←)", proxima: "Next (→)",
@@ -84,7 +84,7 @@
   const CITACAO = {
     ano: 2026,
     pt: (url, data) => `LABORATÓRIO DE SENSORIAMENTO REMOTO E GEOPROCESSAMENTO – LAPIG/UFG. <strong>Interpretando o Brasil</strong>: chave de interpretação visual para imagens de satélite. Goiânia: LAPIG/UFG, ${CITACAO.ano}. Disponível em: ${url}. Acesso em: ${data}.`,
-    en: (url, data) => `Remote Sensing and GIS Lab (LAPIG/UFG). (${CITACAO.ano}). <em>Interpretando o Brasil: visual interpretation key for satellite images</em>. Federal University of Goiás. Retrieved ${data}, from ${url}`,
+    en: (url, data) => `Remote Sensing and GIS Lab (LAPIG/UFG). (${CITACAO.ano}). <em>Interpreting Brazil: visual interpretation key for satellite images</em>. Federal University of Goiás. Retrieved ${data}, from ${url}`,
   };
   const MESES_ABNT = ["jan.", "fev.", "mar.", "abr.", "maio", "jun.", "jul.", "ago.", "set.", "out.", "nov.", "dez."];
   function htmlCitacao() {
@@ -104,6 +104,7 @@
 
   function aplicarIdioma() {
     document.documentElement.lang = LANG === "en" ? "en" : "pt-BR";
+    document.title = t("titulo");
     document.querySelectorAll("[data-i18n]").forEach((el) => (el.textContent = t(el.dataset.i18n)));
     document.querySelectorAll("[data-i18n-html]").forEach((el) => (el.innerHTML = t(el.dataset.i18nHtml)));
     document.querySelectorAll("[data-i18n-ph]").forEach((el) => (el.placeholder = t(el.dataset.i18nPh)));
