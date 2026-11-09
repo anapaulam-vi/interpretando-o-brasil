@@ -84,7 +84,7 @@
   const CITACAO = {
     ano: 2026,
     pt: (url, data) => `LABORATÓRIO DE SENSORIAMENTO REMOTO E GEOPROCESSAMENTO – LAPIG/UFG. <strong>Interpretando o Brasil</strong>: chave de interpretação visual para imagens de satélite. Goiânia: LAPIG/UFG, ${CITACAO.ano}. Disponível em: ${url}. Acesso em: ${data}.`,
-    en: (url, data) => `Remote Sensing and GIS Laboratory (LAPIG/UFG). (${CITACAO.ano}). <em>Interpretando o Brasil: visual interpretation key for satellite images</em>. Federal University of Goiás. Retrieved ${data}, from ${url}`,
+    en: (url, data) => `Remote Sensing and GIS Lab (LAPIG/UFG). (${CITACAO.ano}). <em>Interpretando o Brasil: visual interpretation key for satellite images</em>. Federal University of Goiás. Retrieved ${data}, from ${url}`,
   };
   const MESES_ABNT = ["jan.", "fev.", "mar.", "abr.", "maio", "jun.", "jul.", "ago.", "set.", "out.", "nov.", "dez."];
   function htmlCitacao() {
