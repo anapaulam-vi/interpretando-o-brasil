@@ -171,6 +171,19 @@ def main():
     print(f"{destino.relative_to(RAIZ)}: {len(classes)} classes, {len(biomas)} biomas, "
           f"{len(entradas)} fichas ({n_of} com descrição da legenda {LEGENDA}), {n_ex} exemplos, "
           f"{n_img} imagens de satélite; {n_en} descrições com o texto oficial em inglês")
+    versionar()
+
+
+def versionar():
+    """Põe ?v=<hash do conteúdo> nos endereços de chave.js, app.js e style.css no index.html, para o navegador
+    não usar uma cópia antiga em cache depois de uma atualização."""
+    import hashlib
+    html = RAIZ / "index.html"
+    t = html.read_text(encoding="utf-8")
+    for arq in ("dados/chave.js", "assets/app.js", "assets/style.css"):
+        h = hashlib.md5((RAIZ / arq).read_bytes().replace(b"\r\n", b"\n")).hexdigest()[:8]
+        t = re.sub(re.escape(arq) + r'(\?v=\w+)?"', f'{arq}?v={h}"', t)
+    html.write_text(t, encoding="utf-8")
 
 
 if __name__ == "__main__":
