@@ -19,7 +19,7 @@ A revisão do PDF em relação às Coleções 10 e 11 fica na pasta local `revis
 
 - `scripts/correcoes_automaticas.py` gera `dados/correcoes.csv`, com a padronização de tonalidade e textura, a falsa-cor da p. 57 e as observações revisadas.
 - `scripts/gerar_dados.py` aplica essas correções e as descrições oficiais da legenda no site.
-- `scripts/serie_exemplos_col11.py` amostra o mapa Coleção 11 (1985–2025) no ponto de cada exemplo, e `scripts/gerar_limitacoes.py` preenche com isso o campo "Limitação de interpretação da classe" de cada exemplo (`dados/limitacoes.csv`). A coluna `equipe` dessa planilha é o complemento da equipe e nunca é sobrescrita.
+- `scripts/gerar_limitacoes.py` preenche com um texto-base por classe o campo "Limitação de interpretação da classe" de cada exemplo (`dados/limitacoes.csv`). A coluna `equipe` dessa planilha é o complemento da equipe e nunca é sobrescrita.
 - `scripts/corrigir_pdf.py "<PDF original>" Interpretando_o_Brasil.pdf` aplica as mesmas correções no PDF: nomes das classes, descrições oficiais, campos e observações. O texto novo sai em Montserrat (`scripts/fontes`, licença OFL), e as imagens não são tocadas. O PDF publicado no site é essa versão corrigida. O original fica fora do repositório.
 
 O que depende da equipe está na lista de pendências (pasta local `revisao/`, não publicada).

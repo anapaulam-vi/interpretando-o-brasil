@@ -110,7 +110,7 @@ def main():
         }
 
     # limitação de interpretação da classe, por exemplo (scripts/gerar_limitacoes.py + coluna "equipe")
-    limit = {(l["pagina"], l["ordem"]): {c: l[c] for c in ("equipe", "mapa", "geral") if l.get(c)}
+    limit = {(l["pagina"], l["ordem"]): {c: l[c] for c in ("equipe", "geral") if l.get(c)}
              for l in ler("limitacoes.csv")}
 
     exemplos = sorted(map(corrige, ler("exemplos.csv")), key=lambda e: int(e.get("ordem") or 0))

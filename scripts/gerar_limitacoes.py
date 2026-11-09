@@ -1,37 +1,18 @@
 """
-Preenche automaticamente o campo "Limitação de interpretação da classe" de cada EXEMPLO da chave, a partir só
-dos próprios exemplos:
+Preenche automaticamente o campo "Limitação de interpretação da classe" de cada EXEMPLO da chave:
 
-  mapa    o que o mapa MapBiomas Coleção 11 diz no ponto do exemplo (1985–2025): divergência com a classe da
-          ficha, trajetória/alternância de classes, coordenada fora do bioma.
-          Fonte: revisao/exemplos_col11_serie.json (scripts/serie_exemplos_col11.py).
   geral   limitações conhecidas da interpretação visual da classe (texto-base por classe, incluindo o que a
           legenda Coleção 11 declara). Sugestão: a equipe deve revisar.
   equipe  complemento da equipe, escrito à mão na planilha. NUNCA é sobrescrito por este script.
 
-Saída: dados/limitacoes.csv (pagina;ordem;bioma;classe;mapa;geral;equipe). Depois rode scripts/gerar_dados.py.
+Saída: dados/limitacoes.csv (pagina;ordem;bioma;classe;geral;equipe). Depois rode scripts/gerar_dados.py.
 """
 import csv
-import json
-import re
-import unicodedata
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 DADOS = RAIZ / "dados"
-SERIE = RAIZ / "revisao" / "exemplos_col11_serie.json"
 SAIDA = DADOS / "limitacoes.csv"
-
-NOME = {3: "Formação Florestal", 4: "Formação Savânica", 5: "Mangue", 6: "Floresta Alagável", 7: "Savana Alagada",
-        49: "Restinga Arbórea", 11: "Campo Alagado e Área Pantanosa", 12: "Formação Campestre",
-        77: "Formação Herbáceo Arbustiva", 84: "Marisma", 50: "Restinga Herbácea ou Arbustiva", 32: "Apicum",
-        29: "Afloramento Rochoso", 15: "Pastagem", 19: "Lavoura Temporária", 39: "Soja", 20: "Cana", 40: "Arroz",
-        62: "Algodão", 41: "Outras Lavouras Temporárias", 36: "Lavoura Perene", 46: "Café", 47: "Citrus",
-        35: "Dendê", 48: "Outras Lavouras Perenes", 9: "Silvicultura", 21: "Mosaico de Usos",
-        23: "Praia, Duna e Areal", 24: "Área Urbanizada", 30: "Mineração", 75: "Usina Fotovoltaica",
-        91: "Parque Eólico", 25: "Outras Áreas não Vegetadas", 33: "Rio, Lago e Oceano", 31: "Aquicultura"}
-# classe da ficha -> códigos do mapa Coleção 11 que contam como a classe
-EQUIV = {"Cultivo Temporário": {19, 39, 40, 41, 62}, "Cultivo Perene": {35, 36, 46, 47, 48}}
 
 GERAL = {
     "Formação Florestal": "O limite com a Formação Savânica é gradual (dossel mais aberto). Em florestas estacionais, a "
@@ -95,91 +76,17 @@ def ler(arq):
     return list(csv.DictReader(arq.read_text(encoding="utf-8-sig").splitlines(), delimiter=";"))
 
 
-def slug(t):
-    t = "".join(c for c in unicodedata.normalize("NFD", t or "") if unicodedata.category(c) != "Mn")
-    return re.sub(r"[^a-z0-9]+", "_", t.lower()).strip("_")
-
-
-def nome(c):
-    return NOME.get(c, "sem classe" if not c else f"classe {c}")
-
-
-def juntar(itens):
-    return itens[0] if len(itens) == 1 else ", ".join(itens[:-1]) + " e " + itens[-1]
-
-
-def trechos(serie):
-    """[(classe, ano_ini, ano_fim)] — sequências de anos com a mesma classe."""
-    out = []
-    for a in sorted(serie, key=int):
-        c = serie[a]
-        if out and out[-1][0] == c:
-            out[-1][2] = a
-        else:
-            out.append([c, a, a])
-    return out
-
-
-def periodo(i, f):
-    return i if i == f else f"{i}–{f}"
-
-
-def texto_mapa(info, bioma, classe, codigos, nome_bioma):
-    if not info:
-        return ""
-    partes = []
-    bi = info.get("bioma_ibge")
-    if bi and slug(bi) != bioma:
-        partes.append(f"A coordenada fica no bioma {bi}, não no bioma {nome_bioma} da ficha.")
-    serie = {a: c for a, c in info["serie"].items()}
-    tr = trechos(serie)
-    ok = [a for a, c in serie.items() if c in codigos]
-    c25 = serie.get("2025")
-    if len(ok) == len(serie):
-        partes.append("No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).")
-        return " ".join(partes)
-    if len(tr) <= 5:
-        traj = juntar([f"{nome(c)} ({periodo(i, f)})" for c, i, f in tr])
-        traj = f"Trajetória do ponto no mapa Coleção 11: {traj}."
-    else:
-        outras = sorted({nome(c) for c, _, _ in tr if c not in codigos})
-        traj = (f"No mapa Coleção 11, o ponto muda de classe {len(tr) - 1} vezes entre 1985 e 2025, alternando com "
-                f"{juntar(outras)}; essa alternância indica confusão entre essas classes no ponto.")
-    if len(tr) == 1:
-        partes.append(f"No mapa MapBiomas Coleção 11, o ponto está classificado como {nome(c25)} em todos os anos "
-                      f"(1985–2025), não como {classe}. Pode indicar confusão entre as classes, ponto na borda do alvo "
-                      f"ou erro do mapa; conferir.")
-    elif c25 in codigos:
-        partes.append(f"Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. {traj}")
-    else:
-        partes.append(f"No mapa MapBiomas Coleção 11 (2025), o ponto está classificado como {nome(c25)}, não como "
-                      f"{classe}. {traj} Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do "
-                      f"mapa; conferir.")
-    return " ".join(partes)
-
-
 def main():
-    classes = {c["classe"]: c for c in ler(DADOS / "classes.csv")}
-    biomas = {b["id"]: b["bioma"] for b in ler(DADOS / "biomas.csv")}
-    serie = json.loads(SERIE.read_text(encoding="utf-8")) if SERIE.exists() else {}
+    classes = {c["classe"] for c in ler(DADOS / "classes.csv")}
     antigo = {(l["pagina"], l["ordem"]): l.get("equipe", "") for l in ler(SAIDA)}
-    linhas = []
-    for e in ler(DADOS / "exemplos.csv"):
-        c = classes.get(e["classe"])
-        if not c:
-            continue
-        codigos = EQUIV.get(e["classe"], {int(c["codigo"])})
-        k = f'{e["pagina"]}|{e["ordem"]}'
-        linhas.append([e["pagina"], e["ordem"], e["bioma"], e["classe"],
-                       texto_mapa(serie.get(k), e["bioma"], c.get("nome") or e["classe"], codigos,
-                                  biomas.get(e["bioma"], e["bioma"])),
-                       GERAL.get(e["classe"], ""), antigo.get((e["pagina"], e["ordem"]), "")])
+    linhas = [[e["pagina"], e["ordem"], e["bioma"], e["classe"], GERAL.get(e["classe"], ""),
+               antigo.get((e["pagina"], e["ordem"]), "")]
+              for e in ler(DADOS / "exemplos.csv") if e["classe"] in classes]
     with SAIDA.open("w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f, delimiter=";")
-        w.writerow(["pagina", "ordem", "bioma", "classe", "mapa", "geral", "equipe"])
+        w.writerow(["pagina", "ordem", "bioma", "classe", "geral", "equipe"])
         w.writerows(linhas)
-    print(f"{SAIDA.relative_to(RAIZ)}: {len(linhas)} exemplos, "
-          f"{sum(1 for l in linhas if 'não como' in l[4])} com classe diferente no mapa em 2025")
+    print(f"{SAIDA.relative_to(RAIZ)}: {len(linhas)} exemplos")
 
 
 if __name__ == "__main__":

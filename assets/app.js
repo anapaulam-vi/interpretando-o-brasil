@@ -215,10 +215,9 @@
     ? `<a class="link-pdf" href="${esc(D.pdf)}#page=${pag}" target="_blank" rel="noopener">${txt || "p. " + pag}</a>` : "";
 
   function htmlLimitacao(l) {
-    if (!l || !(l.equipe || l.mapa || l.geral)) return "";
+    if (!l || !(l.equipe || l.geral)) return "";
     let h = "";
     if (l.equipe) h += `<p>${esc(l.equipe)}</p>`;
-    if (l.mapa) h += `<p>${esc(l.mapa)}</p>`;
     if (l.geral) h += `<p>${esc(l.geral)}</p>`;
     if (!l.equipe) h += `<p class="fonte-desc aviso">Preenchido automaticamente; a equipe vai revisar e complementar.</p>`;
     return `<dt class="lim">Limitação de interpretação da classe:</dt><dd class="limitacao">${h}</dd>`;

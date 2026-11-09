@@ -214,7 +214,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "NDVI alto (0,9) e baixa variação por sazonalidade.",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "O limite com a Formação Savânica é gradual (dossel mais aberto). Em florestas estacionais, a queda das folhas no período seco reduz o NDVI e pode lembrar savana. Florestas secundárias jovens, degradadas ou com corte seletivo são difíceis de separar da floresta madura na resolução de 10–30 m."
      },
      "pagina": 7,
@@ -260,7 +259,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto está classificado como Formação Campestre em todos os anos (1985–2025), não como Formação Savânica. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "A densidade de árvores varia de forma contínua, por isso os limites com Formação Florestal e Formação Campestre são subjetivos. No período seco, a resposta se aproxima da de pastagem. Comparar as imagens de seca e de chuva e a série de NDVI."
      },
      "pagina": 9,
@@ -306,7 +304,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto está classificado como Mangue em todos os anos (1985–2025), não como Floresta Alagável. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "A diferença em relação à Formação Florestal depende do regime de inundação, pouco visível em imagens ópticas sob o dossel. Usar o contexto (várzea, igapó, planície fluvial) e imagens do período de cheia."
      },
      "pagina": 14,
@@ -352,7 +349,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "Pode ser confundido com Floresta Alagável e Restinga Arbórea. Os limites com Apicum e com a água variam com a maré. Usar o contexto estuarino."
      },
      "pagina": 27,
@@ -398,7 +394,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "Confunde-se com Pastagem, principalmente pastagem em campo nativo ou com gramíneas exóticas. A separação depende de sinais de manejo (cercas, bebedouros, talhões) e do histórico da área. Queimadas e senescência no período seco alteram a resposta espectral."
      },
      "pagina": 11,
@@ -436,7 +431,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "Estado de Roraima contém pastagem natural",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "Confunde-se com Pastagem, principalmente pastagem em campo nativo ou com gramíneas exóticas. A separação depende de sinais de manejo (cercas, bebedouros, talhões) e do histórico da área. Queimadas e senescência no período seco alteram a resposta espectral."
      },
      "pagina": 12,
@@ -461,7 +455,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "A inundação é sazonal: no período seco a área pode parecer Formação Campestre ou Pastagem e, na cheia, água. Comparar as imagens de seca e de chuva."
      },
      "pagina": 16,
@@ -507,7 +500,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11 (2025), o ponto está classificado como Formação Campestre, não como Afloramento Rochoso. Trajetória do ponto no mapa Coleção 11: Formação Campestre (1985–2004), Outras Áreas não Vegetadas (2005–2006) e Formação Campestre (2007–2025). Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "Afloramentos pequenos ou entremeados de vegetação ficam abaixo da resolução de 30 m e se misturam com Formação Campestre ou Savânica. A rocha exposta pode lembrar solo exposto ou Outras Áreas não Vegetadas."
      },
      "pagina": 18,
@@ -553,7 +545,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. No mapa Coleção 11, o ponto muda de classe 7 vezes entre 1985 e 2025, alternando com Formação Campestre e Rio, Lago e Oceano; essa alternância indica confusão entre essas classes no ponto.",
       "geral": "Confunde-se com Praia, Duna e Areal, Outras Áreas não Vegetadas, salinas e tanques de aquicultura. Os limites com o mangue e com a água variam com a maré."
      },
      "pagina": 29,
@@ -578,7 +569,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11 (2025), o ponto está classificado como Soja, não como Pastagem. Trajetória do ponto no mapa Coleção 11: Pastagem (1985–2005), Outras Lavouras Temporárias (2006–2007) e Soja (2008–2025). Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "Confunde-se com Formação Campestre e Savânica (pastagem em vegetação nativa aberta), com Lavoura Temporária (rotação ou integração lavoura-pecuária) e com Mosaico de Usos. Pastagens degradadas, com solo exposto, podem parecer Outras Áreas não Vegetadas."
      },
      "pagina": 31,
@@ -624,7 +614,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Campo Alagado e Área Pantanosa (1985–2017), Outras Lavouras Temporárias (2018–2024) e Soja (2025).",
       "geral": "Na entressafra, o solo exposto ou a palhada parecem pastagem degradada ou solo exposto. A identificação depende do calendário agrícola, visível na série de NDVI (ciclos de plantio e colheita)."
      },
      "pagina": 33,
@@ -670,7 +659,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Campo Alagado e Área Pantanosa (1985–1987), Pastagem (1988–1989), Campo Alagado e Área Pantanosa (1990–2001) e Cana (2002–2025).",
       "geral": "A separação de outras lavouras temporárias e de pastagem depende do ciclo longo (colheita anual e rebrota) na série de NDVI. Áreas em reforma ou recém-colhidas parecem solo exposto."
      },
      "pagina": 37,
@@ -716,7 +704,6 @@ window.CHAVE = {
      "textura": "Rugosa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11 (2025), o ponto está classificado como Floresta Alagável, não como Lavoura Perene. No mapa Coleção 11, o ponto muda de classe 6 vezes entre 1985 e 2025, alternando com Floresta Alagável, Mosaico de Usos e Pastagem; essa alternância indica confusão entre essas classes no ponto. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "Pode ser confundida com Silvicultura e com Formação Savânica ou Florestal (pomares adultos, café sombreado, dendê), e com Pastagem nas fases iniciais. As linhas de plantio geralmente só aparecem em imagens de alta resolução."
      },
      "pagina": 35,
@@ -762,7 +749,6 @@ window.CHAVE = {
      "textura": "Rugosa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11 (2025), o ponto está classificado como Formação Florestal, não como Silvicultura. Trajetória do ponto no mapa Coleção 11: Formação Florestal (1985–2003), Mosaico de Usos (2004), Pastagem (2005–2017), Mosaico de Usos (2018–2020) e Formação Florestal (2021–2025). Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "Plantios jovens ou recém-cortados parecem pastagem ou solo exposto. Plantios adultos parecem floresta. Usar o formato dos talhões, os carreadores e a série histórica (corte e rebrota)."
      },
      "pagina": 39,
@@ -832,7 +818,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Outras Áreas não Vegetadas (1985–1989) e Área Urbanizada (1990–2025).",
       "geral": "Bairros muito arborizados, loteamentos não ocupados e pequenos núcleos rurais são difíceis de delimitar. Telhados e solo exposto podem ser confundidos com Mineração ou Outras Áreas não Vegetadas."
      },
      "pagina": 22,
@@ -878,7 +863,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "Confunde-se com Outras Áreas não Vegetadas, solo exposto e áreas urbanas em expansão. Pela legenda, a mineração subterrânea ou subaquática não é detectável."
      },
      "pagina": 41,
@@ -924,7 +908,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto está classificado como Formação Campestre em todos os anos (1985–2025), não como Outras Áreas não Vegetadas. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "É uma classe residual: reúne superfícies não vegetadas que não se encaixam nas demais. Por isso, confunde-se com Mineração, Área Urbanizada, Praia, Duna e Areal, Afloramento Rochoso e lavouras em solo exposto."
      },
      "pagina": 43,
@@ -970,7 +953,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "NDVI abaixo de 0 é água",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Floresta Alagável (1985–2010) e Rio, Lago e Oceano (2011–2025).",
       "geral": "A lâmina d'água varia entre seca e cheia. Rios estreitos (< 30 m) e lagos pequenos podem não aparecer. Água turva ou coberta por plantas aquáticas pode parecer solo ou vegetação."
      },
      "pagina": 24,
@@ -1008,7 +990,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "Mesmo que no período seco não tenha água, ainda é considerado Rio, Lago e Oceano.",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Rio, Lago e Oceano (1985–2023), Outras Áreas não Vegetadas (2024) e Rio, Lago e Oceano (2025).",
       "geral": "A lâmina d'água varia entre seca e cheia. Rios estreitos (< 30 m) e lagos pequenos podem não aparecer. Água turva ou coberta por plantas aquáticas pode parecer solo ou vegetação."
      },
      "pagina": 25,
@@ -1054,7 +1035,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11 (2025), o ponto está classificado como Rio, Lago e Oceano, não como Aquicultura. No mapa Coleção 11, o ponto muda de classe 7 vezes entre 1985 e 2025, alternando com Mosaico de Usos, Outras Lavouras Temporárias, Pastagem e Rio, Lago e Oceano; essa alternância indica confusão entre essas classes no ponto. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "Tanques escavados parecem pequenos reservatórios e açudes (Rio, Lago e Oceano) e salinas. Tanques pequenos ficam abaixo da resolução de 30 m. O formato retangular e o agrupamento dos tanques ajudam."
      },
      "pagina": 45,
@@ -1100,7 +1080,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "O limite com a Formação Savânica é gradual (dossel mais aberto). Em florestas estacionais, a queda das folhas no período seco reduz o NDVI e pode lembrar savana. Florestas secundárias jovens, degradadas ou com corte seletivo são difíceis de separar da floresta madura na resolução de 10–30 m."
      },
      "pagina": 49,
@@ -1146,7 +1125,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "A densidade de árvores varia de forma contínua, por isso os limites com Formação Florestal e Formação Campestre são subjetivos. No período seco, a resposta se aproxima da de pastagem. Comparar as imagens de seca e de chuva e a série de NDVI."
      },
      "pagina": 51,
@@ -1184,7 +1162,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "A densidade de árvores varia de forma contínua, por isso os limites com Formação Florestal e Formação Campestre são subjetivos. No período seco, a resposta se aproxima da de pastagem. Comparar as imagens de seca e de chuva e a série de NDVI."
      },
      "pagina": 52,
@@ -1222,7 +1199,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "A densidade de árvores varia de forma contínua, por isso os limites com Formação Florestal e Formação Campestre são subjetivos. No período seco, a resposta se aproxima da de pastagem. Comparar as imagens de seca e de chuva e a série de NDVI."
      },
      "pagina": 53,
@@ -1268,7 +1244,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "Vegetação florestal bem marcada em torno de grandes rios e em área rebaixada (com bastante umidade). NDVI acima de 0,8 e sem variação com a sazonalidade. Apicuns associados.",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "Pode ser confundido com Floresta Alagável e Restinga Arbórea. Os limites com Apicum e com a água variam com a maré. Usar o contexto estuarino."
      },
      "pagina": 72,
@@ -1314,7 +1289,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto está classificado como Afloramento Rochoso em todos os anos (1985–2025), não como Formação Campestre. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "Confunde-se com Pastagem, principalmente pastagem em campo nativo ou com gramíneas exóticas. A separação depende de sinais de manejo (cercas, bebedouros, talhões) e do histórico da área. Queimadas e senescência no período seco alteram a resposta espectral."
      },
      "pagina": 55,
@@ -1352,7 +1326,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "Confunde-se com Pastagem, principalmente pastagem em campo nativo ou com gramíneas exóticas. A separação depende de sinais de manejo (cercas, bebedouros, talhões) e do histórico da área. Queimadas e senescência no período seco alteram a resposta espectral."
      },
      "pagina": 56,
@@ -1390,7 +1363,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "Confunde-se com Pastagem, principalmente pastagem em campo nativo ou com gramíneas exóticas. A separação depende de sinais de manejo (cercas, bebedouros, talhões) e do histórico da área. Queimadas e senescência no período seco alteram a resposta espectral."
      },
      "pagina": 57,
@@ -1436,7 +1408,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto está classificado como Formação Savânica em todos os anos (1985–2025), não como Campo Alagado e Área Pantanosa. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "A inundação é sazonal: no período seco a área pode parecer Formação Campestre ou Pastagem e, na cheia, água. Comparar as imagens de seca e de chuva."
      },
      "pagina": 59,
@@ -1474,7 +1445,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "A inundação é sazonal: no período seco a área pode parecer Formação Campestre ou Pastagem e, na cheia, água. Comparar as imagens de seca e de chuva."
      },
      "pagina": 60,
@@ -1520,7 +1490,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "Afloramentos pequenos ou entremeados de vegetação ficam abaixo da resolução de 30 m e se misturam com Formação Campestre ou Savânica. A rocha exposta pode lembrar solo exposto ou Outras Áreas não Vegetadas."
      },
      "pagina": 62,
@@ -1566,7 +1535,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Rio, Lago e Oceano (1985–1995) e Apicum (1996–2025).",
       "geral": "Confunde-se com Praia, Duna e Areal, Outras Áreas não Vegetadas, salinas e tanques de aquicultura. Os limites com o mangue e com a água variam com a maré."
      },
      "pagina": 73,
@@ -1612,7 +1580,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto está classificado como Praia, Duna e Areal em todos os anos (1985–2025), não como Restinga Herbácea ou Arbustiva. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "Quando a cobertura é esparsa, confunde-se com Formação Campestre e com Praia, Duna e Areal. Depende do contexto costeiro (cordões arenosos)."
      },
      "pagina": 70,
@@ -1658,7 +1625,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Formação Savânica (1985–1997) e Pastagem (1998–2025).",
       "geral": "Confunde-se com Formação Campestre e Savânica (pastagem em vegetação nativa aberta), com Lavoura Temporária (rotação ou integração lavoura-pecuária) e com Mosaico de Usos. Pastagens degradadas, com solo exposto, podem parecer Outras Áreas não Vegetadas."
      },
      "pagina": 75,
@@ -1704,7 +1670,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. No mapa Coleção 11, o ponto muda de classe 6 vezes entre 1985 e 2025, alternando com Formação Savânica e Mosaico de Usos; essa alternância indica confusão entre essas classes no ponto.",
       "geral": "Na entressafra, o solo exposto ou a palhada parecem pastagem degradada ou solo exposto. A identificação depende do calendário agrícola, visível na série de NDVI (ciclos de plantio e colheita)."
      },
      "pagina": 77,
@@ -1750,7 +1715,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. No mapa Coleção 11, o ponto muda de classe 5 vezes entre 1985 e 2025, alternando com Campo Alagado e Área Pantanosa, Formação Savânica, Mosaico de Usos e Pastagem; essa alternância indica confusão entre essas classes no ponto.",
       "geral": "A separação de outras lavouras temporárias e de pastagem depende do ciclo longo (colheita anual e rebrota) na série de NDVI. Áreas em reforma ou recém-colhidas parecem solo exposto."
      },
      "pagina": 81,
@@ -1796,7 +1760,6 @@ window.CHAVE = {
      "textura": "Rugosa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Formação Campestre (1985–1993), Outras Lavouras Temporárias (1994–1995), Soja (1996–1997), Outras Lavouras Temporárias (1998–2007) e Café (2008–2025).",
       "geral": "Pode ser confundida com Silvicultura e com Formação Savânica ou Florestal (pomares adultos, café sombreado, dendê), e com Pastagem nas fases iniciais. As linhas de plantio geralmente só aparecem em imagens de alta resolução."
      },
      "pagina": 79,
@@ -1842,7 +1805,6 @@ window.CHAVE = {
      "textura": "Rugosa e Homogênea",
      "observacoes": "Delimitação (em talhões) com textura rugosa e homogênea, indicando uma mesma espécie. Essas ‘falhas’ na área podem significar espécies de silvicultura que perdem as folhas ou uma plantação que não teve um bom manejo (plantas que não se desenvolveram). NDVI subindo de 0,2 para 0,8, indicando o plantio, estável em 0,8 por anos, indicando espécie arbórea, e uma queda brusca, indicando a colheita. Tonalidade muito escura, puxada para o marrom, na silvicultura pode significar uma silvicultura velha.",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Formação Savânica (1985–2008), Pastagem (2009–2010) e Silvicultura (2011–2025).",
       "geral": "Plantios jovens ou recém-cortados parecem pastagem ou solo exposto. Plantios adultos parecem floresta. Usar o formato dos talhões, os carreadores e a série histórica (corte e rebrota)."
      },
      "pagina": 83,
@@ -1888,7 +1850,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. No mapa Coleção 11, o ponto muda de classe 7 vezes entre 1985 e 2025, alternando com Campo Alagado e Área Pantanosa, Formação Savânica e Pastagem; essa alternância indica confusão entre essas classes no ponto.",
       "geral": "Confunde-se com Outras Áreas não Vegetadas, Apicum e Restinga Herbácea esparsa. O areal (Pampa) pode lembrar o solo exposto de lavouras."
      },
      "pagina": 64,
@@ -1934,7 +1895,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Formação Savânica (1985–1997) e Área Urbanizada (1998–2025).",
       "geral": "Bairros muito arborizados, loteamentos não ocupados e pequenos núcleos rurais são difíceis de delimitar. Telhados e solo exposto podem ser confundidos com Mineração ou Outras Áreas não Vegetadas."
      },
      "pagina": 66,
@@ -1980,7 +1940,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. No mapa Coleção 11, o ponto muda de classe 5 vezes entre 1985 e 2025, alternando com Formação Florestal, Formação Savânica e Pastagem; essa alternância indica confusão entre essas classes no ponto.",
       "geral": "Confunde-se com Outras Áreas não Vegetadas, solo exposto e áreas urbanas em expansão. Pela legenda, a mineração subterrânea ou subaquática não é detectável."
      },
      "pagina": 85,
@@ -2026,7 +1985,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11 (2025), o ponto está classificado como Campo Alagado e Área Pantanosa, não como Outras Áreas não Vegetadas. No mapa Coleção 11, o ponto muda de classe 5 vezes entre 1985 e 2025, alternando com Campo Alagado e Área Pantanosa, Formação Florestal e Rio, Lago e Oceano; essa alternância indica confusão entre essas classes no ponto. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "É uma classe residual: reúne superfícies não vegetadas que não se encaixam nas demais. Por isso, confunde-se com Mineração, Área Urbanizada, Praia, Duna e Areal, Afloramento Rochoso e lavouras em solo exposto."
      },
      "pagina": 87,
@@ -2064,7 +2022,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Silvicultura (1985–1998) e Outras Áreas não Vegetadas (1999–2025).",
       "geral": "É uma classe residual: reúne superfícies não vegetadas que não se encaixam nas demais. Por isso, confunde-se com Mineração, Área Urbanizada, Praia, Duna e Areal, Afloramento Rochoso e lavouras em solo exposto."
      },
      "pagina": 88,
@@ -2155,7 +2112,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11 (2025), o ponto está classificado como Pastagem, não como Aquicultura. Trajetória do ponto no mapa Coleção 11: Formação Florestal (1985–1987), Formação Savânica (1988–2000), Pastagem (2001–2006), Formação Florestal (2007–2008) e Pastagem (2009–2025). Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "Tanques escavados parecem pequenos reservatórios e açudes (Rio, Lago e Oceano) e salinas. Tanques pequenos ficam abaixo da resolução de 30 m. O formato retangular e o agrupamento dos tanques ajudam."
      },
      "pagina": 90,
@@ -2201,7 +2157,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto está classificado como Formação Savânica em todos os anos (1985–2025), não como Formação Florestal. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "O limite com a Formação Savânica é gradual (dossel mais aberto). Em florestas estacionais, a queda das folhas no período seco reduz o NDVI e pode lembrar savana. Florestas secundárias jovens, degradadas ou com corte seletivo são difíceis de separar da floresta madura na resolução de 10–30 m."
      },
      "pagina": 94,
@@ -2247,7 +2202,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "A densidade de árvores varia de forma contínua, por isso os limites com Formação Florestal e Formação Campestre são subjetivos. No período seco, a resposta se aproxima da de pastagem. Comparar as imagens de seca e de chuva e a série de NDVI."
      },
      "pagina": 96,
@@ -2293,7 +2247,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11 (2025), o ponto está classificado como Rio, Lago e Oceano, não como Mangue. Trajetória do ponto no mapa Coleção 11: Rio, Lago e Oceano (1985–1990), Mangue (1991–2002) e Rio, Lago e Oceano (2003–2025). Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "Pode ser confundido com Floresta Alagável e Restinga Arbórea. Os limites com Apicum e com a água variam com a maré. Usar o contexto estuarino."
      },
      "pagina": 112,
@@ -2339,7 +2292,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto está classificado como Formação Herbáceo Arbustiva em todos os anos (1985–2025), não como Formação Campestre. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "Confunde-se com Pastagem, principalmente pastagem em campo nativo ou com gramíneas exóticas. A separação depende de sinais de manejo (cercas, bebedouros, talhões) e do histórico da área. Queimadas e senescência no período seco alteram a resposta espectral."
      },
      "pagina": 98,
@@ -2385,7 +2337,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11 (2025), o ponto está classificado como Rio, Lago e Oceano, não como Campo Alagado e Área Pantanosa. No mapa Coleção 11, o ponto muda de classe 10 vezes entre 1985 e 2025, alternando com Afloramento Rochoso, Formação Savânica, Mosaico de Usos e Rio, Lago e Oceano; essa alternância indica confusão entre essas classes no ponto. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "A inundação é sazonal: no período seco a área pode parecer Formação Campestre ou Pastagem e, na cheia, água. Comparar as imagens de seca e de chuva."
      },
      "pagina": 100,
@@ -2431,7 +2382,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto está classificado como Formação Florestal em todos os anos (1985–2025), não como Afloramento Rochoso. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "Afloramentos pequenos ou entremeados de vegetação ficam abaixo da resolução de 30 m e se misturam com Formação Campestre ou Savânica. A rocha exposta pode lembrar solo exposto ou Outras Áreas não Vegetadas."
      },
      "pagina": 102,
@@ -2477,7 +2427,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11 (2025), o ponto está classificado como Rio, Lago e Oceano, não como Apicum. Trajetória do ponto no mapa Coleção 11: Rio, Lago e Oceano (1985–1990), Mangue (1991–2002) e Rio, Lago e Oceano (2003–2025). Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "Confunde-se com Praia, Duna e Areal, Outras Áreas não Vegetadas, salinas e tanques de aquicultura. Os limites com o mangue e com a água variam com a maré."
      },
      "pagina": 114,
@@ -2523,7 +2472,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto está classificado como Praia, Duna e Areal em todos os anos (1985–2025), não como Restinga Herbácea ou Arbustiva. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "Quando a cobertura é esparsa, confunde-se com Formação Campestre e com Praia, Duna e Areal. Depende do contexto costeiro (cordões arenosos)."
      },
      "pagina": 110,
@@ -2569,7 +2517,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "Confunde-se com Formação Campestre e Savânica (pastagem em vegetação nativa aberta), com Lavoura Temporária (rotação ou integração lavoura-pecuária) e com Mosaico de Usos. Pastagens degradadas, com solo exposto, podem parecer Outras Áreas não Vegetadas."
      },
      "pagina": 116,
@@ -2615,7 +2562,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "Na entressafra, o solo exposto ou a palhada parecem pastagem degradada ou solo exposto. A identificação depende do calendário agrícola, visível na série de NDVI (ciclos de plantio e colheita)."
      },
      "pagina": 118,
@@ -2653,7 +2599,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. No mapa Coleção 11, o ponto muda de classe 7 vezes entre 1985 e 2025, alternando com Formação Savânica, Mosaico de Usos e Pastagem; essa alternância indica confusão entre essas classes no ponto.",
       "geral": "Na entressafra, o solo exposto ou a palhada parecem pastagem degradada ou solo exposto. A identificação depende do calendário agrícola, visível na série de NDVI (ciclos de plantio e colheita)."
      },
      "pagina": 119,
@@ -2699,7 +2644,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. No mapa Coleção 11, o ponto muda de classe 7 vezes entre 1985 e 2025, alternando com Formação Florestal, Mosaico de Usos e Pastagem; essa alternância indica confusão entre essas classes no ponto.",
       "geral": "A separação de outras lavouras temporárias e de pastagem depende do ciclo longo (colheita anual e rebrota) na série de NDVI. Áreas em reforma ou recém-colhidas parecem solo exposto."
      },
      "pagina": 124,
@@ -2745,7 +2689,6 @@ window.CHAVE = {
      "textura": "Rugosa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto está classificado como Pastagem em todos os anos (1985–2025), não como Lavoura Perene. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "Pode ser confundida com Silvicultura e com Formação Savânica ou Florestal (pomares adultos, café sombreado, dendê), e com Pastagem nas fases iniciais. As linhas de plantio geralmente só aparecem em imagens de alta resolução."
      },
      "pagina": 121,
@@ -2783,7 +2726,6 @@ window.CHAVE = {
      "textura": "Rugosa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Mosaico de Usos (1985–2005), Pastagem (2006–2012) e Outras Lavouras Perenes (2013–2025).",
       "geral": "Pode ser confundida com Silvicultura e com Formação Savânica ou Florestal (pomares adultos, café sombreado, dendê), e com Pastagem nas fases iniciais. As linhas de plantio geralmente só aparecem em imagens de alta resolução."
      },
      "pagina": 122,
@@ -2829,7 +2771,6 @@ window.CHAVE = {
      "textura": "Rugosa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Pastagem (1985–2009) e Silvicultura (2010–2025).",
       "geral": "Plantios jovens ou recém-cortados parecem pastagem ou solo exposto. Plantios adultos parecem floresta. Usar o formato dos talhões, os carreadores e a série histórica (corte e rebrota)."
      },
      "pagina": 126,
@@ -2875,7 +2816,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "Confunde-se com Outras Áreas não Vegetadas, Apicum e Restinga Herbácea esparsa. O areal (Pampa) pode lembrar o solo exposto de lavouras."
      },
      "pagina": 104,
@@ -2921,7 +2861,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto está classificado como Pastagem em todos os anos (1985–2025), não como Área Urbanizada. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "Bairros muito arborizados, loteamentos não ocupados e pequenos núcleos rurais são difíceis de delimitar. Telhados e solo exposto podem ser confundidos com Mineração ou Outras Áreas não Vegetadas."
      },
      "pagina": 106,
@@ -2967,7 +2906,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Formação Savânica (1985–1989), Rio, Lago e Oceano (1990) e Mineração (1991–2025).",
       "geral": "Confunde-se com Outras Áreas não Vegetadas, solo exposto e áreas urbanas em expansão. Pela legenda, a mineração subterrânea ou subaquática não é detectável."
      },
      "pagina": 128,
@@ -3013,7 +2951,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "sistema de energia sustentável",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Mosaico de Usos (1985), Formação Savânica (1986–2020), Outras Áreas não Vegetadas (2021) e Usina Fotovoltaica (2022–2025).",
       "geral": "Pela legenda, a classe considera instalações de médio a grande porte voltadas à comercialização da energia: geração distribuída (telhados) e instalações pequenas não entram. Na resolução de 30 m, os painéis podem ser confundidos com Outras Áreas não Vegetadas ou área urbana."
      },
      "pagina": 132,
@@ -3083,7 +3020,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11 (2025), o ponto está classificado como Pastagem, não como Rio, Lago e Oceano. No mapa Coleção 11, o ponto muda de classe 5 vezes entre 1985 e 2025, alternando com Mosaico de Usos e Pastagem; essa alternância indica confusão entre essas classes no ponto. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "A lâmina d'água varia entre seca e cheia. Rios estreitos (< 30 m) e lagos pequenos podem não aparecer. Água turva ou coberta por plantas aquáticas pode parecer solo ou vegetação."
      },
      "pagina": 108,
@@ -3129,7 +3065,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "Tanques escavados parecem pequenos reservatórios e açudes (Rio, Lago e Oceano) e salinas. Tanques pequenos ficam abaixo da resolução de 30 m. O formato retangular e o agrupamento dos tanques ajudam."
      },
      "pagina": 134,
@@ -3175,7 +3110,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "O limite com a Formação Savânica é gradual (dossel mais aberto). Em florestas estacionais, a queda das folhas no período seco reduz o NDVI e pode lembrar savana. Florestas secundárias jovens, degradadas ou com corte seletivo são difíceis de separar da floresta madura na resolução de 10–30 m."
      },
      "pagina": 138,
@@ -3221,7 +3155,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11 (2025), o ponto está classificado como Restinga Herbácea ou Arbustiva, não como Formação Savânica. Trajetória do ponto no mapa Coleção 11: Pastagem (1985–1989), Restinga Herbácea ou Arbustiva (1990), Mosaico de Usos (1991–2023) e Restinga Herbácea ou Arbustiva (2024–2025). Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "A densidade de árvores varia de forma contínua, por isso os limites com Formação Florestal e Formação Campestre são subjetivos. No período seco, a resposta se aproxima da de pastagem. Comparar as imagens de seca e de chuva e a série de NDVI."
      },
      "pagina": 140,
@@ -3267,7 +3200,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Mangue (1985–1987), Apicum (1988–1994) e Mangue (1995–2025).",
       "geral": "Pode ser confundido com Floresta Alagável e Restinga Arbórea. Os limites com Apicum e com a água variam com a maré. Usar o contexto estuarino."
      },
      "pagina": 156,
@@ -3313,7 +3245,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "Relevo montanhoso e altas altitudes, uma das características da Mata Atlântica. NDVI médio, típico de gramínea.",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "Confunde-se com Pastagem, principalmente pastagem em campo nativo ou com gramíneas exóticas. A separação depende de sinais de manejo (cercas, bebedouros, talhões) e do histórico da área. Queimadas e senescência no período seco alteram a resposta espectral."
      },
      "pagina": 142,
@@ -3359,7 +3290,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto está classificado como Restinga Herbácea ou Arbustiva em todos os anos (1985–2025), não como Campo Alagado e Área Pantanosa. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "A inundação é sazonal: no período seco a área pode parecer Formação Campestre ou Pastagem e, na cheia, água. Comparar as imagens de seca e de chuva."
      },
      "pagina": 144,
@@ -3405,7 +3335,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "Afloramentos pequenos ou entremeados de vegetação ficam abaixo da resolução de 30 m e se misturam com Formação Campestre ou Savânica. A rocha exposta pode lembrar solo exposto ou Outras Áreas não Vegetadas."
      },
      "pagina": 146,
@@ -3451,7 +3380,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "Coloração indicativa de ausência de vegetação e presença de umidade. NDVI baixo e constante.",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "Confunde-se com Praia, Duna e Areal, Outras Áreas não Vegetadas, salinas e tanques de aquicultura. Os limites com o mangue e com a água variam com a maré."
      },
      "pagina": 158,
@@ -3497,7 +3425,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Restinga Herbácea ou Arbustiva (1985–1988), Praia, Duna e Areal (1989–1993) e Restinga Herbácea ou Arbustiva (1994–2025).",
       "geral": "Quando a cobertura é esparsa, confunde-se com Formação Campestre e com Praia, Duna e Areal. Depende do contexto costeiro (cordões arenosos)."
      },
      "pagina": 154,
@@ -3543,7 +3470,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Formação Savânica (1985–1986) e Pastagem (1987–2025).",
       "geral": "Confunde-se com Formação Campestre e Savânica (pastagem em vegetação nativa aberta), com Lavoura Temporária (rotação ou integração lavoura-pecuária) e com Mosaico de Usos. Pastagens degradadas, com solo exposto, podem parecer Outras Áreas não Vegetadas."
      },
      "pagina": 160,
@@ -3589,7 +3515,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto está classificado como Cana em todos os anos (1985–2025), não como Lavoura Temporária. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "Na entressafra, o solo exposto ou a palhada parecem pastagem degradada ou solo exposto. A identificação depende do calendário agrícola, visível na série de NDVI (ciclos de plantio e colheita)."
      },
      "pagina": 162,
@@ -3635,7 +3560,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. No mapa Coleção 11, o ponto muda de classe 5 vezes entre 1985 e 2025, alternando com Mosaico de Usos, Outras Lavouras Temporárias e Pastagem; essa alternância indica confusão entre essas classes no ponto.",
       "geral": "O arroz irrigado por inundação pode parecer água ou Campo Alagado no início do ciclo. O arroz de sequeiro é difícil de separar das outras lavouras temporárias sem informação de campo."
      },
      "pagina": 178,
@@ -3681,7 +3605,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11 (2025), o ponto está classificado como Outras Lavouras Temporárias, não como Cana. No mapa Coleção 11, o ponto muda de classe 5 vezes entre 1985 e 2025, alternando com Mosaico de Usos, Outras Lavouras Temporárias e Pastagem; essa alternância indica confusão entre essas classes no ponto. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "A separação de outras lavouras temporárias e de pastagem depende do ciclo longo (colheita anual e rebrota) na série de NDVI. Áreas em reforma ou recém-colhidas parecem solo exposto."
      },
      "pagina": 166,
@@ -3727,7 +3650,6 @@ window.CHAVE = {
      "textura": "Rugosa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11 (2025), o ponto está classificado como Outras Lavouras Temporárias, não como Lavoura Perene. Trajetória do ponto no mapa Coleção 11: Mosaico de Usos (1985–1997), Restinga Herbácea ou Arbustiva (1998–2002), Mosaico de Usos (2003–2012) e Outras Lavouras Temporárias (2013–2025). Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "Pode ser confundida com Silvicultura e com Formação Savânica ou Florestal (pomares adultos, café sombreado, dendê), e com Pastagem nas fases iniciais. As linhas de plantio geralmente só aparecem em imagens de alta resolução."
      },
      "pagina": 164,
@@ -3773,7 +3695,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "Delimitação com textura lisa (para este nível de detalhe da imagem) e homogênea; ver a diferença em relação à formação florestal ao lado. NDVI baixo com aumento para acima de 0,8, indicando o cultivo de espécie arbórea. Esse formato de silvicultura em meio a formações florestais é comum no bioma Mata Atlântica.",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Formação Florestal (1985–1995) e Silvicultura (1996–2025).",
       "geral": "Plantios jovens ou recém-cortados parecem pastagem ou solo exposto. Plantios adultos parecem floresta. Usar o formato dos talhões, os carreadores e a série histórica (corte e rebrota)."
      },
      "pagina": 168,
@@ -3811,7 +3732,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto está classificado como Cana em todos os anos (1985–2025), não como Silvicultura. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "Plantios jovens ou recém-cortados parecem pastagem ou solo exposto. Plantios adultos parecem floresta. Usar o formato dos talhões, os carreadores e a série histórica (corte e rebrota)."
      },
      "pagina": 169,
@@ -3849,7 +3769,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto está classificado como Pastagem em todos os anos (1985–2025), não como Silvicultura. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "Plantios jovens ou recém-cortados parecem pastagem ou solo exposto. Plantios adultos parecem floresta. Usar o formato dos talhões, os carreadores e a série histórica (corte e rebrota)."
      },
      "pagina": 170,
@@ -3895,7 +3814,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. No mapa Coleção 11, o ponto muda de classe 6 vezes entre 1985 e 2025, alternando com Rio, Lago e Oceano; essa alternância indica confusão entre essas classes no ponto.",
       "geral": "Confunde-se com Outras Áreas não Vegetadas, Apicum e Restinga Herbácea esparsa. O areal (Pampa) pode lembrar o solo exposto de lavouras."
      },
      "pagina": 148,
@@ -3941,7 +3859,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Pastagem (1985–1994) e Área Urbanizada (1995–2025).",
       "geral": "Bairros muito arborizados, loteamentos não ocupados e pequenos núcleos rurais são difíceis de delimitar. Telhados e solo exposto podem ser confundidos com Mineração ou Outras Áreas não Vegetadas."
      },
      "pagina": 150,
@@ -3987,7 +3904,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "NDVI abaixo de 0,15 aponta ausência de vegetação. Manchas de solo exposto e lagoas próximas indicam a atividade de mineração.",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Mosaico de Usos (1985–2013) e Mineração (2014–2025).",
       "geral": "Confunde-se com Outras Áreas não Vegetadas, solo exposto e áreas urbanas em expansão. Pela legenda, a mineração subterrânea ou subaquática não é detectável."
      },
      "pagina": 172,
@@ -4033,7 +3949,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto está classificado como Área Urbanizada em todos os anos (1985–2025), não como Outras Áreas não Vegetadas. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "É uma classe residual: reúne superfícies não vegetadas que não se encaixam nas demais. Por isso, confunde-se com Mineração, Área Urbanizada, Praia, Duna e Areal, Afloramento Rochoso e lavouras em solo exposto."
      },
      "pagina": 174,
@@ -4079,7 +3994,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "A lâmina d'água varia entre seca e cheia. Rios estreitos (< 30 m) e lagos pequenos podem não aparecer. Água turva ou coberta por plantas aquáticas pode parecer solo ou vegetação."
      },
      "pagina": 152,
@@ -4125,7 +4039,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11 (2025), o ponto está classificado como Outras Lavouras Temporárias, não como Aquicultura. No mapa Coleção 11, o ponto muda de classe 5 vezes entre 1985 e 2025, alternando com Outras Lavouras Temporárias e Soja; essa alternância indica confusão entre essas classes no ponto. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "Tanques escavados parecem pequenos reservatórios e açudes (Rio, Lago e Oceano) e salinas. Tanques pequenos ficam abaixo da resolução de 30 m. O formato retangular e o agrupamento dos tanques ajudam."
      },
      "pagina": 176,
@@ -4171,7 +4084,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto está classificado como Formação Savânica em todos os anos (1985–2025), não como Formação Florestal. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "O limite com a Formação Savânica é gradual (dossel mais aberto). Em florestas estacionais, a queda das folhas no período seco reduz o NDVI e pode lembrar savana. Florestas secundárias jovens, degradadas ou com corte seletivo são difíceis de separar da floresta madura na resolução de 10–30 m."
      },
      "pagina": 182,
@@ -4209,7 +4121,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "O limite com a Formação Savânica é gradual (dossel mais aberto). Em florestas estacionais, a queda das folhas no período seco reduz o NDVI e pode lembrar savana. Florestas secundárias jovens, degradadas ou com corte seletivo são difíceis de separar da floresta madura na resolução de 10–30 m."
      },
      "pagina": 183,
@@ -4255,7 +4166,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto está classificado como Formação Campestre em todos os anos (1985–2025), não como Formação Savânica. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "A densidade de árvores varia de forma contínua, por isso os limites com Formação Florestal e Formação Campestre são subjetivos. No período seco, a resposta se aproxima da de pastagem. Comparar as imagens de seca e de chuva e a série de NDVI."
      },
      "pagina": 185,
@@ -4301,7 +4211,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. No mapa Coleção 11, o ponto muda de classe 20 vezes entre 1985 e 2025, alternando com Campo Alagado e Área Pantanosa e Rio, Lago e Oceano; essa alternância indica confusão entre essas classes no ponto.",
       "geral": "Confunde-se com Pastagem, principalmente pastagem em campo nativo ou com gramíneas exóticas. A separação depende de sinais de manejo (cercas, bebedouros, talhões) e do histórico da área. Queimadas e senescência no período seco alteram a resposta espectral."
      },
      "pagina": 187,
@@ -4347,7 +4256,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. No mapa Coleção 11, o ponto muda de classe 10 vezes entre 1985 e 2025, alternando com Formação Campestre e Rio, Lago e Oceano; essa alternância indica confusão entre essas classes no ponto.",
       "geral": "A inundação é sazonal: no período seco a área pode parecer Formação Campestre ou Pastagem e, na cheia, água. Comparar as imagens de seca e de chuva."
      },
      "pagina": 189,
@@ -4393,7 +4301,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "Afloramentos pequenos ou entremeados de vegetação ficam abaixo da resolução de 30 m e se misturam com Formação Campestre ou Savânica. A rocha exposta pode lembrar solo exposto ou Outras Áreas não Vegetadas."
      },
      "pagina": 191,
@@ -4439,7 +4346,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "Delimitação que indica que houve desmatamento da vegetação nativa. Manchas características de áreas que sofrem alagamento, típicas do bioma Pantanal. Solo exposto em regiões de alagamento em que a gramínea exótica não sobrevive. Bebedouros para gado. NDVI médio, típico de gramínea.",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "Confunde-se com Formação Campestre e Savânica (pastagem em vegetação nativa aberta), com Lavoura Temporária (rotação ou integração lavoura-pecuária) e com Mosaico de Usos. Pastagens degradadas, com solo exposto, podem parecer Outras Áreas não Vegetadas."
      },
      "pagina": 197,
@@ -4477,7 +4383,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "Confunde-se com Formação Campestre e Savânica (pastagem em vegetação nativa aberta), com Lavoura Temporária (rotação ou integração lavoura-pecuária) e com Mosaico de Usos. Pastagens degradadas, com solo exposto, podem parecer Outras Áreas não Vegetadas."
      },
      "pagina": 198,
@@ -4523,7 +4428,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "A coordenada fica no bioma Cerrado, não no bioma Pantanal da ficha. Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Pastagem (1985–2014) e Soja (2015–2025).",
       "geral": "Na entressafra, o solo exposto ou a palhada parecem pastagem degradada ou solo exposto. A identificação depende do calendário agrícola, visível na série de NDVI (ciclos de plantio e colheita)."
      },
      "pagina": 200,
@@ -4569,7 +4473,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "Padrão de pequenos talhões; a coloração indica umidade (vermelho + azul) e há dutos de irrigação, características do plantio de arroz. O NDVI varia de 0,2 a 1 em alguns meses e volta a 0,2, indicando cultivo e colheita.",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Outras Lavouras Temporárias (1985) e Arroz (1986–2025).",
       "geral": "O arroz irrigado por inundação pode parecer água ou Campo Alagado no início do ciclo. O arroz de sequeiro é difícil de separar das outras lavouras temporárias sem informação de campo."
      },
      "pagina": 208,
@@ -4615,7 +4518,6 @@ window.CHAVE = {
      "textura": "Rugosa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "A coordenada fica no bioma Amazônia, não no bioma Pantanal da ficha. Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Formação Savânica (1985–1989), Pastagem (1990–2003), Outras Lavouras Temporárias (2004–2006) e Silvicultura (2007–2025).",
       "geral": "Plantios jovens ou recém-cortados parecem pastagem ou solo exposto. Plantios adultos parecem floresta. Usar o formato dos talhões, os carreadores e a série histórica (corte e rebrota)."
      },
      "pagina": 202,
@@ -4661,7 +4563,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "Bairros muito arborizados, loteamentos não ocupados e pequenos núcleos rurais são difíceis de delimitar. Telhados e solo exposto podem ser confundidos com Mineração ou Outras Áreas não Vegetadas."
      },
      "pagina": 193,
@@ -4707,7 +4608,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Formação Savânica (1985–2020), Formação Campestre (2021), Mosaico de Usos (2022) e Mineração (2023–2025).",
       "geral": "Confunde-se com Outras Áreas não Vegetadas, solo exposto e áreas urbanas em expansão. Pela legenda, a mineração subterrânea ou subaquática não é detectável."
      },
      "pagina": 204,
@@ -4753,7 +4653,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11 (2025), o ponto está classificado como Formação Campestre, não como Outras Áreas não Vegetadas. No mapa Coleção 11, o ponto muda de classe 10 vezes entre 1985 e 2025, alternando com Campo Alagado e Área Pantanosa e Formação Campestre; essa alternância indica confusão entre essas classes no ponto. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "É uma classe residual: reúne superfícies não vegetadas que não se encaixam nas demais. Por isso, confunde-se com Mineração, Área Urbanizada, Praia, Duna e Areal, Afloramento Rochoso e lavouras em solo exposto."
      },
      "pagina": 206,
@@ -4799,7 +4698,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Formação Savânica (1985–1999) e Rio, Lago e Oceano (2000–2025).",
       "geral": "A lâmina d'água varia entre seca e cheia. Rios estreitos (< 30 m) e lagos pequenos podem não aparecer. Água turva ou coberta por plantas aquáticas pode parecer solo ou vegetação."
      },
      "pagina": 195,
@@ -4845,7 +4743,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "O limite com a Formação Savânica é gradual (dossel mais aberto). Em florestas estacionais, a queda das folhas no período seco reduz o NDVI e pode lembrar savana. Florestas secundárias jovens, degradadas ou com corte seletivo são difíceis de separar da floresta madura na resolução de 10–30 m."
      },
      "pagina": 212,
@@ -4891,7 +4788,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "Confunde-se com Pastagem, principalmente pastagem em campo nativo ou com gramíneas exóticas. A separação depende de sinais de manejo (cercas, bebedouros, talhões) e do histórico da área. Queimadas e senescência no período seco alteram a resposta espectral."
      },
      "pagina": 214,
@@ -4937,7 +4833,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11 (2025), o ponto está classificado como Formação Campestre, não como Campo Alagado e Área Pantanosa. No mapa Coleção 11, o ponto muda de classe 9 vezes entre 1985 e 2025, alternando com Arroz, Formação Campestre, Mosaico de Usos e Outras Lavouras Temporárias; essa alternância indica confusão entre essas classes no ponto. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "A inundação é sazonal: no período seco a área pode parecer Formação Campestre ou Pastagem e, na cheia, água. Comparar as imagens de seca e de chuva."
      },
      "pagina": 216,
@@ -4983,7 +4878,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "Afloramentos pequenos ou entremeados de vegetação ficam abaixo da resolução de 30 m e se misturam com Formação Campestre ou Savânica. A rocha exposta pode lembrar solo exposto ou Outras Áreas não Vegetadas."
      },
      "pagina": 218,
@@ -5029,7 +4923,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Praia, Duna e Areal (1985–2003) e Restinga Herbácea ou Arbustiva (2004–2025).",
       "geral": "Quando a cobertura é esparsa, confunde-se com Formação Campestre e com Praia, Duna e Areal. Depende do contexto costeiro (cordões arenosos)."
      },
      "pagina": 226,
@@ -5075,7 +4968,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Formação Campestre (1985–1994), Mosaico de Usos (1995–1996), Soja (1997–1998), Outras Lavouras Temporárias (1999–2002) e Soja (2003–2025).",
       "geral": "Na entressafra, o solo exposto ou a palhada parecem pastagem degradada ou solo exposto. A identificação depende do calendário agrícola, visível na série de NDVI (ciclos de plantio e colheita)."
      },
      "pagina": 228,
@@ -5113,7 +5005,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. No mapa Coleção 11, o ponto muda de classe 6 vezes entre 1985 e 2025, alternando com Formação Campestre e Mosaico de Usos; essa alternância indica confusão entre essas classes no ponto.",
       "geral": "Na entressafra, o solo exposto ou a palhada parecem pastagem degradada ou solo exposto. A identificação depende do calendário agrícola, visível na série de NDVI (ciclos de plantio e colheita)."
      },
      "pagina": 229,
@@ -5159,7 +5050,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11 (2025), o ponto está classificado como Outras Lavouras Temporárias, não como Arroz. No mapa Coleção 11, o ponto muda de classe 9 vezes entre 1985 e 2025, alternando com Mosaico de Usos e Outras Lavouras Temporárias; essa alternância indica confusão entre essas classes no ponto. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "O arroz irrigado por inundação pode parecer água ou Campo Alagado no início do ciclo. O arroz de sequeiro é difícil de separar das outras lavouras temporárias sem informação de campo."
      },
      "pagina": 241,
@@ -5205,7 +5095,6 @@ window.CHAVE = {
      "textura": "Rugosa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11 (2025), o ponto está classificado como Formação Campestre, não como Lavoura Perene. Trajetória do ponto no mapa Coleção 11: Formação Campestre (1985–1988), Mosaico de Usos (1989–1991) e Formação Campestre (1992–2025). Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "Pode ser confundida com Silvicultura e com Formação Savânica ou Florestal (pomares adultos, café sombreado, dendê), e com Pastagem nas fases iniciais. As linhas de plantio geralmente só aparecem em imagens de alta resolução."
      },
      "pagina": 231,
@@ -5251,7 +5140,6 @@ window.CHAVE = {
      "textura": "Rugosa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. Trajetória do ponto no mapa Coleção 11: Formação Campestre (1985–1988) e Silvicultura (1989–2025).",
       "geral": "Plantios jovens ou recém-cortados parecem pastagem ou solo exposto. Plantios adultos parecem floresta. Usar o formato dos talhões, os carreadores e a série histórica (corte e rebrota)."
      },
      "pagina": 233,
@@ -5297,7 +5185,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "Confunde-se com Outras Áreas não Vegetadas, Apicum e Restinga Herbácea esparsa. O areal (Pampa) pode lembrar o solo exposto de lavouras."
      },
      "pagina": 220,
@@ -5343,7 +5230,6 @@ window.CHAVE = {
      "textura": "Rugosa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "Bairros muito arborizados, loteamentos não ocupados e pequenos núcleos rurais são difíceis de delimitar. Telhados e solo exposto podem ser confundidos com Mineração ou Outras Áreas não Vegetadas."
      },
      "pagina": 222,
@@ -5389,7 +5275,6 @@ window.CHAVE = {
      "textura": "Lisa e Heterogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "Em 2025 o mapa Coleção 11 classifica o ponto como esta classe, mas nem sempre foi assim. No mapa Coleção 11, o ponto muda de classe 8 vezes entre 1985 e 2025, alternando com Formação Campestre, Mosaico de Usos, Silvicultura e Soja; essa alternância indica confusão entre essas classes no ponto.",
       "geral": "Confunde-se com Outras Áreas não Vegetadas, solo exposto e áreas urbanas em expansão. Pela legenda, a mineração subterrânea ou subaquática não é detectável."
      },
      "pagina": 235,
@@ -5435,7 +5320,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto está classificado como Formação Campestre em todos os anos (1985–2025), não como Outras Áreas não Vegetadas. Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "É uma classe residual: reúne superfícies não vegetadas que não se encaixam nas demais. Por isso, confunde-se com Mineração, Área Urbanizada, Praia, Duna e Areal, Afloramento Rochoso e lavouras em solo exposto."
      },
      "pagina": 237,
@@ -5481,7 +5365,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11, o ponto é desta classe em todos os anos (1985–2025).",
       "geral": "A lâmina d'água varia entre seca e cheia. Rios estreitos (< 30 m) e lagos pequenos podem não aparecer. Água turva ou coberta por plantas aquáticas pode parecer solo ou vegetação."
      },
      "pagina": 224,
@@ -5527,7 +5410,6 @@ window.CHAVE = {
      "textura": "Lisa e Homogênea",
      "observacoes": "",
      "limitacao": {
-      "mapa": "No mapa MapBiomas Coleção 11 (2025), o ponto está classificado como Restinga Herbácea ou Arbustiva, não como Aquicultura. Trajetória do ponto no mapa Coleção 11: Restinga Herbácea ou Arbustiva (1985–2015), Outras Áreas não Vegetadas (2016–2019), Aquicultura (2020–2024) e Restinga Herbácea ou Arbustiva (2025). Pode indicar confusão entre as classes, ponto na borda do alvo ou erro do mapa; conferir.",
       "geral": "Tanques escavados parecem pequenos reservatórios e açudes (Rio, Lago e Oceano) e salinas. Tanques pequenos ficam abaixo da resolução de 30 m. O formato retangular e o agrupamento dos tanques ajudam."
      },
      "pagina": 239,
