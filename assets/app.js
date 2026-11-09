@@ -21,6 +21,7 @@
       fichaAnt: "Ficha anterior", fichaProx: "Próxima ficha", anterior: "Anterior (←)", proxima: "Próxima (→)",
       fechar: "Fechar", fecharEsc: "Fechar (Esc)", imgAnt: "Imagem anterior", imgProx: "Próxima imagem",
       comoLer: "Como ler cada ficha", baixarPdf: "Baixar o PDF completo",
+      comoCitar: "Como citar", copiarCitacao: "copiar citação", citacaoCopiada: "citação copiada",
       lista: `<li><strong>Imagens:</strong> composições Landsat e Sentinel-2 nos períodos seco (jul–ago) e chuvoso (jan–fev), e imagem de alta resolução do Google Earth.</li>
         <li><strong>Falsa-cor (R-G-B):</strong> Landsat B5-B6-B4 (infravermelho próximo, SWIR 1, vermelho), em que a vegetação aparece em tons de vermelho; Sentinel-2 B11-B8-B4 (SWIR 1, infravermelho próximo, vermelho), em que a vegetação aparece verde.</li>
         <li><strong>Série temporal:</strong> NDVI do Sentinel-2 e precipitação acumulada mensal no ponto.</li>
@@ -52,6 +53,7 @@
       fichaAnt: "Previous sheet", fichaProx: "Next sheet", anterior: "Previous (←)", proxima: "Next (→)",
       fechar: "Close", fecharEsc: "Close (Esc)", imgAnt: "Previous image", imgProx: "Next image",
       comoLer: "How to read each sheet", baixarPdf: "Download the full PDF (in Portuguese)",
+      comoCitar: "How to cite", copiarCitacao: "copy citation", citacaoCopiada: "citation copied",
       lista: `<li><strong>Images:</strong> Landsat and Sentinel-2 composites for the dry (Jul–Aug) and rainy (Jan–Feb) seasons, and a high-resolution Google Earth image.</li>
         <li><strong>False color (R-G-B):</strong> Landsat B5-B6-B4 (near infrared, SWIR 1, red), where vegetation appears in shades of red; Sentinel-2 B11-B8-B4 (SWIR 1, near infrared, red), where vegetation appears green.</li>
         <li><strong>Time series:</strong> Sentinel-2 NDVI and monthly accumulated precipitation at the point.</li>
@@ -77,6 +79,23 @@
       nenhumEx: "No examples registered.", legenda: (l) => l.replace("Coleção", "Collection"),
     },
   };
+  // ---------- como citar ----------
+  // Para mudar a autoria ou o ano da citação, edite aqui.
+  const CITACAO = {
+    ano: 2026,
+    pt: (url, data) => `LABORATÓRIO DE PROCESSAMENTO DE IMAGENS E GEOPROCESSAMENTO – LAPIG/UFG. <strong>Interpretando o Brasil</strong>: chave de interpretação visual para imagens de satélite. Goiânia: LAPIG/UFG, ${CITACAO.ano}. Disponível em: ${url}. Acesso em: ${data}.`,
+    en: (url, data) => `Image Processing and Geoprocessing Laboratory (LAPIG/UFG). (${CITACAO.ano}). <em>Interpretando o Brasil: visual interpretation key for satellite images</em>. Federal University of Goiás. Retrieved ${data}, from ${url}`,
+  };
+  const MESES_ABNT = ["jan.", "fev.", "mar.", "abr.", "maio", "jun.", "jul.", "ago.", "set.", "out.", "nov.", "dez."];
+  function htmlCitacao() {
+    const url = location.href.split("#")[0];
+    const h = new Date();
+    const data = LANG === "en"
+      ? h.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })
+      : `${h.getDate()} ${MESES_ABNT[h.getMonth()]} ${h.getFullYear()}`;
+    return CITACAO[LANG](esc(url), data);
+  }
+
   let LANG = "pt";
   try { if (localStorage.getItem("idioma") === "en") LANG = "en"; } catch (e) { /* sem armazenamento */ }
   const t = (k, ...a) => { const v = UI[LANG][k] ?? UI.pt[k]; return typeof v === "function" ? v(...a) : v; };
@@ -92,6 +111,7 @@
     document.querySelectorAll("[data-i18n-title]").forEach((el) => (el.title = t(el.dataset.i18nTitle)));
     document.querySelectorAll("[data-lang]").forEach((b) => b.setAttribute("aria-pressed", b.dataset.lang === LANG ? "true" : "false"));
     $("sobre-texto").textContent = tc(D.apresentacao);
+    $("citacao-texto").innerHTML = htmlCitacao();
   }
 
   const BIOMA = Object.fromEntries(D.biomas.map((b) => [b.id, b]));
@@ -417,6 +437,17 @@
   // ---------- sobre ----------
   if (D.pdf) $("sobre-pdf").href = D.pdf; else $("sobre-pdf").parentElement.hidden = true;
   $("btn-sobre").addEventListener("click", () => $("sobre").showModal());
+  $("rodape-citar").addEventListener("click", () => {
+    $("sobre").showModal();
+    $("como-citar").scrollIntoView({ block: "start" });
+  });
+  $("citar-copiar").addEventListener("click", () => {
+    if (!navigator.clipboard) return;
+    navigator.clipboard.writeText($("citacao-texto").textContent).then(() => {
+      $("citar-copiar").textContent = t("citacaoCopiada");
+      setTimeout(() => ($("citar-copiar").textContent = t("copiarCitacao")), 1500);
+    });
+  });
   $("sobre-fechar").addEventListener("click", () => $("sobre").close());
   $("sobre").addEventListener("click", (ev) => { if (ev.target === $("sobre")) $("sobre").close(); });
 

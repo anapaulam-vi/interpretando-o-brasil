@@ -180,6 +180,10 @@ figcaption { font-size: .76rem; font-weight: 600; color: var(--muted); margin-bo
 :root[data-theme="dark"] .btn-pdf { color: #0d1a14; }
 
 .rodape { color: var(--muted); font-size: .82rem; padding-bottom: 32px; }
+.citacao { background: var(--surface-2); border-radius: 10px; padding: 12px 14px; font-size: .88rem; }
+.citacao p { margin: 0 0 8px; overflow-wrap: anywhere; }
+.citacao .copiar { margin-left: 0; padding: 3px 12px; font-size: .78rem; }
+.link-citar { border: 0; background: none; padding: 0; color: var(--accent); text-decoration: underline; font: inherit; cursor: pointer; }
 
 /* ---------- responsivo ---------- */
 @media (max-width: 960px) {
