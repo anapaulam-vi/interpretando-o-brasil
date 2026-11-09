@@ -47,7 +47,7 @@
       nenhumEx: "Nenhum exemplo cadastrado.", legenda: (l) => l,
     },
     en: {
-      titulo: "Interpreting Brazil", subtitulo: "Visual Interpretation Key for Satellite Images", modoAria: "View mode",
+      titulo: "Interpreting Brazil", subtitulo: "Visual Interpretation Criteria for Satellite Images", modoAria: "View mode",
       porBioma: "By biome", porClasse: "By class", sobre: "About", filtros: "Filters", bioma: "Biome",
       biomas: "Biomes", grupo: "Group", busca: "Search class…", ausentes: "Show classes without a sheet",
       fichaAnt: "Previous sheet", fichaProx: "Next sheet", anterior: "Previous (←)", proxima: "Next (→)",
@@ -59,7 +59,7 @@
         <li><strong>Time series:</strong> Sentinel-2 NDVI and monthly accumulated precipitation at the point.</li>
         <li><strong>Tone and texture:</strong> visual interpretation patterns of the target.</li>
         <li><strong>Classes and descriptions:</strong> names, codes, colors and descriptions by biome follow the <a href="${LEGPDF}" target="_blank" rel="noopener">MapBiomas Collection 11 legend</a>.</li>`,
-      rodape: 'Interpretation key developed with specialists in visual interpretation within the <a href="https://mapbiomas.org" target="_blank" rel="noopener">MapBiomas</a> project.',
+      rodape: 'Interpretation criteria developed with specialists in visual interpretation within the <a href="https://mapbiomas.org" target="_blank" rel="noopener">MapBiomas</a> project.',
       semImg: "images in preparation", semFicha: "no sheet", nEx: (n) => `${n} examples`,
       descNI: "Description not provided.", semFichaBioma: "No sheet for this biome",
       nClasses: (n) => `${n} classes with an interpretation sheet`, nadaFiltro: "No class found with these filters.",
@@ -84,7 +84,7 @@
   const CITACAO = {
     ano: 2026,
     pt: (url, data) => `LABORATÓRIO DE SENSORIAMENTO REMOTO E GEOPROCESSAMENTO – LAPIG/UFG. <strong>Interpretando o Brasil</strong>: chave de interpretação visual para imagens de satélite. Goiânia: LAPIG/UFG, ${CITACAO.ano}. Disponível em: ${url}. Acesso em: ${data}.`,
-    en: (url, data) => `Remote Sensing and GIS Lab (LAPIG/UFG). (${CITACAO.ano}). <em>Interpreting Brazil: visual interpretation key for satellite images</em>. Federal University of Goiás. Retrieved ${data}, from ${url}`,
+    en: (url, data) => `Remote Sensing and GIS Lab (LAPIG/UFG). (${CITACAO.ano}). <em>Interpreting Brazil: visual interpretation criteria for satellite images</em>. Federal University of Goiás. Retrieved ${data}, from ${url}`,
   };
   const MESES_ABNT = ["jan.", "fev.", "mar.", "abr.", "maio", "jun.", "jul.", "ago.", "set.", "out.", "nov.", "dez."];
   function htmlCitacao() {
